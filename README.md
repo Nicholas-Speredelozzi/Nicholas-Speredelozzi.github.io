@@ -1,4 +1,3 @@
-# Nick Speredelozzi
 ## About Me
 
 Senior Aerospace Engineering student at Embry-Riddle Aeronautical University with experience in spacecraft systems engineering, configuration-controlled documentation, and multidisciplinary design projects.
