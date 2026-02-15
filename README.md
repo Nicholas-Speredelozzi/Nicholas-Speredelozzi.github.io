@@ -1,8 +1,12 @@
-## About Me
+---
+layout: default
+---
 
-Senior Aerospace Engineering student at Embry-Riddle Aeronautical University with experience in spacecraft systems engineering, configuration-controlled documentation, and multidisciplinary design projects.
+## Professional Summary
 
-Interested in launch operations, spacecraft integration, and mission execution roles.
+Senior Aerospace Engineering student at Embry-Riddle Aeronautical University with experience in spacecraft systems engineering, configuration-controlled documentation, and multidisciplinary integration-focused design projects.
+
+Interested in entry-level launch operations, spacecraft integration, and mission execution roles.
 
 ---
 
