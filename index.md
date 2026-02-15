@@ -11,7 +11,7 @@ Aerospace Engineering senior at Embry-Riddle Aeronautical University with experi
 
 ## Projects
 
-### CubeSat Senior Design  
+### [CubeSat Senior Design](cubesat)  
 Lead Environmental Engineer & Requirements Developer  
 
 ### Control Systems Analysis  
