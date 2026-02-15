@@ -39,5 +39,5 @@ MATLAB, Simulink, STK, CATIA, AutoCAD, Autodesk Inventor
 
 ## Contact
 
-Email: Nicholas.Speredelozzi@gmail.com
+Email: Nicholas.Speredelozzi@gmail.com  
 LinkedIn: https://www.linkedin.com/in/nicholas-speredelozzi/
