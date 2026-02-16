@@ -32,7 +32,22 @@ Multi-term internship supporting facilities and infrastructure modeling across m
 
 ---
 
-## **CAD Portfolio**
+## **Educational Experience**
+
+### Lab Experiments  
+Hands-on lab work conducted at Embry-Riddle Aeronautical University, testing core aerospace engineering concepts and applications.
+- Honeycomb Compression Test
+- Strain Gauge Installation & Applications
+- Tensile Testing & Stress-Strain Behavior
+- Non-Destructive Evaluation
+- Vibrations & Resonance
+- Solid Rocket Thrust Analysis
+- Airfoil Performance at Varying AoA
+- Aerodynamic Forces Acting on Canard Delta Wing
+- Supersonic Wind Tunnels & Schlieren Imaging
+
+### CAD Portfolio  
+Assortment of CATIA part models showcasing complex geometries and advanced surfacing techniques.
 
 ---
 
