@@ -3,41 +3,40 @@ layout: default
 title: ""
 ---
 
-## Professional Summary
+## **Professional Summary**
 
-Aerospace Engineering senior at Embry-Riddle Aeronautical University with experience in spacecraft systems engineering, configuration-controlled environments, and multidisciplinary integration-focused design projects. Interested in entry-level roles in launch operations, spacecraft integration, and mission execution.
+Aerospace Engineering senior at Embry-Riddle Aeronautical University with experience in spacecraft systems engineering, configuration-controlled environments, and multidisciplinary integration-focused design projects. Actively pursuing entry-level roles in spacecraft systems integration, launch operations, and mission planning.
 
 ---
 
-## Projects
+## **Projects**
 
-### [CubeSat Senior Design](cubesat)  
-Lead Environmental Engineer & Requirements Developer  
-
-### Control Systems Analysis  
+### [CubeSat Senior Design](cubesat)    
+Ongoing systems engineering capstone project focused on the conceptual design lifecycle of a 3U CubeSat to perform optical space situational awareness on objects in geostationary Earth orbit.
 
 ### Launch Vehicle Project  
+Led a team in the conceptual design & integration of a multi-stage, solid-fueled launch vehicle capable of delivering payloads to low Earth orbit.
+
+### Control Systems Stability Analysis  
+Analyzed stability & transient response characteristics of feedback control systems using classical control theory, root locus methods, and MATLAB system modeling.
+
+### Satellite Rotational Dynamics Project  
+Developed a mathematical model in MATLAB to simulate the rotational dynamics of a multi-component small satellite in a body-fixed reference frame.
 
 ---
 
-## Professional Experience
+## **Professional Experience**
 
-### Naval Air Warfare Center Weapons Division  
-Engineering Intern  
-
----
-
-## Technical Skills
-
-**Systems & Spacecraft**  
-Space Systems Engineering, Mission Analysis, Requirements Development  
-
-**Tools**  
-MATLAB, Simulink, STK, CATIA, AutoCAD, Autodesk Inventor  
+### Naval Air Warfare Center Weapons Division    
+Multi-term internship supporting facilities and infrastructure modeling across multiple Naval air command stations.
 
 ---
 
-## Contact
+## **CAD Portfolio**
+
+---
+
+## **Contact**
 
 **Email:** Nicholas.Speredelozzi@gmail.com  
 **LinkedIn:** https://www.linkedin.com/in/nicholas-speredelozzi
