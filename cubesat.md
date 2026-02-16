@@ -29,7 +29,7 @@ To track our progress, the project follows a formal systems engineering lifecycl
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding: 20px 0;
+  padding: 20px 80px;
 ">
 
   <div style="text-align: center;">
