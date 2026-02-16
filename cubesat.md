@@ -33,12 +33,12 @@ To track our progress, the project follows a formal systems engineering lifecycl
 ">
 
   <div style="text-align: center;">
-    <img src="assets/wbs.png" width="600">
+    <img src="assets/wbs.png" style="width=40%;">
     <p><em>As true Daytona Beach enthusiasts would, we named our CubeSat B.U.C.E.E.S (Breakthrough Utilization of CubeSats for Environmental Examination of Space). Above is the work breakdown structure for our mission.</em></p>
   </div>
 
   <div style="text-align: center;">
-    <img src="assets/conops.png" width="800">
+    <img src="assets/conops.png" style="width=40%;">
     <p><em>Here is a high-level concept of operations flowchart displaying the primary mission modes from deployment to decommissioning.</em></p>
   </div>
 
