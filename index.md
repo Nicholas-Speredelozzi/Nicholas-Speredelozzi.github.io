@@ -11,7 +11,7 @@ Actively pursuing entry-level roles in spacecraft systems integration, launch op
 
 This page includes a collection of technical projects & experiences I've taken part in throughout my academic career. In-depth breakdowns, takeaways, and specific contributions are linked to each title, in addition to a 3D modeling showcase near the bottom of the page. Thanks for stopping by!
 
-### [Resume Download (PDF)](assets/Nicholas_Speredelozzi_Resume.pdf)
+### [Resume (PDF)](assets/Nicholas_Speredelozzi_Resume.pdf)
 
 ---
 
