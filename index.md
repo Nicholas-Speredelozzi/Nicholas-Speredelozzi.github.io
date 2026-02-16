@@ -9,7 +9,7 @@ Aerospace Engineering senior at Embry-Riddle Aeronautical University, specializi
 
 Actively pursuing entry-level roles in spacecraft systems integration, launch operations, and aerospace mission planning.
 
-This page includes a collection of technical projects & experiences I've gained throughout my academic career. In-depth breakdowns, takeaways, and specific contributions are linked to each title, in addition to a 3D modeling showcase near the bottom of the page. Thanks for stopping by!
+This page includes a collection of technical projects & experiences I've taken part in throughout my academic career. In-depth breakdowns, takeaways, and specific contributions are linked to each title, in addition to a 3D modeling showcase near the bottom of the page. Thanks for stopping by!
 
 ---
 
