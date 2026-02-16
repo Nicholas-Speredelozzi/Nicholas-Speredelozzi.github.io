@@ -25,7 +25,7 @@ To track our progress, the project follows a formal systems engineering lifecycl
   position: relative;
   left: 50%;
   margin-left: -50vw;
-  width: 80vw;
+  width: 75vw;
   display: flex;
   justify-content: center;
   gap: 20px;
