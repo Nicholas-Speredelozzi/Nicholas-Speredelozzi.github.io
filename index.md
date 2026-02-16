@@ -14,7 +14,7 @@ Aerospace Engineering senior at Embry-Riddle Aeronautical University with experi
 ### [CubeSat Senior Design](cubesat)    
 Ongoing systems engineering capstone project focused on the conceptual design lifecycle of a 3U CubeSat to perform optical space situational awareness on objects in geostationary Earth orbit.
 
-### Launch Vehicle Project  
+### [Launch Vehicle Design Project](LVP)  
 Supported the conceptual design & integration of a multi-stage, solid-fueled launch vehicle capable of delivering payloads to low Earth orbit.
 
 ### Control Systems Stability Analysis  
