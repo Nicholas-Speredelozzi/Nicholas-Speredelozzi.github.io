@@ -31,7 +31,7 @@ Solo programming project to develop mathematical & computational models simulati
 
 ## **Professional Experience**
 
-### Naval Air Warfare Center Weapons Division    
+### [Naval Air Warfare Center Weapons Division](NAWCWD)    
 Multi-term internship supporting facilities and infrastructure modeling across multiple Naval aviation command stations.
 
 ---
