@@ -40,6 +40,7 @@ Within the team, I hold the roles of Lead Environmental Engineer & Requirements 
 - Developing interfacing flowcharts to denote the transfer of commands, data, and power within the spacecraft
 - 3D modeling & assembly of subsystems in CATIA, adhering to CubeSat deployer integration requirements
 - Evaluating size, weight, power, and cost constraints (SWaP-C) as mission hardware & design considerations evolved
+
 ---
 
 ### ![CAD Model](assets/PDR CAD Model.jpg)
