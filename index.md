@@ -17,7 +17,7 @@ Ongoing systems engineering capstone project focused on the conceptual design li
 ### [Launch Vehicle Design Project](LVP)  
 Supported the conceptual design & integration of a multi-stage, solid-fueled launch vehicle capable of delivering payloads to low Earth orbit.
 
-### Control Systems Stability Analysis  
+### [Control Systems Stability Analysis](Controls)  
 Analyzed stability & transient response characteristics of feedback control systems using classical control theory, root locus methods, and MATLAB system modeling.
 
 ### Satellite Rotational Dynamics Project  
