@@ -27,40 +27,26 @@ To track our progress, the project follows a formal systems engineering lifecycl
 
 Within the team, I hold the roles of Lead Environmental Engineer & Requirements Developer. Though I've contributed to design decisions & mission planning across the full scope of the project, some of my primary responsibilities have included:
 
+### Systems Engineering
 - Development & maintenance of system-level requirements across the full work breakdown structure
 - Establishing verification methods linking system requirements to quantifiable verification & validation metrics
-- Conducted trade studies for thermal control & radiation protection subsystems, alongside contributions to various satellite bus trade studies
-- Analyzing hostile mission environments, potential failure modes, and mitigation strategies to ensure reliable operation throughout the mission lifecycle
 - Drafting end-to-end test plans adhering to NASA compliance documents, supporting the development of a launch-ready spacecraft
 
----
-
-## Technical Focus Areas
-
-### Systems Engineering
-- Requirements traceability across work breakdown structure
-- Verification planning
-- SWaP-C considerations
-
-### Environmental & Thermal Design
-- Space environment exposure analysis
-- Passive thermal control strategy
-- Material selection considerations
+### Environmental Analysis & Thermal Design
+- Conducted trade studies for thermal control & radiation protection subsystems, alongside contributions to various satellite bus trade studies
+- Analyzing hostile mission environments, potential failure modes, and mitigation strategies to ensure reliable operation throughout the mission lifecycle
 
 ### Integration Considerations
-- Subsystem packaging within 3U form factor
-- Interface alignment between structural and thermal components
-- Configuration consistency across design iterations
+- Developing interfacing flowcharts to denote the transfer of commands, data, and power within the spacecraft
+- 3D modeling & assembly of subsystems in CATIA, adhering to CubeSat deployer integration requirements
+- Evaluating size, weight, power, and cost constraints (SWaP-C) as mission hardware & design considerations evolved
+---
 
 ### ![CAD Model](assets/PDR CAD Model.jpg)
 ---
 
-## Tools Used
-
-MATLAB, STK, CATIA, Trade Study Matrices, Requirements Documentation
-
----
-
 ## Key Takeaways
 
-This project strengthened my ability to manage system-level requirements while contributing to subsystem design in a constrained spacecraft architecture. It reinforced the importance of interface management, documentation discipline, and trade-off evaluation in spacecraft development.
+This project given me a lot of insight into the importance of managing technical tradeoffs & understanding how design decisions affect system integration in large-scale mission environments. The reinforcement of working in multidisciplinary teams to cohesively design a spacecraft has sharpened my technical communication skills within the team as well as in presentation settings.
+
+As I begin my career in the aerospace industry, I'm thankful to have had this design project challenge me & provide ample learning opportunities in an industry-level, systems engineering environment.
