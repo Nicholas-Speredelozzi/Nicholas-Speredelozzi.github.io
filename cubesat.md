@@ -21,6 +21,20 @@ Ultimately, the CubeSat will obtain estimated orbital trajectories of each RSO a
 
 To track our progress, the project follows a formal systems engineering lifecycle, with four milestone reviews spread from August 2025 to April 2026. So far, we have completed the Systems Requirements Review, Preliminary Design Review, and Critical Design Review, with Operational Readiness Review on the horizon to be completed in the coming months.  
 
+<div style="display: flex; gap: 20px; justify-content: center;">
+
+  <div style="text-align: center;">
+    <img src="assets/wbs.png" width="400">
+    <p><em>As true Daytona Beach enthusiasts would, we named our CubeSat B.U.C.E.E.S (Breakthrough Utilization of CubeSats for Environmental Examination of Space). Above is the work breakdown structure for our mission.</em></p>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="assets/conops.png" width="400">
+    <p><em>Here is a high-level concept of operations flowchart displaying the primary mission modes from deployment to decommissioning.</em></p>
+  </div>
+
+</div>
+
 ---
 
 ## My Responsibilities
