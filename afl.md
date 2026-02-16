@@ -5,7 +5,7 @@ title: ERAU Lab Experience
 
 ## Airfoil Performance at Varying Angles of Attack  
 **Institution:** Embry-Riddle Aeronautical University  
-**Dates:** January 2025
+**Dates:** February 2025
 
 ---
 
