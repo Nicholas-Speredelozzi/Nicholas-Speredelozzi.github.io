@@ -41,16 +41,16 @@ Multi-term internship supporting facilities and infrastructure modeling across m
 ### Lab Experiments  
 Hands-on lab work conducted at Embry-Riddle Aeronautical University, verifying core aerospace engineering principles & applications.
 - [Honeycomb Compression Test](honeycomb)
-- Strain Gauge Installation & Applications
-- Tensile Testing & Stress-Strain Behavior
-- Non-Destructive Evaluation
-- Vibrations & Resonance
-- Solid Rocket Thrust Analysis
-- Airfoil Performance at Varying AoA
-- Aerodynamic Forces Acting on Canard Delta Wing
-- Supersonic Wind Tunnels & Schlieren Imaging
+- [Strain Gauge Installation & Applications](strain)
+- [Tensile Testing & Stress-Strain Behavior](tensile)
+- [Non-Destructive Evaluation](NDE)
+- [Vibrations & Resonance](vibrations)
+- [Solid Rocket Thrust Analysis](rocket)
+- [Airfoil Performance at Varying AoA](afl)
+- [Aerodynamic Forces on Delta Wing](MWT)
+- [Supersonic Wind Tunnels Test](SWT)
 
-### CAD Portfolio  
+### [CAD Portfolio](CAD)  
 Assortment of CATIA part models showcasing complex geometries and advanced surfacing techniques.
 
 ---
