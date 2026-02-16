@@ -7,7 +7,7 @@ title: Launch Vehicle Design Project
 
 **Role:** Project Integration Engineer  
 **Institution:** Embry-Riddle Aeronautical University  
-**Dates:** October 2025 - December 2025
+**Dates:** January 2023 - February 2023
 
 ---
 
