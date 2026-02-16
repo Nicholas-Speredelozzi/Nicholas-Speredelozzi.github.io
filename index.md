@@ -15,7 +15,7 @@ Aerospace Engineering senior at Embry-Riddle Aeronautical University with experi
 Ongoing systems engineering capstone project focused on the conceptual design lifecycle of a 3U CubeSat to perform optical space situational awareness on objects in geostationary Earth orbit.
 
 ### Launch Vehicle Project  
-Led a team in the conceptual design & integration of a multi-stage, solid-fueled launch vehicle capable of delivering payloads to low Earth orbit.
+Supported the conceptual design & integration of a multi-stage, solid-fueled launch vehicle capable of delivering payloads to low Earth orbit.
 
 ### Control Systems Stability Analysis  
 Analyzed stability & transient response characteristics of feedback control systems using classical control theory, root locus methods, and MATLAB system modeling.
