@@ -44,6 +44,7 @@ This project involved the conceptual design of a 3U CubeSat intended to conduct 
 - Interface alignment between structural and thermal components
 - Configuration consistency across design iterations
 
+### ![CAD Model](assets/PDR CAD Model.jpg)
 ---
 
 ## Tools Used
