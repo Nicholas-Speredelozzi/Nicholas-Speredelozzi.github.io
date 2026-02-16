@@ -9,7 +9,7 @@ Aerospace Engineering senior at Embry-Riddle Aeronautical University, specializi
 
 Actively pursuing entry-level roles in spacecraft systems integration, launch operations, and aerospace mission planning.
 
-This page includes a collection of technical projects & experiences I've gained throughout my academic career. In-depth breakdowns, takeaways, and specific contributions are linked to each title, in addition to a 3D modeling showcase near the bottom of the page.
+This page includes a collection of technical projects & experiences I've gained throughout my academic career. In-depth breakdowns, takeaways, and specific contributions are linked to each title, in addition to a 3D modeling showcase near the bottom of the page. Thanks for stopping by!
 
 ---
 
@@ -40,7 +40,7 @@ Multi-term internship supporting facilities and infrastructure modeling across m
 
 ### Lab Experiments  
 Hands-on lab work conducted at Embry-Riddle Aeronautical University, verifying core aerospace engineering principles & applications.
-- Honeycomb Compression Test
+- [Honeycomb Compression Test](honeycomb)
 - Strain Gauge Installation & Applications
 - Tensile Testing & Stress-Strain Behavior
 - Non-Destructive Evaluation
