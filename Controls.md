@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Control Systems Stability Analysis
+title: Control Systems Stability Analysis Project
 ---
 
 ## Control Systems Stability Analysis Project
