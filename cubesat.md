@@ -23,11 +23,10 @@ To track our progress, the project follows a formal systems engineering lifecycl
 
 <div style="
   width: 80vw;
-  margin: 40px auto;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding: 8vw 0;
 ">
 
   <div style="text-align: center;">
