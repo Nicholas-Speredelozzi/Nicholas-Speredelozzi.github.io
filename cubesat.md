@@ -22,12 +22,17 @@ Ultimately, the CubeSat will obtain estimated orbital trajectories of each RSO a
 To track our progress, the project follows a formal systems engineering lifecycle, with four milestone reviews spread from August 2025 to April 2026. So far, we have completed the Systems Requirements Review, Preliminary Design Review, and Critical Design Review, with Operational Readiness Review on the horizon to be completed in the coming months.  
 
 <div style="
-  width: 90vw;
-  max-width: 1200px;
-  margin: 40px auto;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
   display: flex;
   justify-content: center;
   gap: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 ">
   
   <div style="text-align: center;">
