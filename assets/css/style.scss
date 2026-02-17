@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Expand content width */
+.main-content {
+  max-width: 80vw;   /* default is around 64rem (~1024px) */
+}
