@@ -69,7 +69,7 @@ Within the team, I hold the roles of Lead Environmental Engineer & Requirements 
 
 ---
 
-### ![CAD Model](assets/PDR CAD Model.jpg)
+### ![CAD Model](assets/cdr_cad.png)
 ---
 
 ## Key Takeaways
