@@ -73,7 +73,7 @@ Within the team, I hold the roles of Lead Environmental Engineer & Requirements 
 <div style="text-align: center;">
     <img src="assets/cdr_cad.png" style="width=40%;">
     <p><em>Here is an assembled CAD model of the CubeSat with exterior panels hidden to showcase the component organization inside the chassis.</em></p>
-  </div>
+</div>
 ---
 
 ## Key Takeaways
