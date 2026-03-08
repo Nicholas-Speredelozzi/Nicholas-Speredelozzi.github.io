@@ -64,6 +64,44 @@ Within the team, I hold the roles of Lead Environmental Engineer & Requirements 
 
 ### Environmental Analysis & Thermal Design
 - Conducted trade studies for thermal control & radiation protection subsystems, alongside contributions to various satellite bus trade studies
+<div style="
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -40vw;
+  margin-right: -40vw;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+">
+  
+  <div style="text-align: center;">
+    <img src="assets/temperature_table.png" style="width=40%;">
+    <p><em>Operational and survivable temperature ranges for primary CubeSat components. (*) Components that limit the critical temperature range (lower limit -> battery, upper limit -> camera).</em></p>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="assets/STK_sim.png" style="width=40%;">
+    <p><em>STK mission environment simulation displaying temperature extremes & coverage of GEO based on optical field of view characteristics.</em></p>
+  </div>
+
+</div>
+
+Based on the temperature ranges above, I defined a critical temperature range to keep the CubeSat within at all times throughout the mission life. To ensure functionality in all environments, this range was defined between -10 and +40 degrees Celsius.
+
+Using data gathered from the environmental analyses, I derived thermal control requirements & conducted trade studies to determine optimal components for the CubeSat's thermal control subsystem:
+	# Passive:
+	- A276 Polyurethane Coating (White)
+	- Multi-Layer Insulation
+	- Heat Pipes
+	# Active:
+	- Electric Patch Heaters
+
+Due to strict size, weight, power, and cost constraints (SWaP-C), passive control strategies were prioritized to minimize ground commands & points of failure.
+
 - Analyzing hostile mission environments, potential failure modes, and mitigation strategies to ensure reliable operation throughout the mission lifecycle
 
 ### Integration Considerations
