@@ -55,6 +55,10 @@ Within the team, I hold the roles of Lead Environmental Engineer & Requirements 
 
 ### Systems Engineering
 - Development & maintenance of system-level requirements across the full work breakdown structure
+<div style="text-align: center;">
+    <img src="assets/requirements.png" style="width=40%;">
+    <p><em>Above is a sample set of high-level requirements I drafted to define characterstics of the CubeSat's payload.</em></p>
+</div>
 - Establishing verification methods linking system requirements to quantifiable verification & validation metrics
 - Drafting end-to-end test plans adhering to NASA compliance documents, supporting the development of a launch-ready spacecraft
 
@@ -78,6 +82,6 @@ Within the team, I hold the roles of Lead Environmental Engineer & Requirements 
 
 ## Key Takeaways
 
-This project given me a lot of insight into the importance of managing technical tradeoffs & understanding how design decisions affect system integration in large-scale mission environments. The reinforcement of working in multidisciplinary teams to cohesively design a spacecraft has sharpened my technical communication skills within the team as well as in presentation settings.
+This project has given me a lot of insight into the importance of managing technical tradeoffs & understanding how design decisions affect system integration in lifecyle mission environments. The reinforcement of working in multidisciplinary teams to cohesively design a spacecraft has sharpened my technical communication skills within the team as well as in presentation settings.
 
 As I begin my career in the aerospace industry, I'm thankful to have had this design project challenge me & provide ample learning opportunities in an industry-level, systems engineering environment.
