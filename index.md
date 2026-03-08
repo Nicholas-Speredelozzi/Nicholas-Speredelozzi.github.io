@@ -9,7 +9,7 @@ Aerospace Engineering senior at Embry-Riddle Aeronautical University, specializi
 
 Actively pursuing entry-level roles in spacecraft systems integration, launch operations, and aerospace mission planning.
 
-This page includes a collection of technical projects & experiences I've taken part in throughout my academic career. In-depth breakdowns, takeaways, and specific contributions are linked to each title, in addition to a 3D modeling showcase near the bottom of the page. Thanks for stopping by!
+This page includes a collection of technical projects & experiences I've taken part in throughout my academic career. In-depth breakdowns, specific contributions, and valuable takeaways are linked to each title, in addition to a 3D modeling showcase near the bottom of the page. Thanks for stopping by!
 
 ### [Resume (PDF)](assets/Nicholas_Speredelozzi_Resume.pdf)
 
@@ -18,7 +18,7 @@ This page includes a collection of technical projects & experiences I've taken p
 ## **Projects**
 
 ### [CubeSat Senior Design](cubesat)    
-Ongoing systems engineering capstone project focused on the conceptual design lifecycle of a 3U CubeSat to perform optical space situational awareness on objects in geostationary Earth orbit.
+Ongoing systems engineering capstone project focused on the conceptual design lifecycle of a 3U CubeSat to perform optical space situational awareness on resident space objects in geostationary Earth orbit.
 
 ### [Launch Vehicle Design](LVP)  
 Collaborative design project emphasizing optimization & integration of a multi-stage, solid-fueled launch vehicle capable of delivering payloads to low Earth orbit.
@@ -27,7 +27,7 @@ Collaborative design project emphasizing optimization & integration of a multi-s
 Group project analyzing stability & transient response characteristics of feedback control systems using classical control theory, root locus methods, and MATLAB transfer function modeling.
 
 ### [Satellite Rotational Dynamics Project](SAD)  
-Solo programming project to develop mathematical & computational models simulating rotational dynamics of a multi-component small satellite in a body-fixed reference frame using MATLAB.
+Individual programming project to develop mathematical & computational models simulating rotational dynamics of a multi-component small satellite in a body-fixed reference frame using MATLAB.
 
 ---
 
@@ -50,10 +50,10 @@ Hands-on lab work conducted at Embry-Riddle Aeronautical University, verifying c
 - [Solid Rocket Thrust Analysis](rocket)
 - [Airfoil Performance at Varying AoA](afl)
 - [Aerodynamic Forces on Delta Wing](MWT)
-- [Supersonic Wind Tunnels Test](SWT)
+- [Supersonic Wind Tunnel Performance](SWT)
 
 ### [CAD Portfolio](CAD)  
-Assortment of CATIA part models showcasing complex geometries and advanced surfacing techniques.
+Assortment of CATIA part models & assemblies showcasing complex geometries & advanced surfacing techniques.
 
 ---
 
