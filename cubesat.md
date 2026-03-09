@@ -150,6 +150,6 @@ To consider the overarching impact of each failure mode, we assigned likelihood 
 
 ## Key Takeaways
 
-This project has given me a lot of insight into the importance of managing technical tradeoffs & understanding how design decisions affect system integration in lifecyle mission environments. The reinforcement of working in multidisciplinary teams to cohesively design a spacecraft has sharpened my technical communication skills within the team as well as in presentation settings.
+This project has given me a lot of insight into the importance of managing technical tradeoffs & understanding how design decisions affect system integration in lifecycle mission environments. The reinforcement of working in multidisciplinary teams to cohesively design a spacecraft has sharpened my technical communication skills within the team as well as in presentation settings.
 
 As I begin my career in the aerospace industry, I'm thankful to have had this design project challenge me & provide ample learning opportunities in an industry-level, systems engineering environment.
