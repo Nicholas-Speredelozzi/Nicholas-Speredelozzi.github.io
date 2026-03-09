@@ -83,9 +83,9 @@ Within the team, I hold the roles of Lead Environmental Engineer & Requirements 
     <p><em>Operational and survivable temperature ranges for primary CubeSat components. (*) Components that limit the critical temperature range (lower limit -> battery, upper limit -> camera).</em></p>
   </div>
 
-  <div style="flex: 3; text-align: center;">
+  <div style="flex: 2.5; text-align: center;">
     <img src="assets/STK_sim.jpg" style="width: 100%; max-width: 1500px; height: auto">
-    <p><em>STK mission environment simulation displaying temperature extremes & coverage of GEO based on optical field of view characteristics.</em></p>
+    <p><em>STK mission environment simulation displaying CubeSat temperature & optical coverage of GEO based on the camera's field of view characteristics.</em></p>
   </div>
 
 </div>
@@ -96,7 +96,7 @@ Using data gathered from the environmental analyses, I derived thermal control r
 
 **Passive:**
 - A276 Polyurethane Coating (White)
-- Multi-Layer Insulation
+- Multi-Layer Insulation (MLI)
 - Heat Pipes
 
 **Active:**
@@ -130,22 +130,24 @@ To consider the overarching impact of each failure mode, we assigned likelihood 
 
   <div style="text-align: center;">
     <img src="assets/failure_modes.jpg" style="width=40%;">
-    <p><em>STK mission environment simulation displaying temperature extremes & coverage of GEO based on optical field of view characteristics.</em></p>
+    <p><em>Failure modes</em></p>
   </div>
 
 </div>
+
+The risk matrix on the left serves as a legend to organize each failure mode into three levels of risk (Low: 0-6, Medium: 7-12, High: 13-25). The table on the right provides a sample set of failure modes we considered for the operational stage early in the design process. Each failure mode includes S (Severity)/L (Likelihood)/C (Criticality) values, how the failure would affect the CubeSat, and methods to detect or prevent the event.
+
 ### Integration Considerations
 - **Developing interfacing flowcharts to denote the transfer of commands, data, and power within the spacecraft**
 - **3D modeling & assembly of subsystems in CATIA, adhering to CubeSat deployer integration requirements**
-- **Evaluating size, weight, power, and cost constraints (SWaP-C) as mission hardware & design considerations evolved**
-
----
-
-### CAD Model 
 <div style="text-align: center;">
     <img src="assets/Cubesat.png" style="width: 75%; max-width: 1750px; height: auto">
-    <p><em>Here is an assembled CAD model of the CubeSat with exterior panels hidden to showcase the component organization inside the chassis.</em></p>
+    <p><em>Assembled CAD model</em></p>
 </div>
+Above is an assembled view of the CubeSat in CATIA that displays each major component of the bus/payload. The majority of 3D models were acquired directly from vendors, with exterior plates being designed in-house. The displayed image excludes MLI blankets, a solar panel, and exterior shielding plates in order to provide a clear view of the internal structure of components in the chassis.
+
+- **Evaluating size, weight, power, and cost constraints (SWaP-C) as mission hardware & design considerations evolved**
+
 ---
 
 ## Key Takeaways
