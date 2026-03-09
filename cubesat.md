@@ -51,13 +51,13 @@ To track our progress, the project follows a formal systems engineering lifecycl
 
 ## My Responsibilities
 
-Within the team, I hold the roles of Lead Environmental Engineer & Requirements Developer. Though I've contributed to design decisions & mission planning across the full scope of the project, some of my primary responsibilities have included:
+I've contributed to design decisions & mission planning across the full scope of the project. However, my official roles within the team are Lead Environmental Engineer & Requirements Developer. The sections below include my primary responsibilities & examples of my contributions across a variety of major deliverables.
 
 ### Systems Engineering
 - **Development & maintenance of system-level requirements across the full work breakdown structure**
 <div style="text-align: center;">
     <img src="assets/requirements.jpg" style="width=40%;">
-    <p><em>Above is a sample set of high-level requirements I drafted to define characteristics of the CubeSat's payload.</em></p>
+    <p><em>Above is a sample set of requirements I derived to define the CubeSat's payload & performance characteristics.</em></p>
 </div>
 - **Establishing verification methods linking system requirements to quantifiable verification & validation metrics**
 - **Drafting end-to-end test plans adhering to NASA compliance documents, supporting the development of a launch-ready spacecraft**
@@ -85,14 +85,23 @@ Within the team, I hold the roles of Lead Environmental Engineer & Requirements 
 
   <div style="flex: 2.5; text-align: center;">
     <img src="assets/STK_sim.jpg" style="width: 100%; max-width: 1500px; height: auto">
-    <p><em>STK mission environment simulation displaying CubeSat temperature & optical coverage of GEO based on the camera's field of view characteristics.</em></p>
+    <p><em>STK mission environment simulation displaying CubeSat temperature & optical coverage of GEO based on the camera's field of view.</em></p>
   </div>
 
 </div>
 
-Based on the temperature ranges above, I defined a critical temperature range to keep the CubeSat within at all times throughout the mission life. To ensure functionality in all environments, this range was defined between -10 and +40 degrees Celsius.
+Based on the temperature ranges in the table above, I defined a critical temperature range to keep the CubeSat within at all times throughout the mission life. To ensure functionality in all environments, this range was defined between -10 and +40 degrees Celsius.
 
-Using data gathered from the environmental analyses, I derived thermal control requirements & conducted trade studies to determine optimal components for the CubeSat's thermal control subsystem:
+The provided snapshot is from an STK environmental analysis I conducted to determine the temperature extremes our CubeSat would be exposed to over the 2-year mission life. Then I employed STK's SEET-Thermal (Space Environmental Effects Tool) model to define the spacecraft's radiative surface area, emmisivity, absorptivity, and internal heat dissipation. Applying this model to our CubeSat's orbit throughout the simulation period allowed me to generate reports that displayed hourly temperature readings, as well as the maximum, minimum, and averages for the full mission:
+- Maximum Temperature (Peak Power Usage & Solar Flux): +35 degrees Celsius
+- Minimum Temperature (Min Power Usage & Longest Eclipse): -50 degrees Celsius
+- Average Temperature (Mean Power Usage & Solar Flux): +29 degrees Celsius
+
+The max and average temperatures from the simulation fall well within the critical range, however, it is worth noting the the minimum temperature is well below the -10 degree operational limit. A few things to consider for this cold case are the length of eclipse (~65 minutes), and the absence of internal heat dissipation. The simulation doesn't account for the rate of heat transfer, it assumes that the eclipse immediately drops the spacecraft to equilibrium temperature (-50). Further calculations implied that dropping from average to minimum temperature would take over double the time of our longest eclipse, it's more reasonable to assume a 30-40 degree temperature drop. 
+
+However, this analysis still results in the CubeSat enduring a temperature swing that brings sensitive components close to the lower limit of the critical range. My solution to minimize associated risks was to introduce a charging phase prior to eclipse that would allow the battery to reach max storage (40 W/Hr) before losing line-of-sight with the sun. This would give us the option to power internal electronics and active thermal control components to keep the spacecraft comfortably within the critical temperature range.
+
+Using the STK data & analysis above, I derived thermal control requirements & conducted trade studies to determine optimal components for the CubeSat's thermal control subsystem:
 
 **Passive:**
 - A276 Polyurethane Coating (White)
@@ -100,15 +109,13 @@ Using data gathered from the environmental analyses, I derived thermal control r
 - Heat Pipes
 
 **Active:**
-- Electric Patch Heaters
+- Thermostat-Controlled Electric Patch Heaters
 
-Due to strict size, weight, power, and cost constraints (SWaP-C), passive control strategies were prioritized to minimize ground commands & points of failure.
+Due to strict size, weight, power, and cost constraints (SWaP-C), passive control strategies were prioritized to minimize frequency of ground commands & points of failure.
 
 - **Analyzing hostile mission environments, potential failure modes, and mitigation strategies to ensure reliable operation throughout the mission lifecycle**
 
-One of the most important aspects of mission planning is accounting for the wide range of failure modes the spacecraft is susceptible to across each mission environment.
-
-To consider the overarching impact of each failure mode, we assigned likelihood & severity values that multiply together to determine the mission criticality score as seen in the table below.
+One of the most important aspects of mission planning is accounting for the wide range of failure modes the spacecraft is susceptible to across each mission environment. To consider the overarching impact of each failure mode, we assigned likelihood & severity values that multiply together to determine the mission criticality score as seen in the table below.
 <div style="
   position: relative;
   left: 50%;
@@ -136,6 +143,8 @@ To consider the overarching impact of each failure mode, we assigned likelihood 
 </div>
 
 The risk matrix on the left serves as a legend to organize each failure mode into three levels of risk (Low: 0-6, Medium: 7-12, High: 13-25). The table on the right provides a sample set of failure modes we considered for the operational stage early in the design process. Each failure mode includes S (Severity)/L (Likelihood)/C (Criticality) values, how the failure would affect the CubeSat, and methods to detect or prevent the event.
+
+An important simplification we made for our considered failure modes was to exclude launch environments & any corresponding failure modes. This assumption was made in coherence with our Mission Needs Document, which specifies that our analysis should start upon insertion into our operational orbit.
 
 ### Integration Considerations
 - **Developing interfacing flowcharts to denote the transfer of commands, data, and power within the spacecraft**
