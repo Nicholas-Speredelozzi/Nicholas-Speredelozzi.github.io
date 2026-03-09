@@ -66,8 +66,8 @@ Within the team, I hold the roles of Lead Environmental Engineer & Requirements 
 - **Conducted trade studies for thermal control & radiation protection subsystems, alongside contributions to various satellite bus trade studies**
 <div style="
   position: relative;
-  left: 30%;
-  right: 80%;
+  left: 50%;
+  right: 50%;
   margin-left: -40vw;
   margin-right: -40vw;
   width: 80vw;
@@ -78,13 +78,13 @@ Within the team, I hold the roles of Lead Environmental Engineer & Requirements 
   margin-bottom: 30px;
 ">
   
-  <div style="text-align: center;">
-    <img src="assets/temperature_table.jpg" style="width: 25%; max-width: 400px; height: auto">
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/temperature_table.jpg" style="width: 100%; max-width: 400px; height: auto">
     <p><em>Operational and survivable temperature ranges for primary CubeSat components. (*) Components that limit the critical temperature range (lower limit -> battery, upper limit -> camera).</em></p>
   </div>
 
-  <div style="text-align: center;">
-    <img src="assets/STK_sim.jpg" style="width: 55%; max-width: 1500px; height: auto">
+  <div style="flex: 3; text-align: center;">
+    <img src="assets/STK_sim.jpg" style="width: 100%; max-width: 1500px; height: auto">
     <p><em>STK mission environment simulation displaying temperature extremes & coverage of GEO based on optical field of view characteristics.</em></p>
   </div>
 
@@ -143,7 +143,7 @@ To consider the overarching impact of each failure mode, we assigned likelihood 
 
 ### CAD Model 
 <div style="text-align: center;">
-    <img src="assets/Cubesat.png" style="width: 60%; max-width: 1750px; height: auto">
+    <img src="assets/Cubesat.png" style="width: 75%; max-width: 1750px; height: auto">
     <p><em>Here is an assembled CAD model of the CubeSat with exterior panels hidden to showcase the component organization inside the chassis.</em></p>
 </div>
 ---
