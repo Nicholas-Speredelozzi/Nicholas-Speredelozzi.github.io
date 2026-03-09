@@ -185,7 +185,7 @@ The solid yellow line across the graphics window represents the access points fr
 
 The figure below shows the breakdown of specific access times for each ground station over the course of a year.
 <div style="text-align: center;">
-    <img src="assets/STK_coverage_analysis.png" style="width: 85%; max-width: 2000px; height: auto">
+    <img src="assets/STK_coverage_analysis.png" style="width: 100%; max-width: 2000px; height: auto">
     <p><em>Access times for each selected ground station</em></p>
 </div>
 
