@@ -79,12 +79,12 @@ Within the team, I hold the roles of Lead Environmental Engineer & Requirements 
 ">
   
   <div style="text-align: center;">
-    <img src="assets/temperature_table.jpg" style="width: 40%; max-width: 300px; height: auto">
+    <img src="assets/temperature_table.jpg" style="width: 40%; max-width: 400px; height: auto">
     <p><em>Operational and survivable temperature ranges for primary CubeSat components. (*) Components that limit the critical temperature range (lower limit -> battery, upper limit -> camera).</em></p>
   </div>
 
   <div style="text-align: center;">
-    <img src="assets/STK_sim.jpg" style="width: 40%; max-width: 700px; height: auto">
+    <img src="assets/STK_sim.jpg" style="width: 40%; max-width: 1500px; height: auto">
     <p><em>STK mission environment simulation displaying temperature extremes & coverage of GEO based on optical field of view characteristics.</em></p>
   </div>
 
@@ -143,7 +143,7 @@ To consider the overarching impact of each failure mode, we assigned likelihood 
 
 ### CAD Model 
 <div style="text-align: center;">
-    <img src="assets/Cubesat.png" style="width: 40%; max-width: 700px; height: auto">
+    <img src="assets/Cubesat.png" style="width: 40%; max-width: 1000px; height: auto">
     <p><em>Here is an assembled CAD model of the CubeSat with exterior panels hidden to showcase the component organization inside the chassis.</em></p>
 </div>
 ---
