@@ -84,7 +84,7 @@ Within the team, I hold the roles of Lead Environmental Engineer & Requirements 
   </div>
 
   <div style="text-align: center;">
-    <img src="assets/STK_sim.jpg" style="width=40%;">
+    <img src="assets/STK_sim.jpg" style="width=60%;">
     <p><em>STK mission environment simulation displaying temperature extremes & coverage of GEO based on optical field of view characteristics.</em></p>
   </div>
 
