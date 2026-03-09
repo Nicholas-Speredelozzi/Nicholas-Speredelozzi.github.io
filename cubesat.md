@@ -37,16 +37,15 @@ To track our progress, the project follows a formal systems engineering lifecycl
   
   <div style="text-align: center;">
     <img src="assets/wbs.png" style="width=40%;">
-    <p><em>Above is the work breakdown structure for our mission. As true Daytona Beach residents, we named our CubeSat B.U.C.E.E.S (Breakthrough Utilization of CubeSats for Environmental Examination of Space).</em></p>
+    <p><em>BUCEES Work Breakdown Structure (WBS)</em></p>
   </div>
-
   <div style="text-align: center;">
     <img src="assets/conops.png" style="width=40%;">
-    <p><em>Here is a high-level concept of operations flowchart displaying the primary mission modes from deployment to decommissioning.</em></p>
+    <p><em>Concept of Operations (CONOPS) flowchart displaying the primary mission phases from deployment to decommissioning</em></p>
   </div>
 
 </div>
-
+Displayed above are the work breakdown structure & concept of operations for our mission. As true Daytona Beach residents, we named our CubeSat B.U.C.E.E.S (Breakthrough Utilization of CubeSats for Environmental Examination of Space). These documents define the structure of the project as a whole & serve as the organizational skeleton for system-level requirements.
 ---
 
 ## My Responsibilities
@@ -57,12 +56,21 @@ I've contributed to design decisions & mission planning across the full scope of
 - **Development & maintenance of system-level requirements across the full work breakdown structure**
 <div style="text-align: center;">
     <img src="assets/requirements.jpg" style="width=40%;">
-    <p><em>Above is a sample set of requirements I derived to define the CubeSat's payload & performance characteristics.</em></p>
+    <p><em>Sample set of payload requirements</em></p>
 </div>
+Provided above is a set of high-level requirements I derived to define the CubeSat's payload & performance characteristics. The motivation for these requirements stems from our Mission Needs Document (MND), which defines the mission objective, budget constraints, and compliance documents that our spacecraft must adhere to.
+
 - **Establishing verification methods linking system requirements to quantifiable verification & validation metrics**
+As I developed requirements for each node of the WBS, verification methods & artifacts were chosen to track the status of each requirement. Many requirements were drawn from the MND & various compliance/testing documents such as NASA's General Envrionmental Verification Standard (GEVS).
+
+However, it was up to our team to determine verification methods & artifacts for each requirement. I tackled this challenge by communicating with my team to learn what tests/standards each of their respective subsystems had to meet to be considered successful. An important emphasis during this stage was to ensure each requirement was Specific, Measureable, Achievable, Relevant, and Time-bound (SMART).
+
 - **Drafting end-to-end test plans adhering to NASA compliance documents, supporting the development of a launch-ready spacecraft**
 
 ### Environmental Analysis & Thermal Design
+
+As the team's environmental engineer, one of my most important responsibilities is to analyze the variety of hostile mission environments the CubeSat will encounter & develop preventative measures to ensure safe operation throughout the mission lifecycle. Provided below are examples of analysis I conducted regarding space environmental risk analysis & logistics for our spacecraft.
+
 - **Conducted trade studies for thermal control & radiation protection subsystems, alongside contributions to various satellite bus trade studies**
 <div style="
   position: relative;
@@ -80,12 +88,12 @@ I've contributed to design decisions & mission planning across the full scope of
   
   <div style="flex: 1; text-align: center;">
     <img src="assets/temperature_table.jpg" style="width: 100%; max-width: 400px; height: auto">
-    <p><em>Operational and survivable temperature ranges for primary CubeSat components. (*) Components that limit the critical temperature range (lower limit -> battery, upper limit -> camera).</em></p>
+    <p><em>Operational and survivable temperature ranges for primary CubeSat components (*) Components that limit the critical temperature range (lower limit -> battery, upper limit -> camera)</em></p>
   </div>
 
   <div style="flex: 2.5; text-align: center;">
     <img src="assets/STK_sim.jpg" style="width: 100%; max-width: 1500px; height: auto">
-    <p><em>STK mission environment simulation displaying CubeSat temperature & optical coverage of GEO based on the camera's field of view.</em></p>
+    <p><em>STK mission environment simulation displaying CubeSat temperature & optical coverage of GEO based on the camera's field of view</em></p>
   </div>
 
 </div>
@@ -148,6 +156,36 @@ An important simplification we made for our considered failure modes was to excl
 
 ### Integration Considerations
 - **Developing interfacing flowcharts to denote the transfer of commands, data, and power within the spacecraft**
+<div style="text-align: center;">
+    <img src="assets/distribution_diagram.png" style="width: 75%; max-width: 1750px; height: auto">
+    <p><em>Distribution/interfacing diagram</em></p>
+</div>
+Successful interaction between different subsystems within the CubeSat architecture is mandatory to ensure cohesive integration & functionality. The diagram above shows the base-level flow of power, data, and commands throughout the spacecraft. Some components that would constantly interface with each other back and forth (e.g. EPS/Flight Computer) have been simplified to a uni-directional arrow for organizational purposes. A ground station block is also included to define downlink/uplink communication pathways. 
+
+In terms of on-board power, the solar panels will gather energy from the sun, which will be transferred/stored in the battery in the form of usable power. The EPS (Electrical Power Subsystem) will monitor the battery's power storage and act as the primary distributor of power to rest of the spacecraft.
+
+The red data distribution arrows stem from multiple components that will be gathering external data such as RSO imagery (Camera) or the direction of the sun (sun sensor). The On-Board Computer (OBC) serves as the central hub for all data, interpreting it & sending necessary info through the communication subsystem to be downlinked to the ground station.
+
+Tracking, Telemetry and Commands (TT&C) all flow along yellow pathways in the diagram above. This communication path is arguably the most important, as it defines the primary transfer of system health checks, commands/updates, and ranging information between the CubeSat & ground stations.
+
+Speaking of ground stations, our mission will utilize four ground stations in NASA's Near Space Network (NSN) spread around the globe to ensure constant communcation ability. Provided below is a table denoting the selected locations & some STK coverage analysis snapshots.
+<div style="text-align: center;">
+    <img src="assets/ground_stations.png" style="width: 75%; max-width: 1750px; height: auto">
+    <p><em>Ground station locations</em></p>
+</div>
+A few major considerations we used to choose these ground stations were their communication frequency, location, and cost. All four stations are compatible with our communication equipment, which uses S-band frequency for downlink/uplink. The importance of their relative locations is more easily understood through the STK visuals below.
+<div style="text-align: center;">
+    <img src="assets/2D_STK_ground_stations.png" style="width: 75%; max-width: 1750px; height: auto">
+    <p><em>2D representation of ground station locations/accessability</em></p>
+</div>
+The solid yellow line across the graphics window represents the access points from the CubeSat to each ground station. The fact that the access line is solid implies that the spacecraft will maintain constant coverage, allowing for downlink & uplink at any time throughout the orbit.
+
+The figure below shows the breakdown of specific access times for each ground station over the course of a year.
+<div style="text-align: center;">
+    <img src="assets/STK_coverage_analysis.png" style="width: 75%; max-width: 1750px; height: auto">
+    <p><em>Access times for each selected ground station</em></p>
+</div>
+
 - **3D modeling & assembly of subsystems in CATIA, adhering to CubeSat deployer integration requirements**
 <div style="text-align: center;">
     <img src="assets/Cubesat.png" style="width: 75%; max-width: 1750px; height: auto">
