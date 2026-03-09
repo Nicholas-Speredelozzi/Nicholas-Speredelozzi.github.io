@@ -37,7 +37,7 @@ To track our progress, the project follows a formal systems engineering lifecycl
   
   <div style="text-align: center;">
     <img src="assets/wbs.png" style="width=40%;">
-    <p><em>As true Daytona Beach enthusiasts would, we named our CubeSat B.U.C.E.E.S (Breakthrough Utilization of CubeSats for Environmental Examination of Space). Above is the work breakdown structure for our mission.</em></p>
+    <p><em>Above is the work breakdown structure for our mission. As true Daytona Beach residents, we named our CubeSat B.U.C.E.E.S (Breakthrough Utilization of CubeSats for Environmental Examination of Space).</em></p>
   </div>
 
   <div style="text-align: center;">
@@ -94,18 +94,46 @@ Based on the temperature ranges above, I defined a critical temperature range to
 
 Using data gathered from the environmental analyses, I derived thermal control requirements & conducted trade studies to determine optimal components for the CubeSat's thermal control subsystem:
 
-Passive:
+**Passive:**
 - A276 Polyurethane Coating (White)
 - Multi-Layer Insulation
 - Heat Pipes
 
-Active:
+**Active:**
 - Electric Patch Heaters
 
 Due to strict size, weight, power, and cost constraints (SWaP-C), passive control strategies were prioritized to minimize ground commands & points of failure.
 
 - **Analyzing hostile mission environments, potential failure modes, and mitigation strategies to ensure reliable operation throughout the mission lifecycle**
 
+One of the most important aspects of mission planning is accounting for the wide range of failure modes the spacecraft is susceptible to across each mission environment.
+
+To consider the overarching impact of each failure mode, we assigned likelihood & severity values that multiply together to deterimine the mission criticality score as seen in the table below.
+<div style="
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -40vw;
+  margin-right: -40vw;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+">
+  
+  <div style="text-align: center;">
+    <img src="assets/rik_matrix.png" style="width=40%;">
+    <p><em>Risk matrix</em></p>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="assets/failure_modes.png" style="width=40%;">
+    <p><em>STK mission environment simulation displaying temperature extremes & coverage of GEO based on optical field of view characteristics.</em></p>
+  </div>
+
+</div>
 ### Integration Considerations
 - **Developing interfacing flowcharts to denote the transfer of commands, data, and power within the spacecraft**
 - **3D modeling & assembly of subsystems in CATIA, adhering to CubeSat deployer integration requirements**
