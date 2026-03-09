@@ -56,8 +56,8 @@ Within the team, I hold the roles of Lead Environmental Engineer & Requirements 
 ### Systems Engineering
 - **Development & maintenance of system-level requirements across the full work breakdown structure**
 <div style="text-align: center;">
-    <img src="assets/requirements.png" style="width=40%;">
-    <p><em>Above is a sample set of high-level requirements I drafted to define characterstics of the CubeSat's payload.</em></p>
+    <img src="assets/requirements.jpg" style="width=40%;">
+    <p><em>Above is a sample set of high-level requirements I drafted to define characteristics of the CubeSat's payload.</em></p>
 </div>
 - **Establishing verification methods linking system requirements to quantifiable verification & validation metrics**
 - **Drafting end-to-end test plans adhering to NASA compliance documents, supporting the development of a launch-ready spacecraft**
@@ -79,12 +79,12 @@ Within the team, I hold the roles of Lead Environmental Engineer & Requirements 
 ">
   
   <div style="text-align: center;">
-    <img src="assets/temperature_table.png" style="width=40%;">
+    <img src="assets/temperature_table.jpg" style="width=40%;">
     <p><em>Operational and survivable temperature ranges for primary CubeSat components. (*) Components that limit the critical temperature range (lower limit -> battery, upper limit -> camera).</em></p>
   </div>
 
   <div style="text-align: center;">
-    <img src="assets/STK_sim.png" style="width=40%;">
+    <img src="assets/STK_sim.jpg" style="width=40%;">
     <p><em>STK mission environment simulation displaying temperature extremes & coverage of GEO based on optical field of view characteristics.</em></p>
   </div>
 
@@ -108,7 +108,7 @@ Due to strict size, weight, power, and cost constraints (SWaP-C), passive contro
 
 One of the most important aspects of mission planning is accounting for the wide range of failure modes the spacecraft is susceptible to across each mission environment.
 
-To consider the overarching impact of each failure mode, we assigned likelihood & severity values that multiply together to deterimine the mission criticality score as seen in the table below.
+To consider the overarching impact of each failure mode, we assigned likelihood & severity values that multiply together to determine the mission criticality score as seen in the table below.
 <div style="
   position: relative;
   left: 50%;
@@ -124,12 +124,12 @@ To consider the overarching impact of each failure mode, we assigned likelihood 
 ">
   
   <div style="text-align: center;">
-    <img src="assets/rik_matrix.png" style="width=40%;">
+    <img src="assets/risk_matrix.jpg" style="width=40%;">
     <p><em>Risk matrix</em></p>
   </div>
 
   <div style="text-align: center;">
-    <img src="assets/failure_modes.png" style="width=40%;">
+    <img src="assets/failure_modes.jpg" style="width=40%;">
     <p><em>STK mission environment simulation displaying temperature extremes & coverage of GEO based on optical field of view characteristics.</em></p>
   </div>
 
