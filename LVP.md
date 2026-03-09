@@ -19,3 +19,8 @@ title: Launch Vehicle Design Project
 
 ## My Responsibilities
 
+
+---
+
+## Key Takeaways
+
