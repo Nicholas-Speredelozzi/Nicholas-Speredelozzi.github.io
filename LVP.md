@@ -17,12 +17,13 @@ The launch vehicle project focused on the integration & optimization of the conc
 
 The primary objective of this project was to utilize systems engineering principles in the conceptual design process of a multi-stage launch vehicle capable of delivering a 4,750 lb reconnaissance satellite into Low Earth Orbit (LEO). The design process began by selecting an orbital altitude, calculating the required change in velocity (ΔV), and developing a vehicle configuration capable of achieving that performance while meeting structural and propulsion constraints.
 
-Throughout the mission analysis, we used iteration-based tools in MATLAB & Excel to optimize mass distribution between stages, efficient use of propellant to achieve maximum delta V, and launch trajectory characteristics to ensure safe payload delivery.
+Throughout the mission, we used iteration-based tools in MATLAB & Excel to optimize mass distribution between stages, efficient use of propellant to achieve maximum ΔV, and launch trajectory characteristics to ensure safe payload delivery.
 
 ---
 
 ## My Responsibilities
 
+Our team consisted of 4 students, each with individual roles & responsibilities that contribute to the overarching launch vehicle design. In my role as the lead project integration engineer I was responsible for vehicle configuration decisions, internal structure feasibility, and systems integration between each system as well as the launch mount.
 
 ---
 
