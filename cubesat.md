@@ -66,8 +66,8 @@ Within the team, I hold the roles of Lead Environmental Engineer & Requirements 
 - **Conducted trade studies for thermal control & radiation protection subsystems, alongside contributions to various satellite bus trade studies**
 <div style="
   position: relative;
-  left: 50%;
-  right: 50%;
+  left: 30%;
+  right: 80%;
   margin-left: -40vw;
   margin-right: -40vw;
   width: 80vw;
@@ -143,7 +143,7 @@ To consider the overarching impact of each failure mode, we assigned likelihood 
 
 ### CAD Model 
 <div style="text-align: center;">
-    <img src="assets/Cubesat.png" style="width: 55%; max-width: 1000px; height: auto">
+    <img src="assets/Cubesat.png" style="width: 60%; max-width: 1750px; height: auto">
     <p><em>Here is an assembled CAD model of the CubeSat with exterior panels hidden to showcase the component organization inside the chassis.</em></p>
 </div>
 ---
