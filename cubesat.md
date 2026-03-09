@@ -46,7 +46,6 @@ To track our progress, the project follows a formal systems engineering lifecycl
 
 </div>
 Displayed above are the work breakdown structure & concept of operations for our mission. As true Daytona Beach residents, we named our CubeSat B.U.C.E.E.S (Breakthrough Utilization of CubeSats for Environmental Examination of Space). These documents define the structure of the project as a whole & serve as the organizational skeleton for system-level requirements.
----
 
 ## My Responsibilities
 
@@ -61,6 +60,7 @@ I've contributed to design decisions & mission planning across the full scope of
 Provided above is a set of high-level requirements I derived to define the CubeSat's payload & performance characteristics. The motivation for these requirements stems from our Mission Needs Document (MND), which defines the mission objective, budget constraints, and compliance documents that our spacecraft must adhere to.
 
 - **Establishing verification methods linking system requirements to quantifiable verification & validation metrics**
+
 As I developed requirements for each node of the WBS, verification methods & artifacts were chosen to track the status of each requirement. Many requirements were drawn from the MND & various compliance/testing documents such as NASA's General Envrionmental Verification Standard (GEVS).
 
 However, it was up to our team to determine verification methods & artifacts for each requirement. I tackled this challenge by communicating with my team to learn what tests/standards each of their respective subsystems had to meet to be considered successful. An important emphasis during this stage was to ensure each requirement was Specific, Measureable, Achievable, Relevant, and Time-bound (SMART).
