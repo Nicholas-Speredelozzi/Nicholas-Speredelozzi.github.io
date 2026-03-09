@@ -47,6 +47,8 @@ To track our progress, the project follows a formal systems engineering lifecycl
 </div>
 Displayed above are the work breakdown structure & concept of operations for our mission. As true Daytona Beach residents, we named our CubeSat B.U.C.E.E.S (Breakthrough Utilization of CubeSats for Environmental Examination of Space). These documents define the structure of the project as a whole & serve as the organizational skeleton for system-level requirements.
 
+---
+
 ## My Responsibilities
 
 I've contributed to design decisions & mission planning across the full scope of the project. However, my official roles within the team are Lead Environmental Engineer & Requirements Developer. The sections below include my primary responsibilities & examples of my contributions across a variety of major deliverables.
@@ -168,21 +170,22 @@ The red data distribution arrows stem from multiple components that will be gath
 
 Tracking, Telemetry and Commands (TT&C) all flow along yellow pathways in the diagram above. This communication path is arguably the most important, as it defines the primary transfer of system health checks, commands/updates, and ranging information between the CubeSat & ground stations.
 
-Speaking of ground stations, our mission will utilize four ground stations in NASA's Near Space Network (NSN) spread around the globe to ensure constant communcation ability. Provided below is a table denoting the selected locations & some STK coverage analysis snapshots.
+
+Regarding ground stations, our mission will utilize four stations in NASA's Near Space Network (NSN) spread around the globe to ensure constant communcation ability. Provided below is a table denoting the selected locations & some STK coverage analysis snapshots.
 <div style="text-align: center;">
     <img src="assets/ground_stations.png" style="width: 75%; max-width: 1750px; height: auto">
     <p><em>Ground station locations</em></p>
 </div>
 A few major considerations we used to choose these ground stations were their communication frequency, location, and cost. All four stations are compatible with our communication equipment, which uses S-band frequency for downlink/uplink. The importance of their relative locations is more easily understood through the STK visuals below.
 <div style="text-align: center;">
-    <img src="assets/2D_STK_ground_stations.png" style="width: 75%; max-width: 1750px; height: auto">
+    <img src="assets/2D_STK_ground_stations.png" style="width: 85%; max-width: 2000px; height: auto">
     <p><em>2D representation of ground station locations/accessability</em></p>
 </div>
 The solid yellow line across the graphics window represents the access points from the CubeSat to each ground station. The fact that the access line is solid implies that the spacecraft will maintain constant coverage, allowing for downlink & uplink at any time throughout the orbit.
 
 The figure below shows the breakdown of specific access times for each ground station over the course of a year.
 <div style="text-align: center;">
-    <img src="assets/STK_coverage_analysis.png" style="width: 75%; max-width: 1750px; height: auto">
+    <img src="assets/STK_coverage_analysis.png" style="width: 85%; max-width: 2000px; height: auto">
     <p><em>Access times for each selected ground station</em></p>
 </div>
 
