@@ -79,7 +79,7 @@ Within the team, I hold the roles of Lead Environmental Engineer & Requirements 
 ">
   
   <div style="text-align: center;">
-    <img src="assets/temperature_table.jpg" style="width=40%;">
+    <img src="assets/temperature_table.jpg" style="width=20%;">
     <p><em>Operational and survivable temperature ranges for primary CubeSat components. (*) Components that limit the critical temperature range (lower limit -> battery, upper limit -> camera).</em></p>
   </div>
 
