@@ -3,8 +3,6 @@ layout: default
 title: CubeSat Senior Design
 ---
 
-## CubeSat Senior Design
-
 **Role:** Lead Environmental Engineer & Requirements Developer  
 **Institution:** Embry-Riddle Aeronautical University  
 **Mission Concept:** Space Situational Awareness in GEO  
