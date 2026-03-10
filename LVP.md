@@ -22,6 +22,12 @@ Throughout the mission, we used iteration-based tools in MATLAB & Excel to optim
 </div>
 Displayed above is a flowchart that provides the general procedure we followed throughout the launch vehicle design project. Arrows that loop back to a higher block represent iterations that could have been necessary to optimize performance or address potential issues.
 
+Adhering to a set schedule with milestone updates was another important priority throughout the design process. Below is a Gantt chart that outlines the various work phases & deliverables we supplied over the course of the project.
+<div style="text-align: center;">
+    <img src="assets/LVP_schedule.jpg" style="width: 75%; max-width: 1750px; height: auto">
+    <p><em>Project schedule Gantt chart</em></p>
+</div>
+
 ---
 
 ## My Responsibilities
@@ -32,7 +38,7 @@ Our team consisted of 4 students, each with individual roles & responsibilities 
 
 One of my primary roles throughout the project was to define the vehicle architecture & ensure compatible interfacing between the multiple stages. Below is an overview of our final launch vehicle with important components labeled.
 <div style="text-align: center;">
-    <img src="assets/rocket_diagram.jpg" style="width: 75%; max-width: 1000px; height: auto">
+    <img src="assets/rocket_diagram.jpg" style="width: 50%; max-width: 750px; height: auto">
     <p><em>Launch vehicle schematic</em></p>
 </div>
 As seen in the diagram, our final design utilized solid rocket motors for the first stage, with a liquid propulsion system powering the second stage. Each fairing, bulkhead, and propellant tank underwent structural feasibility checks, adhering to industry standard factors of safety (~1.1 - 1.5).
@@ -70,6 +76,7 @@ The outputs provided by the trajectory spreadsheet gave us critical information 
 - Thrust for each stage
 - Burn time for each stage
 
+### 
 ---
 
 ## Key Takeaways
