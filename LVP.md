@@ -121,6 +121,13 @@ Accounting for the intense loading carried by the bulkheads, I selected stainles
 
 **Prepellant Tanks**
 
+Obtaining the mass of the propellant tanks is dependent upon the volume & wall thickness of each tank. At this point in the project, I only knew the total mass of propellant for the second stage from the MATLAB Stage optimizer. In order to calculate the weight of the fuel & oxidizer as well as the necessary tank volumes, I utilized the equations shown below:
+
+The mixture ratio is dependent upon the chosen booster characteristics. The Centaur uses a ratio of 5:1 liquid oxygen to liquid hydrogen. Next, I used the tank volumes to determine the total height of the pill-shaped tanks.
+
+To determine the wall thickness, I needed to calculate the maximum pressure the tanks would endure during launch. This pressure maximum corresponds to the most likely failure mode for pressure vessels, hoop stress. Max pressure is measured as the summation of gas pressure, hydrostatic pressure, and inertial loading caused by worst-case acceleration.
+
+The worst-case acceleration occurs at stage 1 burnout, when the thrust-to-weight ratio is greatest. Using these assumptions, I determined the minimum tank thickness from the following equations:
 
 
 ---
