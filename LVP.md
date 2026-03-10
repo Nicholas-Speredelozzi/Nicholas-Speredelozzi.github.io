@@ -32,7 +32,7 @@ Adhering to a set schedule with milestone updates was another important priority
 
 ## My Responsibilities
 
-Our team consisted of 4 students, each with individual roles & responsibilities that contribute to the overarching launch vehicle design. In my role as systems integration engineer, I was responsible for vehicle configuration decisions, internal/structural feasibility, and integration logistics between structural components, engines/fuel tanks, as well as the launch mount.
+Our team consisted of 4 students, each with individual roles & responsibilities that contribute to the overarching launch vehicle design. In my role as systems integration engineer, I was responsible for vehicle configuration decisions, internal/structural feasibility, and integration logistics between structural components, solid/liquid fueled boosters, and inter-stage architectures.
 
 ### Vehicle Configuration
 
@@ -82,7 +82,7 @@ This information allowed us to finalize what SRMs (Solid Rocket Motors) & liquid
 
 Some of my most important contributions to the team took place in this phase of the launch vehicle project. After determining the required thrust & finalizing the engine selections, it was time to design the structural components.
 
-My responsibilities to ensure structural feasibility included calculating required thickness, choosing material, and determining structural mass of the following components:
+My responsibilities to ensure structural feasibility included calculating required thickness, choosing material, and determining the structural mass of the following components:
 
 - Inter-stage bulkheads
 - Motor fairings
@@ -112,7 +112,7 @@ To ensure I met the requirements, I researched the pros & cons of different nose
 
 To calculate the bulkhead thickness at each stage, the primary failure mode to consider was the bending stress developed from the weight of the vehicle supported by each respective bulkhead. The equation shown below for applied stress was used for each bulkhead, adjusting the T/W ratio to accurately reflect each stage.
 <div style="text-align: center;">
-    <img src="assets/bulkhead_stress_eqn.png" style="width: 60%; max-width: 1000px; height: auto">
+    <img src="assets/bulkhead_stress_eqn.png" style="width: 65%; max-width: 1200px; height: auto">
     <p><em>Bulkhead applied stress equation</em></p>
 </div>
 Extracting the thickness from this equation is an iterative process. The equation cannot be algebraically manipulated to solve for bulkhead thickness directly, so I tested different values until the applied stress matched the expected value.
@@ -123,7 +123,7 @@ Accounting for the intense loading carried by the bulkheads, I selected stainles
 
 Obtaining the mass of the propellant tanks is dependent upon the volume & wall thickness of each tank. At this point in the project, I only knew the total mass of propellant for the second stage from the MATLAB Stage optimizer. In order to calculate the weight of the fuel & oxidizer as well as the necessary tank volumes, I utilized the equations shown below:
 <div style="text-align: center;">
-    <img src="assets/fuel_volume_eqn.png" style="width: 75%; max-width: 1500px; height: auto">
+    <img src="assets/fuel_volume_eqn.png" style="width: 60%; max-width: 1000px; height: auto">
     <p><em>Fuel/Oxidizer weight & tank volume equations</em></p>
 </div>
 The mixture ratio is dependent upon the chosen booster characteristics. The Centaur uses a ratio of 5:1 liquid oxygen to liquid hydrogen. Next, I used the tank volumes to determine the total height of the pill-shaped tanks.
@@ -132,11 +132,30 @@ To determine the wall thickness, I needed to calculate the maximum pressure the 
 
 The worst-case acceleration occurs at stage 1 burnout, when the thrust-to-weight ratio is greatest. Using these assumptions, I determined the minimum tank thickness from the following equations:
 <div style="text-align: center;">
-    <img src="assets/tank_thickness_eqn.png" style="width: 70%; max-width: 1300px; height: auto">
+    <img src="assets/tank_thickness_eqn.png" style="width: 60%; max-width: 1000px; height: auto">
     <p><em>Worst-case acceleration, maximum pressure, and minimum tank thickness equations</em></p>
 </div>
+
+### Feasibility Checks
+
+After I calculated the total mass of the structural components, we had all the necessary information to conduct launch vehicle configuration feasibility checks. As the systems integration engineer, I executed the necessary logistics & ensured that each system/structural component interfaced properly with each other.
+
+Below is a table of acceptable tolerances for various parameters we calculated throughout the launch vehicle design process.
+<div style="text-align: center;">
+    <img src="assets/tolerance_table.jpg" style="width: 70%; max-width: 1200px; height: auto">
+    <p><em>Allowable tolerances/ranges for launch vehicle design parameters</em></p>
+</div>
+
+Throughout the project, we balanced aerodynamic efficiency with structurally sound stages, resulting in our launch vehicle falling comfortably within the acceptable range for all parameters.
+
+### Cost Analysis
+
+We wrapped up the project with a cost analysis to see how our launch vehicle stacked up to other competitors. Dividing the payload mass by the cumulative cost of all structural materials & propellants yielded a figure of ~ $10,000 per pound of payload. This final cost value put our launch vehicle in the competitive realm for medium-lift launch vehicles at the time.
 
 ---
 
 ## Key Takeaways
 
+Throughout the launch vehicle project, I gained valuable experience balancing design considerations with optimization, cost, and reliability metrics. I really enjoyed how my role as systems integration engineer allowed me to influence design decisions across the entire launch vehicle.
+
+Working with a team adhering to a set schedule also helped me sharpen my communication & organizational skills. Overall, the launch vehicle design project was my first big undertaking as an aerospace engineering undergraduate & I learned a lot of valuable lessons about systems engineering throughout the mission.
