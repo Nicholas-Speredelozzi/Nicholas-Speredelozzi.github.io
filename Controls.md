@@ -61,9 +61,58 @@ Part 2 of the project focused on root locus behavior of two similar OLTFs with a
 - Imaginary axis intercepts
 
 My hand calculations & methods used to obtain these parameters are provided below.
+<div style="
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -40vw;
+  margin-right: -40vw;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+">
+  
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/root_locus_1_calc.jpg" style="width: 100%; max-width: 750px; height: auto">
+    <p><em></em></p>
+  </div>
 
+  <div style="flex: 2; text-align: center;">
+    <img src="assets/root_locus_1_calc2.jpg" style="width: 100%; max-width: 1500px; height: auto">
+    <p><em></em></p>
+  </div>
 
+</div>
+After calculating all the necessary parameters, I plotted the root locus for the first system as seen below.
+<div style="text-align: center;">
+    <img src="assets/root_locus_1.jpg" style="width: 100%; max-width: 1000px; height: auto">
+    <p><em>System 1 root locus plot</em></p>
+</div>
+The next step was to verify my solution using MATLAB transfer function modeling. For the first system, I created a program defining the transfer function & used MATLAB's built in "rlocus" function to produce the figure seen below.
+<div style="text-align: center;">
+    <img src="assets/Task_2A.jpg" style="width: 100%; max-width: 1000px; height: auto">
+    <p><em>System 1 root locus plot in MATLAB</em></p>
+</div>
+Comparing the two plots reinforced the validity of my hand calculations & the use of classical control theory to model transient response behavior with root locus methods.
+
+For system 2, the OLTF included an open-loop zero at s = -0.5 that changed the root locus drastically. I used the same methods to calculate each graphical parameter as shown above, but several values underwent significant changes. Both my hand drawn root locus and the MATLAB representation are displayed below.
+<div style="text-align: center;">
+    <img src="assets/root_locus_2.jpg" style="width: 100%; max-width: 1000px; height: auto">
+    <p><em>System 2 root locus plot</em></p>
+</div>
+<div style="text-align: center;">
+    <img src="assets/Task_2B.jpg" style="width: 100%; max-width: 1000px; height: auto">
+    <p><em>System 2 root locus plot in MATLAB</em></p>
+</div>
+Observing the difference in root loci between systems 1 & 2 highlights the impact of control system design decisions such as open-loop pole/zero placement.
 
 ---
 
 ## Key Takeaways
+
+This project was instrumental for my understanding of control system design & system stability. In task one I utilized classical control theory to observe how vital transient response characterstics vary as a function of an independently chosen gain value.
+
+Task two showed me how root locus plots visualize the movement of closed-loop poles in the s-plane 
