@@ -33,7 +33,7 @@ As the project lead, my most valuable contributions included conducting hand cal
 
 Provided below is a walkthrough of the methods I used to calculate the optimal gain for minimal damping & the corresponding 2% settling time for the given OLTF:
 <div style="text-align: center;">
-    <img src="assets/controls_eqns_1.png" style="width: 60%; max-width: 1000px; height: auto">
+    <img src="assets/controls_eqns_1.png" style="width: 60%; max-width: 750px; height: auto">
     <p><em>OLTF & characteristic equations</em></p>
 </div>
 Beginning with the OLTF (G(s)) defined by an open-loop zero & poles at s = -1, -3, -9 on the real axis, I considered the system's characteristic equation (C(s)) with the implementation of proportional gain K. Important notes to consider here are the open-loop pole locations & signs of terms in C(s). Both poles lie in the left-side of the s-plane & each term in the characteristic equation has the same sign; these system qualities indicate stability at first glance. 
@@ -45,14 +45,23 @@ To obtain expressions for undamped natural frequency & minimum damping ratio in 
 </div>
 To solve for the optimal gain value associated with the minimum damping ratio, I defined a function f(K) & set it's derivative equal to zero in order to identify the extrema. Next I used the quadratic equation to solve for K. Of the two solutions, the negative value can be neglected because one of the task 1 requirements was to solve for positive gain that yielded the minimum damping ratio. After determining the optimal proportional gain, I used the value K = 3.333 in the previously derived expressions to obtain minimum damping ratio & undamped natural frequency as seen below.
 <div style="text-align: center;">
-    <img src="assets/controls_eqns_3.png" style="width: 60%; max-width: 1000px; height: auto">
+    <img src="assets/controls_eqns_3.png" style="width: 60%; max-width: 750px; height: auto">
     <p><em>Damping parameters & transient response metrics</em></p>
 </div>
 After determining the transfer function's design parameters, I used the values to calculate the overshoot percentage & 2% settling time for the response output. These metrics provide important insight regarding the system's stability & transient response time.
 
 ### Task 2 (Root Locus Behavior)
 
-Part 2 of the project focused on root locus behavior of two OLTFs shown below. 
+Part 2 of the project focused on root locus behavior of two similar OLTFs with a critical difference. For each system I determined the following graphical parameters:
+
+- Root locus for positive gain
+- Angle of each asymptote
+- Center of asymptotes on the real axis
+- Location of break-away points
+- Imaginary axis intercepts
+
+My hand calculations & methods used to obtain these parameters are provided below.
+
 
 
 ---
