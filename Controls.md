@@ -11,11 +11,13 @@ title: Control Systems Stability Analysis Project
 
 ## Project Overview
 
-During my spacecraft controls course, I had the opportunity to lead a group of three students in an analytical research project focused on stability characteristics of second-order feedback control systems. The primary objective of the project was to use classical control theory to analyze control system design methods commonly used for spacecraft dynamics & stability applications.
+During my spacecraft controls course, I led a group of three students in an analytical research project investigating stability characteristics of second-order feedback control systems. The objective of the project was to apply classical control theory to analyze design methods commonly used for spacecraft guidance, navigation, and control systems.
 
-We used a combination of MATLAB transfer function simulation, root locus methods, and classical control theory to model the effects of varying control system parameters. By adjusting the values of proportional gain, undamped natural frequency, and damping ratio, we observed the effect on performance metrics such as settling time, overshoot, and pole location.
+Using a combination of MATLAB transfer function modeling, root locus analysis, and classical control methods, we examined how variations in key control parameters affect system performance metrics. By tuning proportional gain, damping ratio, and undamped natural frequency we observed the resulting effect on settling time, percent overshoot, and closed-loop pole location.
 
-The concepts covered throughout the stability analysis project were excluded from the course curriculum, which gave us a good opportunity to conduct external research & hone our technical communication skills. The culmination of our research & design efforts was documented in a technical report provided below:
+These stability metrics are critical in spacecraft attitude control systems. Operating in hostile environments with an abundance of disturbances, feedback control systems must respond quickly with minimal oscillations to reduce pointing error for sensors & communication hardware.
+
+The stability analysis concepts explored in this project were not part of the formal course curriculum, which provided our team with an opportunity to conduct independent research & develop technical communication skills. The culmination of our efforts was documented in a detailed technical report provided below:
 
 ### [Control Systems Stability Analysis Report (PDF)](assets/control_project.pdf)
 
@@ -23,44 +25,54 @@ The concepts covered throughout the stability analysis project were excluded fro
 
 ## My Responsibilities
 
-The project deliverables were split into two main tasks. In task 1, we were given an open-loop transfer function (OLTF) & required to solve for the positive gain value yielding the minimum damping ratio for the system. The resulting parameters were then used to calculate the minimum 2% settling time.
+The project consisted of two primary tasks involving analytical stability analysis & root locus modeling.
 
-Task 2 focused on root locus behavior & system stability utilizing a graphical approach. We considered two open-loop transfer functions with the same closed-loop pole locations; however, one model also included an open-loop zero. The goal of task 2 was to evaluate the system's transient response characteristics & analyze the difference between the two transfer functions.
 
-As the project lead, my most valuable contributions included conducting hand calculations to solve each deliverable in tasks 1 & 2. I then created a MATLAB program to visualize the root locus plots & verify the accuracy of my hand calculations.
 
 ### Task 1 (Closed-Loop Pole Analysis)
 
-Provided below is a walkthrough of the methods I used to calculate the optimal gain for minimal damping & the corresponding 2% settling time for the given OLTF:
+The first task focused on analyzing a given open-loop transfer function (OLTF) to determine the positive gain vlaue that produced the minimum damping ratio in the closed-loop system. From this condition, I obtained the 2% settling time, an important metric describing how quickly the system reaches steady-state after a disturbance.
+
+As the project lead, I performed the analytical derivation required to solve for the optimal gain & associated system parameters.
+
+Provided below is a walkthrough of the methods I used to calculate the system's response parameters:
 <div style="text-align: center;">
     <img src="assets/controls_eqns_1.png" style="width: 60%; max-width: 750px; height: auto">
-    <p><em>OLTF & characteristic equations</em></p>
+    <p><em>Open-loop transfer function & resulting characteristic equation</em></p>
 </div>
-Beginning with the OLTF (G(s)) defined by an open-loop zero & poles at s = -1, -3, -9 on the real axis, I considered the system's characteristic equation (C(s)) with the implementation of proportional gain K. Important notes to consider here are the open-loop pole locations & signs of terms in C(s). Both poles lie in the left-side of the s-plane & each term in the characteristic equation has the same sign; these system qualities indicate stability at first glance. 
+The OLTF G(s) contained an open-loop zero & three poles located on the negative real axis at s = -1, -3, -9. It's important to note that all the poles lie in the left half of the complex plane & each term in the characteristic equation C(s) shares the same sign (+). These system characteristics indicate stability at first glance.
 
-To obtain expressions for undamped natural frequency & minimum damping ratio in terms of K, I compared the characteristic equation to the standard form of a second order system. Setting the equations equal to each other and matching coefficients for each term yields the following equations in terms of only gain.
+To obtain expressions for undamped natural frequency & damping ratio in terms of proportional gain K, I compared the derived characteristic equation to the standard form of a second order system. Matching coefficients between the two equations allowed the system parameters to be expressed solely as functions of gain.
 <div style="text-align: center;">
     <img src="assets/controls_eqns_2.png" style="width: 60%; max-width: 1000px; height: auto">
-    <p><em>Coefficient matching & gain calculation</em></p>
+    <p><em>Coefficient matching used to express system parameters as functions of gain</em></p>
 </div>
-To solve for the optimal gain value associated with the minimum damping ratio, I defined a function f(K) & set it's derivative equal to zero in order to identify the extrema. Next I used the quadratic equation to solve for K. Of the two solutions, the negative value can be neglected because one of the task 1 requirements was to solve for positive gain that yielded the minimum damping ratio. After determining the optimal proportional gain, I used the value K = 3.333 in the previously derived expressions to obtain minimum damping ratio & undamped natural frequency as seen below.
+To determine the gain value associated with the minimum damping ratio, I defined a function f(K) & set it's derivative equal to zero to identify the extrema. Solving the resulting quadratic equation yielded two potential gain values; however, the negative solution can be neglected because the system specification required positive proportional gain.
+
+Substituting the optimal gain value K = 3.333 into the previously derived expressions produced the system's minimum damping ratio & undamped natrual frequency.
 <div style="text-align: center;">
     <img src="assets/controls_eqns_3.png" style="width: 60%; max-width: 750px; height: auto">
-    <p><em>Damping parameters & transient response metrics</em></p>
+    <p><em>Derived damping parameters & transient response metrics</em></p>
 </div>
-After determining the transfer function's design parameters, I used the values to calculate the overshoot percentage & 2% settling time for the response output. These metrics provide important insight regarding the system's stability & transient response time.
+Using these parameters, I calculated the system's percent overshoot & 2% settling time, providing insight into how quickly & smoothly the control system responds to disturbances.
+
+Applying these performance metrics to real spacecraft systems directly influences attitude pointing performance. Any satellite performing surface imaging must minimize overshoot & oscillations to ensure cameras remain accurately pointed at their target.
 
 ### Task 2 (Root Locus Behavior)
 
-Part 2 of the project focused on root locus behavior of two similar OLTFs with a critical difference. For each system I determined the following graphical parameters:
+The second task investigated the root locus behavior of two open-loop transfer function with identitcal closed-loop pole locations. The key difference bewteen the systems was the presence of an open-loop zero in the second transfer function.
+
+For each system, I calculated the following graphical characteristics to draw the root locus by hand:
 
 - Root locus for positive gain
-- Angle of each asymptote
-- Center of asymptotes on the real axis
-- Location of break-away points
-- Imaginary axis intercepts
+- Asymptote angles
+- Asymptote centroid on the real axis
+- Breakaway points
+- Imaginary-axis intercepts
 
-My hand calculations & methods used to obtain these parameters are provided below.
+These parametrs define how the closed-loop poles move in the complex plane as gain varies; a fundamental concept for tuning control systems.
+
+My derivations for each parameter are shown below.
 <div style="
   position: relative;
   left: 50%;
@@ -75,44 +87,49 @@ My hand calculations & methods used to obtain these parameters are provided belo
   margin-bottom: 30px;
 ">
   
-  <div style="flex: 1; text-align: center;">
-    <img src="assets/root_locus_1_calc.jpg" style="width: 100%; max-width: 750px; height: auto">
+  <div style="flex: 2; text-align: center;">
+    <img src="assets/root_locus_1_calc.jpg" style="width: 100%; max-width: 1500px; height: auto">
     <p><em></em></p>
   </div>
 
-  <div style="flex: 2; text-align: center;">
-    <img src="assets/root_locus_1_calc2.jpg" style="width: 100%; max-width: 1500px; height: auto">
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/root_locus_1_calc2.jpg" style="width: 100%; max-width: 750px; height: auto">
     <p><em></em></p>
   </div>
 
 </div>
-After calculating all the necessary parameters, I plotted the root locus for the first system as seen below.
+Using these parameters, I constructed a hand-drawn root locus plot for the first system.
 <div style="text-align: center;">
     <img src="assets/root_locus_1.jpg" style="width: 100%; max-width: 1000px; height: auto">
-    <p><em>System 1 root locus plot</em></p>
+    <p><em>Root locus plot for system 1</em></p>
 </div>
-The next step was to verify my solution using MATLAB transfer function modeling. For the first system, I created a program defining the transfer function & used MATLAB's built in "rlocus" function to produce the figure seen below.
+To verify my analytical results, I developed a MATLAB script defining the transfer function and used the built in "rlocus()" function to generate the corresponding plot.
 <div style="text-align: center;">
     <img src="assets/Task_2A.jpg" style="width: 100%; max-width: 1000px; height: auto">
-    <p><em>System 1 root locus plot in MATLAB</em></p>
+    <p><em>MATLAB root locus verification for system 1</em></p>
 </div>
-Comparing the two plots reinforced the validity of my hand calculations & the use of classical control theory to model transient response behavior with root locus methods.
+The close agreement between the analytical plot & MATLAB output validated the accuracy of my calculations & demonstrates how classical control theory can be used to accurately predict closed-loop stability behavior. An important note for this system is the imaginary-axis intercepts. Their presence indicates instability in the system for large gain values.
 
-For system 2, the OLTF included an open-loop zero at s = -0.5 that changed the root locus drastically. I used the same methods to calculate each graphical parameter as shown above, but several values underwent significant changes. Both my hand drawn root locus and the MATLAB representation are displayed below.
+
+The second system introduced an open-loop zero at s = -0.5, significatnly altering the root locus trajectory & transient response characteristics.
 <div style="text-align: center;">
     <img src="assets/root_locus_2.jpg" style="width: 100%; max-width: 1000px; height: auto">
-    <p><em>System 2 root locus plot</em></p>
+    <p><em>Root locus plot for system 2</em></p>
 </div>
 <div style="text-align: center;">
     <img src="assets/Task_2B.jpg" style="width: 100%; max-width: 1000px; height: auto">
-    <p><em>System 2 root locus plot in MATLAB</em></p>
+    <p><em>MATLAB root locus verification for system 2</em></p>
 </div>
-Observing the difference in root loci between systems 1 & 2 highlights the impact of control system design decisions such as open-loop pole/zero placement.
+Observing the difference between the systems highlights how open-loop pole/zero placement strongly influences system stability & transient response behavior. These are vital decisions to consider when designing spacecraft control system such as reaction wheel controller or satellite pointing loops.
 
 ---
 
 ## Key Takeaways
 
-This project was instrumental for my understanding of control system design & system stability. In task one I utilized classical control theory to observe how vital transient response characterstics vary as a function of an independently chosen gain value.
+This project was instrumental for  strengthening my understanding of classical control system design & stability analysis.
 
-Task two showed me how root locus plots visualize the movement of closed-loop poles in the s-plane 
+Through the analytical derivations in Task 1, I explored how proportional gain influences damping ratio, settling time, and transient response behavior in second-order systems.
+
+Task 2 introduced me to the capabilities of root locus analysis as a graphical design tool, allowing engineers to visualize how closed-loop poles migrate as gain varies. This method is widely used when designing & tuning control systems for aerospace applications, including spacecraft attitude control, launch vehicle guidance, and aircraft autopilot systems.
+
+Overall, the project reinforced the importance of combining analytical methods with computational tools such as MATLAB to efficiently analyze & validate control system performance.
