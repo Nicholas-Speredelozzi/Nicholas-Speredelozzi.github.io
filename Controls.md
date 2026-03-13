@@ -105,7 +105,7 @@ Using these parameters, I constructed a hand-drawn root locus plot for the first
 </div>
 To verify my analytical results, I developed a MATLAB script defining the transfer function and used the built-in "rlocus()" function to generate the corresponding plot.
 <div style="text-align: center;">
-    <img src="assets/Task_2A.jpg" style="width: 100%; max-width: 1000px; height: auto">
+    <img src="assets/Task_2A.jpeg" style="width: 100%; max-width: 1000px; height: auto">
     <p><em>MATLAB root locus verification for system 1</em></p>
 </div>
 The close agreement between the analytical plot & MATLAB output validated the accuracy of my calculations & demonstrates how classical control theory can be used to accurately predict closed-loop stability behavior. An important note for this system is the imaginary-axis intercepts. Their presence indicates instability in the system for large gain values.
@@ -117,7 +117,7 @@ The second system introduced an open-loop zero at s = -0.5, significantly alteri
     <p><em>Root locus plot for system 2</em></p>
 </div>
 <div style="text-align: center;">
-    <img src="assets/Task_2B.jpg" style="width: 100%; max-width: 1000px; height: auto">
+    <img src="assets/Task_2B.jpeg" style="width: 100%; max-width: 1000px; height: auto">
     <p><em>MATLAB root locus verification for system 2</em></p>
 </div>
 Observing the difference between the systems highlights how open-loop pole/zero placement strongly influences system stability & transient response behavior. These are vital decisions to consider when designing spacecraft control systems, such as reaction wheel controllers or satellite pointing loops.
