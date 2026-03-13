@@ -5,7 +5,9 @@ title: Launch Vehicle Design Project
 
 **Role:** Systems Integration Engineer  
 **Institution:** Embry-Riddle Aeronautical University  
-**Dates:** January 2023 - February 2023
+**Course:** Introduction to Engineering (EGR 101)  
+**Dates:** January 2023 - February 2023  
+**Tools:** MATLAB, CATIA, Microsoft Suite
 
 ---
 
