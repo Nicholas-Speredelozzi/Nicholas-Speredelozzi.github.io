@@ -5,7 +5,9 @@ title: CubeSat Senior Design
 
 **Role:** Lead Environmental Engineer & Requirements Developer  
 **Institution:** Embry-Riddle Aeronautical University  
-**Mission Concept:** Space Situational Awareness in GEO  
+**Course:** Spacecraft Preliminary Design (AE 427) & Spacecraft Detail Design (AE 445)
+**Date:** August 2025 - April 2026
+**Tools:** STK, MATLAB, Ansys Thermal Desktop, CATIA, Microsoft Suite
 
 ---
 
