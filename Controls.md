@@ -13,7 +13,7 @@ title: Control Systems Stability Analysis Project
 
 During my spacecraft controls course, I led a group of three students in an analytical research project investigating stability characteristics of second-order feedback control systems. The objective of the project was to apply classical control theory to analyze design methods commonly used for spacecraft guidance, navigation, and control systems.
 
-Using a combination of MATLAB transfer function modeling, root locus analysis, and classical control methods, we examined how variations in key control parameters affect system performance metrics. By tuning proportional gain, damping ratio, and undamped natural frequency we observed the resulting effect on settling time, percent overshoot, and closed-loop pole location.
+Using a combination of MATLAB transfer function modeling, root locus analysis, and classical control methods, we examined how variations in key control parameters affect system performance metrics. By tuning proportional gain, damping ratio, and undamped natural frequency, we observed the resulting effect on settling time, percent overshoot, and closed-loop pole location.
 
 These stability metrics are critical in spacecraft attitude control systems. Operating in hostile environments with an abundance of disturbances, feedback control systems must respond quickly with minimal oscillations to reduce pointing error for sensors & communication hardware.
 
@@ -31,7 +31,7 @@ The project consisted of two primary tasks involving analytical stability analys
 
 ### Task 1 (Closed-Loop Pole Analysis)
 
-The first task focused on analyzing a given open-loop transfer function (OLTF) to determine the positive gain vlaue that produced the minimum damping ratio in the closed-loop system. From this condition, I obtained the 2% settling time, an important metric describing how quickly the system reaches steady-state after a disturbance.
+The first task focused on analyzing a given open-loop transfer function (OLTF) to determine the positive gain value that produced the minimum damping ratio in the closed-loop system. From this condition, I obtained the 2% settling time, an important metric describing how quickly the system reaches steady-state after a disturbance.
 
 As the project lead, I performed the analytical derivation required to solve for the optimal gain & associated system parameters.
 
@@ -42,14 +42,14 @@ Provided below is a walkthrough of the methods I used to calculate the system's 
 </div>
 The OLTF G(s) contained an open-loop zero & three poles located on the negative real axis at s = -1, -3, -9. It's important to note that all the poles lie in the left half of the complex plane & each term in the characteristic equation C(s) shares the same sign (+). These system characteristics indicate stability at first glance.
 
-To obtain expressions for undamped natural frequency & damping ratio in terms of proportional gain K, I compared the derived characteristic equation to the standard form of a second order system. Matching coefficients between the two equations allowed the system parameters to be expressed solely as functions of gain.
+To obtain expressions for undamped natural frequency & damping ratio in terms of proportional gain K, I compared the derived characteristic equation to the standard form of a second-order system. Matching coefficients between the two equations allowed the system parameters to be expressed solely as functions of gain.
 <div style="text-align: center;">
     <img src="assets/controls_eqns_2.png" style="width: 60%; max-width: 1000px; height: auto">
-    <p><em>Coefficient matching used to express system parameters as functions of gain</em></p>
+    <p><em>Coefficient matching & proportional gain solution</em></p>
 </div>
-To determine the gain value associated with the minimum damping ratio, I defined a function f(K) & set it's derivative equal to zero to identify the extrema. Solving the resulting quadratic equation yielded two potential gain values; however, the negative solution can be neglected because the system specification required positive proportional gain.
+To determine the gain value associated with the minimum damping ratio, I defined a function f(K) & set its derivative equal to zero to identify the extrema. Solving the resulting quadratic equation yielded two potential gain values; however, the negative solution can be neglected because the system specification required positive proportional gain.
 
-Substituting the optimal gain value K = 3.333 into the previously derived expressions produced the system's minimum damping ratio & undamped natrual frequency.
+Substituting the optimal gain value K = 3.333 into the previously derived expressions produced the system's minimum damping ratio & undamped natural frequency.
 <div style="text-align: center;">
     <img src="assets/controls_eqns_3.png" style="width: 60%; max-width: 750px; height: auto">
     <p><em>Derived damping parameters & transient response metrics</em></p>
@@ -60,7 +60,7 @@ Applying these performance metrics to real spacecraft systems directly influence
 
 ### Task 2 (Root Locus Behavior)
 
-The second task investigated the root locus behavior of two open-loop transfer function with identitcal closed-loop pole locations. The key difference bewteen the systems was the presence of an open-loop zero in the second transfer function.
+The second task investigated the root locus behavior of two open-loop transfer functions with identical closed-loop pole locations. The key difference between the systems was the presence of an open-loop zero in the second transfer function.
 
 For each system, I calculated the following graphical characteristics to draw the root locus by hand:
 
@@ -70,7 +70,7 @@ For each system, I calculated the following graphical characteristics to draw th
 - Breakaway points
 - Imaginary-axis intercepts
 
-These parametrs define how the closed-loop poles move in the complex plane as gain varies; a fundamental concept for tuning control systems.
+These parameters define how the closed-loop poles move in the complex plane as gain varies; a fundamental concept for tuning control systems.
 
 My derivations for each parameter are shown below.
 <div style="
@@ -87,7 +87,7 @@ My derivations for each parameter are shown below.
   margin-bottom: 30px;
 ">
   
-  <div style="flex: 2; text-align: center;">
+  <div style="flex: 1; text-align: center;">
     <img src="assets/root_locus_1_calc.jpg" style="width: 100%; max-width: 1500px; height: auto">
     <p><em></em></p>
   </div>
@@ -103,7 +103,7 @@ Using these parameters, I constructed a hand-drawn root locus plot for the first
     <img src="assets/root_locus_1.jpg" style="width: 100%; max-width: 1000px; height: auto">
     <p><em>Root locus plot for system 1</em></p>
 </div>
-To verify my analytical results, I developed a MATLAB script defining the transfer function and used the built in "rlocus()" function to generate the corresponding plot.
+To verify my analytical results, I developed a MATLAB script defining the transfer function and used the built-in "rlocus()" function to generate the corresponding plot.
 <div style="text-align: center;">
     <img src="assets/Task_2A.jpg" style="width: 100%; max-width: 1000px; height: auto">
     <p><em>MATLAB root locus verification for system 1</em></p>
@@ -111,7 +111,7 @@ To verify my analytical results, I developed a MATLAB script defining the transf
 The close agreement between the analytical plot & MATLAB output validated the accuracy of my calculations & demonstrates how classical control theory can be used to accurately predict closed-loop stability behavior. An important note for this system is the imaginary-axis intercepts. Their presence indicates instability in the system for large gain values.
 
 
-The second system introduced an open-loop zero at s = -0.5, significatnly altering the root locus trajectory & transient response characteristics.
+The second system introduced an open-loop zero at s = -0.5, significantly altering the root locus trajectory & transient response characteristics.
 <div style="text-align: center;">
     <img src="assets/root_locus_2.jpg" style="width: 100%; max-width: 1000px; height: auto">
     <p><em>Root locus plot for system 2</em></p>
@@ -120,7 +120,7 @@ The second system introduced an open-loop zero at s = -0.5, significatnly alteri
     <img src="assets/Task_2B.jpg" style="width: 100%; max-width: 1000px; height: auto">
     <p><em>MATLAB root locus verification for system 2</em></p>
 </div>
-Observing the difference between the systems highlights how open-loop pole/zero placement strongly influences system stability & transient response behavior. These are vital decisions to consider when designing spacecraft control system such as reaction wheel controller or satellite pointing loops.
+Observing the difference between the systems highlights how open-loop pole/zero placement strongly influences system stability & transient response behavior. These are vital decisions to consider when designing spacecraft control systems, such as reaction wheel controllers or satellite pointing loops.
 
 ---
 
