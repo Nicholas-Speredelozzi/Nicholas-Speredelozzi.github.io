@@ -117,7 +117,7 @@ The second system introduced an open-loop zero at s = -0.5, significantly alteri
     <p><em>Root locus plot for system 2</em></p>
 </div>
 <div style="text-align: center;">
-    <img src="assets/Task_2B.jpeg" style="width: 100%; max-width: 1000px; height: auto">
+    <img src="assets/Task_2b.jpeg" style="width: 100%; max-width: 1000px; height: auto">
     <p><em>MATLAB root locus verification for system 2</em></p>
 </div>
 Observing the difference between the systems highlights how open-loop pole/zero placement strongly influences system stability & transient response behavior. These are vital decisions to consider when designing spacecraft control systems, such as reaction wheel controllers or satellite pointing loops.
