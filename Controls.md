@@ -5,13 +5,15 @@ title: Control Systems Stability Analysis Project
 
 **Role:** Project Lead  
 **Institution:** Embry-Riddle Aeronautical University  
-**Dates:** October 2025 - December 2025
+**Course:** Spacecraft Control (AE 434)  
+**Dates:** October 2025 - December 2025  
+**Tools:** MATLAB
 
 ---
 
 ## Project Overview
 
-During my spacecraft controls course, I led a group of three students in an analytical research project investigating stability characteristics of second-order feedback control systems. The objective of the project was to apply classical control theory to analyze design methods commonly used for spacecraft guidance, navigation, and control systems.
+During my spacecraft control course, I led a group of three students in an analytical research project investigating stability characteristics of second-order feedback control systems. The objective of the project was to apply classical control theory to analyze design methods commonly used for spacecraft guidance, navigation, and control systems.
 
 Using a combination of MATLAB transfer function modeling, root locus analysis, and classical control methods, we examined how variations in key control parameters affect system performance metrics. By tuning proportional gain, damping ratio, and undamped natural frequency, we observed the resulting effect on settling time, percent overshoot, and closed-loop pole location.
 
