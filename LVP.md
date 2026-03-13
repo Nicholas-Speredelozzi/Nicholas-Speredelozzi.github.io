@@ -11,126 +11,170 @@ title: Launch Vehicle Design Project
 
 ## Project Overview
 
-The launch vehicle project focused on the integration & conceptual design process for a multi-stage, hybrid-fueled medium-lift launch vehicle. This project took place during my freshman year & was structured as a precursor to the more detailed, in-depth senior design projects. Although it didn't reach the same technical depth as my capstone project, I still found a lot of value in its reinforcement of systems-level thinking & emphasis on iterative workflows to optimize spacecraft design.
+This project focused on the conceptual design & integration of a multi-stage, hybrid-fueled medium-lift launch vehicle capable of delivering a 4,750 lb reconnaissance satellite into Low Earth Orbit (LEO). Conducted during my freshman year, the project served as an introduction to aerospace systems engineering & the iterative design workflows used in real launch vehicle development programs.
 
-The primary objective of this project was to utilize systems engineering principles in the conceptual design process of a multi-stage launch vehicle capable of delivering a 4,750 lb reconnaissance satellite into Low Earth Orbit (LEO). The design process began by selecting an orbital altitude, calculating the required change in velocity (ΔV), and developing a vehicle configuration capable of achieving that performance while meeting structural & propulsion constraints.
+Although the technical depth was intentionally limited compared to senior-level design projects, the assignment emphasized systems-level thinking, requiring our team to balance propulsion efficiency, structural feasibility, trajectory constraints, and payload requirements within a single integrated vehicle architecture.
 
-Throughout the mission, we used iteration-based tools in MATLAB & Excel to optimize mass distribution between stages, efficient use of propellant to achieve maximum ΔV, and launch trajectory characteristics to ensure safe payload delivery.
+The design process began with selecting an orbital altitude & calculating the total change in velocity (ΔV) required to reach orbit. From there, we developed a vehicle configuration capable of delivering that performance while satisfying constraints & propulsion limitations.
+
+Throughout the project, we used iteration-based tools in MATLAB & Excel to optimize: 
+- Mass distribution between stages
+- Propellant utilization for maximum ΔV
+- Launch trajectory characteristics
+- Thrust-to-weight ratios for each stage
 <div style="text-align: center;">
     <img src="assets/LVP_conops.jpg" style="width: 75%; max-width: 1750px; height: auto">
-    <p><em>Launch vehicle project workflow</em></p>
+    <p><em>Launch vehicle design workflow</em></p>
 </div>
-Displayed above is a flowchart that provides the general procedure we followed throughout the launch vehicle design project. Arrows that loop back to a higher block represent iterations that could have been necessary to optimize performance or address potential issues.
+The flowchart above illustrates the iterative design process used throughout the project. Many stages of the workflow loop back to earlier steps, reflecting how real aerospace design programs continuously refine vehicle parameters as new constraints or performance limitations emerge.
 
-Adhering to a set schedule with milestone updates was another important priority throughout the design process. Below is a Gantt chart that outlines the various work phases & deliverables we supplied over the course of the project.
+Another key component of the project was maintaining a structured development timeline. The team followed a milestone-driven schedule similar to those used in professional engineering programs.
 <div style="text-align: center;">
     <img src="assets/LVP_schedule.jpg" style="width: 100%; max-width: 2000px; height: auto">
-    <p><em>Project schedule Gantt chart</em></p>
+    <p><em>Project schedule & milestone timeline</em></p>
 </div>
 
 ---
 
 ## My Responsibilities
+Our team consisted of four students, each responsible for a different subsystem of the launch vehicle. In my role as Systems Integration Engineer, I focused on vehicle configuration decisions & ensuring compatibility between propulsion systems, structural components, and stage interfaces.
 
-Our team consisted of 4 students, each with individual roles & responsibilities that contribute to the overarching launch vehicle design. In my role as systems integration engineer, I was responsible for vehicle configuration decisions, internal/structural feasibility, and integration logistics between structural components, solid/liquid fueled boosters, and inter-stage architectures.
+My responsibilities included defining the vehicle architecture, verifying structural feasibility, and coordinating integration between solid rocket boosters, liquid propulsion components, and interstage structures.
+
+---
 
 ### Vehicle Configuration
 
-One of my primary roles throughout the project was to define the vehicle architecture & ensure compatible interfacing between the multiple stages. Below is an overview of our final launch vehicle with important components labeled.
+One of my primary responsibilities was defining the overall vehicle architecture & ensuring proper interfacing between stages.
+
 <div style="text-align: center;">
     <img src="assets/rocket_diagram.jpg" style="width: 50%; max-width: 750px; height: auto">
-    <p><em>Launch vehicle schematic</em></p>
+    <p><em>Final launch vehicle configuration</em></p>
 </div>
-As seen in the diagram, our final design utilized solid rocket motors for the first stage, with a liquid propulsion system powering the second stage. Each fairing, bulkhead, and propellant tank underwent structural feasibility checks, adhering to industry standard factors of safety (~1.1 - 1.5).
+
+The final configuration used solid rocket motors (SRMs) for the first stage to provide high initial thrust, followed by a liquid-propelled second stage to efficiently complete orbital insertion.
+
+This hybrid approach reflects real-world launch vehicle design strategies, where solid propulsion provides high thrust for liftoff, while liquid propulsion enables precise control & higher efficiency during upper-stage burns.
+
+Structural components such as fairings, bulkheads, and propellant tanks were sized using industry-standard factors of safety between 1.1 & 1.5 to ensure structural reliability under launch loads.
+
+---
 
 ### Stage Optimization
 
-To obtain the finalized architecture shown in the previous figure, we began by using a MATLAB program developed by previous students that optimized the weight distributions between the selected number of stages. The program provided optimized values for structural mass, propellant mass, and total achievable ΔV for each stage based on the following inputs:
+To determine the optimal architecture, we began with a MATLAB stage optimization tool developed by previous students. The program calculated the most efficient distribution of structural & propellant mass across a specified number of stages.
+
+Inputs for the stage-optimizer included:
 
 - Number of stages (2 or 3)
 - Desired specific impulse of each stage
-- Total vehicle mass (propellant, structural, and payload)
+- Total vehicle mass
 - Payload mass
-- Structural coefficients of each stage
+- Structural coefficients
 
-For inputs based on specific engine performance characteristics or non-finalized values, we researched launch vehicles similar to the architecture we had in mind & tweaked the inputs until the achievable ΔV matched our calculated value. The MATLAB stage optimizer was the first of many iteration-focused design tools used to support the design of our launch vehicle.
+Because several inputs depended on preliminary design assumptions, we researched existing launch vehicles with similar architectures & adjusted parameters until the optimized ΔV matched our calculated orbital requirement.
+
+This type of iterative performance modeling is widely used in early-stage launch vehicle design, where engineers explore different configurations to determine the most efficient architecture to meet the necessary requirements.
+
+---
 
 ### Trajectory Spreadsheet & Thrust/Weight Ratios
 
-The next step in the design process was to determine the thrust-to-weight ratios required at each stage to produce the ΔV computed by the stage optimizer. This task was carried out through the iterative use of an Excel spreadsheet shown below. 
+After establishing the optimal mass distribution between the stages, we used an Excel-based trajectory model to determine the thrust-to-weight ratios required to achieve the desired orbital velocity.
 <div style="text-align: center;">
     <img src="assets/trajectory_spreadsheet.png" style="width: 100%; max-width: 2000px; height: auto">
-    <p><em>Excel trajectory optimization spreadsheet</em></p>
+    <p><em>Trajectory optimization spreadsheet</em></p>
 </div>
 <div style="text-align: center;">
     <img src="assets/trajectory_plots.png" style="width: 100%; max-width: 2000px; height: auto">
-    <p><em>Trajectory plots denoting altitude & angle vs. time</em></p>
+    <p><em>Trajectory plots showing altitude & flight path angle vs. time</em></p>
 </div>
-Inputs for the trajectory optimization spreadsheet utilized known values obtained from the stage optimizer, alongside unknown values such as thrust-to-weight ratios, frontal areas (drag coefficient), and pitch-over maneuver altitude. This ambiguity gave us another opportunity to adjust the unknowns & iterate the model until we obtained the desired performance.
+The trajectory model incorporated both known parameters from the stage optimizer & unknown design variables such as:
 
-The outputs provided by the trajectory spreadsheet gave us critical information for the following launch & orbital insertion parameters:
+- Thrust-to-weight ratio
+- Vehicle drag characteristics
+- Pitch-over maneuver altitude
+
+By iteratively adjusting these values, we were able to achieve a trajectory that met the required orbital velocity while maintaining realistic ascent dynamics. The final model produced several key launch parameters, including:
 
 - Burnout altitude
 - Burnout angle
-- Final velocity (V_orbital)
-- Thrust for each stage
-- Burn time for each stage
+- Final orbital velocity
+- Required thrust for each stage
+- Burn duration
 
-This information allowed us to finalize what SRMs (Solid Rocket Motors) & liquid fueled boosters we would employ for the launch vehicle. We compared our thrust requirements to flight-proven engines & ultimately decided to use scaled M-24 engines for our first stage with the RL-10A Centaur booster as our liquid-fueled second stage.
+Using these outputs, we selected flight-proven propulsion systems to meet the thrust requirements. The final configuration used scaled M-24 engines for the first stage & an RL-10A Centaur upper-stage engine.
+
+---
 
 ### Structural Components
 
-Some of my most important contributions to the team took place in this phase of the launch vehicle project. After determining the required thrust & finalizing the engine selections, it was time to design the structural components.
+After determining the propulsion requirements, my primary responsibility shifted toward ensuring the structural feasibility of the launch vehicle architecture.
 
-My responsibilities to ensure structural feasibility included calculating required thickness, choosing material, and determining the structural mass of the following components:
+I calculated structural thickness, material selection, and total mass for the following components:
 
-- Inter-stage bulkheads
+- Interstage bulkheads
 - Motor fairings
-- Inter-stage adapter fairings
-- Nosecone fairing (payload)
+- Interstage adapters
+- Payload fairing
 - Propellant tanks
 
-All calculations shown below were conducted with an FOS (factor of safety) of 1.5.
+All calculations  incorporated a factor of safety of 1.5.
 
-**Fairings**
+---
 
-To determine the minimum wall thickness for each fairing, I considered the compressive loading induced by thrust as the critical stress. At this point in my education, I had not taken any mechanics or structures courses, so my professor provided the necessary equations shown below.
+#### Fairings
+
+To determine the minimum fairing wall thickness, I analyzed compressive loading caused by thrust forces during ascent, which represented the primary structural stress.
 <div style="text-align: center;">
     <img src="assets/wall_thickness_eqn.png" style="width: 60%; max-width: 1000px; height: auto">
-    <p><em>Minimum fairing wall thickness equation</em></p>
+    <p><em>Fairing wall thickness equation</em></p>
 </div>
-I used this equation to determine the thickness of all the launch vehicle fairings. However, a material needed to be chosen to obtain a value for yield strength. I ran the calculation for a few different options before landing on aluminum (6061-T6) as the optimal material for the fairings. The balance between yield stress & low density provided the necessary protection without adding excessive mass to the launch vehicle.
+Although I had not yet taken any formal structures or mechanics courses at the time, my professor provided the necessary equations to perform the analysis.
 
-The height-to-diameter ratios for each fairing were dependent upon the SRM diameters, liquid propellant tank sizes, and nozzle sizes. However, in order for the launch vehicle to remain aerodynamically feasible, the following H/D requirements had to be met:
+I evaluated several material options before selecting 6061-T6 aluminum, which offered an effective balance between yield strength & low density.
 
-- First stage configuration (entire vehicle height):      7 < H/D < 15
-- Second stage configuration (stage 2 + payload stage):   5 < H/D < 13
+To ensure aerodynamic stability, the vehicle also had to meet height-to-diameter ratio constraints:
 
-To ensure I met the requirements, I researched the pros & cons of different nosecone fairing shapes, ultimately choosing an elliptical section to house the satellite. Lastly, to calculate the total mass of the fairings, I used the height, thickness, and material density values.
+- Initial launch configuration:      7 < H/D < 15
+- Upper stage configuration:         5 < H/D < 13
 
-**Bulkheads**
+After evaluating several nosecone geometries, I selected an elliptical payload fairing due to its favorable aerodynamic properties.
 
-To calculate the bulkhead thickness at each stage, the primary failure mode to consider was the bending stress developed from the weight of the vehicle supported by each respective bulkhead. The equation shown below for applied stress was used for each bulkhead, adjusting the T/W ratio to accurately reflect each stage.
+---
+
+#### Bulkheads
+
+Bulkhead design focused on resisting bending stresses caused by the weight of the vehicle & thrust loads transmitted between stages.
+
 <div style="text-align: center;">
     <img src="assets/bulkhead_stress_eqn.png" style="width: 65%; max-width: 1200px; height: auto">
     <p><em>Bulkhead applied stress equation</em></p>
 </div>
-Extracting the thickness from this equation is an iterative process. The equation cannot be algebraically manipulated to solve for bulkhead thickness directly, so I tested different values until the applied stress matched the expected value.
+Because the equation could not be solved directly for thickness, I determined the required value through an iterative approach, tuning the thickness value until the calculated applied stress matched the yield stress of the selected material.
 
-Accounting for the intense loading carried by the bulkheads, I selected stainless steel as the material. As the launch vehicle ascends, it requires less thrust to continue accelerating & loses weight as propellant is burned, so the thickness of each bulkhead decreases with each stage. Similar to the fairings, the bulkhead masses were calculated using the volume determined by thickness/radius & the material density.
+Due to the high structural loads carried by bulkheads, I selected stainless steel as the material.
 
-**Prepellant Tanks**
+Bulkhead thickness for each interstage structure decreases with altitude because vehicle mass & thrust loads diminish as propellant is consumed during ascent.
 
-Obtaining the mass of the propellant tanks is dependent upon the volume & wall thickness of each tank. At this point in the project, I only knew the total mass of propellant for the second stage from the MATLAB Stage optimizer. In order to calculate the weight of the fuel & oxidizer as well as the necessary tank volumes, I utilized the equations shown below:
+---
+
+#### Propellant Tanks
+
+The propellant tank design required determining both the volume & structural thickness needed to safely contain the liquid hydrogen & liquid oxygen used by the upper-stage engine.
 <div style="text-align: center;">
     <img src="assets/fuel_volume_eqn.png" style="width: 60%; max-width: 1000px; height: auto">
     <p><em>Fuel/Oxidizer weight & tank volume equations</em></p>
 </div>
-The mixture ratio is dependent upon the chosen booster characteristics. The Centaur uses a ratio of 5:1 liquid oxygen to liquid hydrogen. Next, I used the tank volumes to determine the total height of the pill-shaped tanks.
+Using the RL-10A engine mixture ratio of 5:1 oxidizer to  fuel, I calculated the required propellant masses & corresponding tank volumes.
 
-To determine the wall thickness, I needed to calculate the maximum pressure the tanks would endure during launch. This pressure maximum corresponds to the most likely failure mode for pressure vessels, hoop stress. Max pressure is measured as the summation of gas pressure, hydrostatic pressure, and inertial loading caused by worst-case acceleration.
+To determine tank thickness, the design had to account for the maximum internal pressure during launch. Launch considerations that contribute to the maximum pressure case include:
 
-The worst-case acceleration occurs at stage 1 burnout, when the thrust-to-weight ratio is greatest. Using these assumptions, I determined the minimum tank thickness from the following equations:
+- Gas pressurization
+- Hydrostatic pressure
+- Inertial loading due to vehicle acceleration
+
+The worst-case acceleration occurs at stage 1 burnout, when the thrust-to-weight ratio is greatest. Leveraging these assumptions, I determined the minimum tank thickness as follows:
 <div style="text-align: center;">
     <img src="assets/tank_thickness_eqn.png" style="width: 60%; max-width: 1000px; height: auto">
     <p><em>Worst-case acceleration, maximum pressure, and minimum tank thickness equations</em></p>
@@ -138,24 +182,34 @@ The worst-case acceleration occurs at stage 1 burnout, when the thrust-to-weight
 
 ### Feasibility Checks
 
-After I calculated the total mass of the structural components, we had all the necessary information to conduct launch vehicle configuration feasibility checks. As the systems integration engineer, I executed the necessary logistics & ensured that each system/structural component interfaced properly with each other.
+After calculating the structural masses, we performed system-level feasibility checks to ensure that the integrated vehicle met all design constraints.
+
+As Systems Integration Engineer, I verified that each subsystem interface was physically & structurally feasible with respect to the overarching vehicle architecture.
 
 Below is a table of acceptable tolerances for various parameters we calculated throughout the launch vehicle design process.
 <div style="text-align: center;">
     <img src="assets/tolerance_table.jpg" style="width: 70%; max-width: 1200px; height: auto">
-    <p><em>Allowable tolerances/ranges for launch vehicle design parameters</em></p>
+    <p><em>Launch vehicle design tolerances</em></p>
 </div>
 
-Throughout the project, we balanced aerodynamic efficiency with structurally sound stages, resulting in our launch vehicle falling comfortably within the acceptable range for all parameters.
+These checks ensured the vehicle satisfied acceptable ranges for parameters such as mass distribution, thrust-to-weight ratio, aerodynamic geometry, and structural loading.
 
 ### Cost Analysis
 
-We wrapped up the project with a cost analysis to see how our launch vehicle stacked up to other competitors. Dividing the payload mass by the cumulative cost of all structural materials & propellants yielded a figure of ~ $10,000 per pound of payload. This final cost value put our launch vehicle in the competitive realm for medium-lift launch vehicles at the time.
+The final stage of the project involved a simplified cost comparison with existing medium-lift launch vehicles.
+
+By dividing the payload mass by the estimated cost of structural materials & propellants, we obtained an approximate launch cost of $10,000 per pound of payload.
+
+This value placed our conceptual vehicle within a competitive range relative to similar launch systems operating at the time.
 
 ---
 
 ## Key Takeaways
 
-Throughout the launch vehicle project, I gained valuable experience balancing design considerations with optimization, cost, and reliability metrics. I really enjoyed how my role as systems integration engineer allowed me to influence design decisions across the entire launch vehicle.
+This project introduced me to the fundamentals of launch vehicle systems engineering & integrated design.
 
-Working with a team adhering to a set schedule also helped me sharpen my communication & organizational skills. Overall, the launch vehicle design project was my first big undertaking as an aerospace engineering undergraduate & I learned a lot of valuable lessons about systems engineering throughout the mission.
+Balancing propulsion performance, structural constraints, and trajectory requirements reinforced the importance of viewing aerospace systems as interconnected components rather than isolated subsystems.
+
+My role as Systems Integration Engineer allowed me to influence design decisions across the entire vehicle architecture while ensuring compatibility between propulsion, structural, and trajectory requirements.
+
+Although this project took place early in my undergraduate career, it provided valuable insight into the iterative design processes used in real aerospace programs, laying the foundation for the more advanced spacecraft design work I would encounter later in my degree.
