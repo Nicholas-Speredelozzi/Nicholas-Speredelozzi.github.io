@@ -11,5 +11,7 @@ title: Satellite Rotational Dynamics Programming Project
 ## Project Overview
 
 
-
 ---
+
+## Key Takeaways
+
