@@ -7,7 +7,7 @@ title: Control Systems Stability Analysis Project
 **Institution:** Embry-Riddle Aeronautical University  
 **Course:** Spacecraft Control (AE 434)  
 **Dates:** October 2025 - December 2025  
-**Tools:** MATLAB
+**Tools:** MATLAB, Microsoft Suite
 
 ---
 
