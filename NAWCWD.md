@@ -41,7 +41,7 @@ As our list of prioritized facilities expanded to Point Mugu Naval Air Station, 
 
 Throughout my time with NAWCWD, our team was commended for our professionalism, efficiency, and organization during communication with customers & frequent engineering surveys.
 
-- Updating & maintaining a database of engineering drawings & facility configurations
+- **Updating & maintaining a database of engineering drawings & facility configurations**
 
 When I first joined the IBONS team, I was expected to hit the ground running & contribute right away. My top priority was to learn on the job, ask questions, and add value to the team as quickly as possible.
 
@@ -49,7 +49,7 @@ With an expedited training process, I shadowed engineers & senior-level interns 
 
 By the end of my time with NAWCWD, I had individually developed, linked, and uploaded over 250,000 square feet of facility documentation. My supervisors praised me for my diligence & work ethic, often going above & beyond to improve standardized procedures.
   
-- Collecting field data in classified & unclassified environments
+- **Collecting field data in classified & unclassified environments**
 
 Our primary means of gathering data was through the use of a handheld LiDAR unit that collected 3D point-cloud scans of the environment. This tool was extremely useful because it allowed us to capture key features of facility architecture quickly & accurately.
 
@@ -57,7 +57,7 @@ Another benefit of the LiDAR scanner was its ability to capture dimensional prop
 
 To adapt to the facilities' needs, we used the LiDAR in addition to manual hand measurements to gather the necessary information with respect to any security requirements in the space.
   
-- Developing facility models in AutoCAD to link into the IBONS database
+- **Developing facility models in AutoCAD to link into the IBONS database**
 
 An important aspect of the job was to create accurate facility models to link into the IBONS database. We used AutoCAD as the medium to create engineering documentation that represented the physical dimensions & properties of the field data.
 
@@ -69,7 +69,7 @@ We used both 2D floor plans as well as 3D point cloud scans to model important f
 
 Using these filters, we labeled each space with a unique polygon ID. This allowed us to link the spaces into the database & display their characteristics for the informational use of Naval officers & civilian employees.
 
-- Training the next generation of interns to continue contributing in a meaningful way
+- **Training the next generation of interns to continue contributing in a meaningful way**
 
 When I returned for my second term, my responsibilities shifted & I had the opportunity to develop my leadership skills. There was turnover from the previous year, with a few new interns joining the team and some of my peers moving on to different positions. At this point, I was one of the more senior interns, & I knew how to execute the job at a high level.
 
