@@ -11,6 +11,16 @@ title: NAWCWD Internship
 
 ---
 
+## Internship Impact Summary
+
+- Documented & integrated **250,000+ sq ft of facility infrastructure** into the IBONS database
+- Conducted **engineering surveys using LiDAR & manual measurements** across multiple naval installations
+- Helped expand IBONS infrastructure mapping to **Naval Air Station Point Mugu**
+- Reduced intern onboarding time by **~40% through mentorship & workflow improvements**
+- Developed **AutoCAD facility models linked to a centralized infrastructure database**
+
+---
+
 ## Position Overview  
 
 Following my freshman year at ERAU, I had the opportunity to intern with the facilities & infrastructure team at Naval Air Warfare Center Weapons Division (NAWCWD) in China Lake, CA. Over two internship terms, I collaborated with engineers, domain experts, and fellow interns to support the Infrastructure Business Operations & Navigational Systems (IBONS) project.
