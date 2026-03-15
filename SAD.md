@@ -34,7 +34,7 @@ The simulation demonstrated stable torque-free rotational motion while maintaini
 
 ## Project Overview
 
-This project focused on the modeling & simulation of rigid satellite rotational dynamics using MATLAB. The main objective was to analyze how the angular velocity of a spacecraft evolves over time in the absense of external torques, using classical rigid body dynamics.
+This project focused on the modeling & simulation of rigid satellite rotational dynamics using MATLAB. The main objective was to analyze how the angular velocity of a spacecraft evolves over time in the absence of external torques, using classical rigid body dynamics.
 
 The satellite was modeled as a system of six fixed components, each with a defined mass & position within a body-fixed reference frame. Treating these components as point masses allowed the satellite's mass properties to be calculated directly from their spatial distribution.
 
@@ -42,24 +42,24 @@ Analysis of the system's dynamics was split into three major steps:
 
 - Determining the center of mass & inertia properties of the satellite
 - Evaluating the principal axes & moments of inertia
-- Simulating the spacecraft's roational motion using Euler's equations
+- Simulating the spacecraft's rotational motion using Euler's equations
 
 The final simulation computed the satellite's angular velocity over a 100-second time interval, while verifying the conservation of rotational kinetic energy, which should remain constant in the absence of external torques.
 
-This type of analysis forms the foundation of spacecraft attitude dynamics, where understnading rotational behavior is essential for designing stable satellites & effective attitude control systems.
+This type of analysis forms the foundation of spacecraft attitude dynamics, where understanding rotational behavior is essential for designing stable satellites & effective attitude control systems.
 
 ---
 
 ## System Modeling & Mass Properties
 
-The first deliverables for the project were the mass distribution & inertial properties of the satellite.
+The first deliverables for the project were the satellite's mass distribution & inertial properties.
 
 Each of the six components was defined by:
 
 - Mass
 - Position vector with respect to the body-fixed frame's origin
 
-The values were derived using two unique constants defined by the amount of letters in my full name & the sum of digits that make up my birthdate. The resulting mass & position of each component is displayed in the table below.
+The values were derived using two unique constants defined by the number of letters in my full name & the sum of digits that make up my birthdate. The resulting mass & position of each component are displayed in the table below.
 <div style="text-align: center;">
 <img src="assets/mass_table.png" style="width: 70%; max-width: 1400px; height: auto">
 <p><em>Component masses & coordinates in body-fixed reference frame</em></p>
@@ -73,7 +73,7 @@ The body-fixed coordinates of the center of mass (COM) were calculated using the
 <img src="assets/COM_eqn.png" style="width: 70%; max-width: 750px; height: auto">
 <p><em>Center of mass calculation</em></p>
 </div>
-In practice, the COM is an essential parameter that influences design implementation of key attitude determination & control components such as thrusters, sensors, and control actuators.
+In practice, the COM is an essential parameter that influences the design implementation of key attitude determination & control components such as thrusters, sensors, and control actuators.
 
 ### Moment of Inertia Matrix
 
@@ -99,12 +99,12 @@ I created a MATLAB loop to iterate through each component's physical properties 
 
 Once the inertia matrix about the center of mass was obtained, the next step was determining the principal axes & moments of inertia.
 
-These quantities were found by conducting an eigenvalue decomposition of the inertia matrix. The resulting eigenvalues correspond to the principal moments of inertia, while the eigenvectors define the principal axes of the sattelite.
+These quantities were found by conducting an eigenvalue decomposition of the inertia matrix. The resulting eigenvalues correspond to the principal moments of inertia, while the eigenvectors define the principal axes of the satellite.
 <div style="text-align: center;">
 <img src="assets/eig_eqn.png" style="width: 70%; max-width: 750px; height: auto">
-<p><em>Eigenvvalue decomposition</em></p>
+<p><em>Eigenvalue decomposition</em></p>
 </div>
-Using the MATLAB built-in "eig()" function, I transformed the inertia matrix into its diagonal form, yielding a coordinate system where the rotational dynamics become significatly easier to analyze.
+Using the MATLAB built-in "eig()" function, I transformed the inertia matrix into its diagonal form, yielding a coordinate system where the rotational dynamics become significantly easier to analyze.
 <div style="text-align: center;">
 <img src="assets/MATLAB_eig.png" style="width: 70%; max-width: 750px; height: auto">
 <p><em>Eigenvalues & principal inertia properties</em></p>
@@ -131,7 +131,7 @@ The simulation used the initial angular velocity vector (omega), alongside the m
 </div>
 The results show that each component of the angular velocity vector oscillates consistently between a unique range & setpoint throughout the simulation.
 
-Modeling this behavior provides crucial information for engineers to understand how a spacecraft will behave if it begins rotating unexpectedly or temporarily lose control system authority.
+Modeling this behavior provides crucial information for engineers to understand how a spacecraft will behave if it begins rotating unexpectedly or temporarily loses control system authority.
 
 ---
 
@@ -152,11 +152,11 @@ This project provided hands-on experience applying rigid body dynamics & numeric
 
 By combining analytical calculations with MATLAB-based simulation, I was able to model the rotational behavior of a satellite, determining its inertial properties to predict dynamic response over time.
 
-Throughout the project I developed skills:
+Throughout the project, I developed skills:
 
 - Computing spacecraft mass properties & inertia matrices
 - Using eigenvalue analysis to determine principal axes
 - Implementing numerical ODE solvers for dynamic simulation
 - Verifying model accuracy using first-principles applications
 
-Ultimately, I found a lot of value using fundamental attitude dynamics & control tools to suppport satellite control system development.
+Ultimately, I found a lot of value in using fundamental attitude dynamics & control methods to support satellite control system verification.
