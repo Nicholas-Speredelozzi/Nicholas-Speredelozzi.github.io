@@ -5,9 +5,30 @@ title: Launch Vehicle Design Project
 
 **Role:** Systems Integration Engineer  
 **Institution:** Embry-Riddle Aeronautical University  
-**Course:** Introduction to Engineering (EGR 101)  
-**Dates:** January 2023 - February 2023  
-**Tools:** MATLAB, CATIA, Microsoft Suite
+**Course:** EGR 101 – Introduction to Engineering  
+**Date:** January - February 2023  
+**Tools:** MATLAB, CATIA, Microsoft Suite, Iteration-based Analysis
+
+---
+
+## Engineering Snapshot
+
+**Project Type:** Conceptual Launch Vehicle Design   
+
+**Key Concepts:**  
+Rocket equation | Structural feasibility | ΔV optimization | Propulsion efficiency | System-level trade studies
+
+**My Contributions:**
+
+- Evaluated the performance of a **multi-stage launch vehicle** using simplified engineering analysis
+- **Optimized mass distribution** based on propellant, structural, and payload stage characteristics
+- Utilized the rocket equation to **calculate ΔV requirements for a medium-lift launch vehicle in LEO**
+- Analyzed launch trajectories & propellant efficiency through **iteration-based MATLAB & Excel files**
+- Designed structural architecture (fairings, bulkheads, propellant tanks) in coherence with **industry-standard FOS requirements**
+- Organized work phases & deliverables into milestones based on a **Gantt-chart project schedule**
+
+**Key Result:**  
+The analysis demonstrated how small changes in launch vehicle architecture significantly impact structural reliability, aerodynamic performance, and integration feasibility, highlighting the sensitivity of design decisions with respect to overall system design.
 
 ---
 
