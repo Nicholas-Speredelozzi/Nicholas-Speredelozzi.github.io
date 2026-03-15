@@ -7,25 +7,27 @@ title: NAWCWD Internship
 **Institution:** Naval Air Warfare Center Weapons Division (NAWCWD)  
 **Location:** China Lake, CA
 **Dates:** June 2023 - January 2025
-**Tools:** AutoCAD, Database Organization, LiDAR, Microsoft Suite
+**Tools:** AutoCAD, LiDAR, Database Management, Microsoft Suite
 
 ---
 
 ## Position Overview  
 
-Following my freshman year at ERAU, I had the opportunity to intern with the facilities & infrastructure team at Naval Air Warfare Center Weapons Division in China Lake, CA. Over the course of two terms, I collaborated with engineers, domain experts, and fellow interns to support the Infrastructure Business Operations & Navigational Systems (IBONS) project. 
+Following my freshman year at ERAU, I had the opportunity to intern with the facilities & infrastructure team at Naval Air Warfare Center Weapons Division (NAWCWD) in China Lake, CA. Over two internship terms, I collaborated with engineers, domain experts, and fellow interns to support the Infrastructure Business Operations & Navigational Systems (IBONS) project.
 
-The primary objective of the IBONS project was to create, maintain, and update a web database that organized:
+The goal of IBONS was to develop & maintain a web-based database of facility infrastructure across multiple Navy installations. The system organized:
 
-- Facility models (hangars, lab environments, magazines, office buildings)
-- Space allocation defining the status & use case of each space within a facility
-- Ownership & employee details (office, role, contact information)
+- Facility models (hangars, labs, magazines, offices)
+- Space allocation & facility usage
+- Ownership & employee workspace information
 
-In my first term, the team focused on documenting facilities at our home base, Naval Air Weapons Station China Lake. We regularly conducted on-site engineering surveys to assess the condition & activity of facilities, comparing field data to sensitive as-built documentation & layout files. We gathered data by hand in addition to using a handheld LiDAR unit to acquire 3D point-cloud scans of the area.
+During my first term, our team focused on documenting facilities at Naval Air Weapons Station China Lake. We conducted on-site engineering surveys to assess facility conditions & verify layouts against existing as-built documentation.
 
-When I returned for a second term, our team of interns had the opportunity to expand the IBONS project to another location, Point Mugu Naval Air Station. With an entirely new base to integrate into the online database, it was pertinent to communicate with facility managers & organize survey windows in advance. 
+Field data was collected through a combination of manual measurements & handheld LiDAR scans, which generated detailed 3D point-cloud models of facility interiors.
 
-Point Mugu is about an hour-long flight from China Lake & our supervisors gave us full authority to schedule, travel, and conduct surveys as necessary to continue supporting the IBONS mission objectives.
+When I returned for a second term, our team expanded the IBONS project to Naval Air Station Point Mugu. Integrating a completely new installation required coordinating with facility managers, scheduling survey windows, and organizing travel logistics.
+
+Point Mugu is approximately an hour flight from China Lake, & our supervisors entrusted the intern team with full responsibility for scheduling travel, coordinating surveys, and continuing IBONS data collection efforts.
 
 ---
 
@@ -33,56 +35,60 @@ Point Mugu is about an hour-long flight from China Lake & our supervisors gave u
 
 Some of my primary job responsibilities as an engineering technician intern included:
 
-- **Communicating with customers & facility managers to organize on-site engineering surveys**
+### Communicating With Stakeholders & Facility Managers to Coordinate Engineering Surveys
 
-Many facilities we needed to document for the IBONS project operated under restricted accessibility. However, it was important for our team to complete our on-site surveys, so we maintained constant communication with various points of contact, ensuring that our work accommodated the facility's schedules.
+Many of the facilities we documented operated under restricted accessibility, making communication & scheduling critical. Our team worked closely with facility points of contact to coordinate survey windows that minimized disruption to ongoing operations.
 
-As our list of prioritized facilities expanded to Point Mugu Naval Air Station, organization became an extremely important aspect of our daily operations. The added complexity of traveling to and from the base meant that we had to be efficient with our time, and everyone had to be on the same page. 
+As the project expanded to Point Mugu, logistical planning became increasingly important. With travel & limited access windows, we had to operate efficiently & ensure that survey plans were clearly communicated between the team & facility managers.
 
-Throughout my time with NAWCWD, our team was commended for our professionalism, efficiency, and organization during communication with customers & frequent engineering surveys.
+Throughout my internship, our group was consistently recognized for maintaining professional communication, efficient scheduling, and strong organizational practices during customer interactions & facility surveys.
 
-- **Updating & maintaining a database of engineering drawings & facility configurations**
+### Updating & Maintaining Engineering Documentation Within the IBONS Database
 
-When I first joined the IBONS team, I was expected to hit the ground running & contribute right away. My top priority was to learn on the job, ask questions, and add value to the team as quickly as possible.
+Upon joining the team, my initial priority was learning the workflow & contributing as quickly as possible. Through shadowing engineers & senior interns, I quickly became familiar with the database structure & documentation standards.
 
-With an expedited training process, I shadowed engineers & senior-level interns to learn the ins and outs of database maintenance. My growth-centered mindset allowed me to progress quickly & start updating engineering documentation within the first two weeks on the job.
+Within the first two weeks, I began independently updating engineering documentation & linking facility models into the database. Keeping an ambitious mindset & learning from my peers allowed me to progress quickly & add value to the team.
 
-By the end of my time with NAWCWD, I had individually developed, linked, and uploaded over 250,000 square feet of facility documentation. My supervisors praised me for my diligence & work ethic, often going above & beyond to improve standardized procedures.
+By the end of my internship, I had personally processed & uploaded over 250,000 square feet of facility documentation. My supervisors frequently commended my attention to detail & initiative in improving documentation procedures & workflow efficiency.
   
-- **Collecting field data in classified & unclassified environments**
+### Collecting Field Data in Both Classified & Unclassified Environments
 
-Our primary means of gathering data was through the use of a handheld LiDAR unit that collected 3D point-cloud scans of the environment. This tool was extremely useful because it allowed us to capture key features of facility architecture quickly & accurately.
+A primary tool used during on-site surveys was a handheld LiDAR scanner, which allowed us to rapidly capture accurate 3D point-cloud representations of key facility architecture.
 
-Another benefit of the LiDAR scanner was its ability to capture dimensional properties without revealing sensitive information. Many of the spaces we were required to survey had classified content in the facility & it was unreasonable for them to declassify the space just for our survey.
+This approach was particularly valuable when surveying classified spaces, where traditional photography or documentation methods were restricted. LiDAR scans allowed us to capture dimensional information while avoiding exposure of sensitive materials.
 
-To adapt to the facilities' needs, we used the LiDAR in addition to manual hand measurements to gather the necessary information with respect to any security requirements in the space.
+To adapt to facility requirements, LiDAR scans were supplemented with manual measurements to ensure complete & accurate facility documentation while respecting all security requirements.
   
-- **Developing facility models in AutoCAD to link into the IBONS database**
+### Developing AutoCAD Facility Models for Integration into the IBONS Database
 
-An important aspect of the job was to create accurate facility models to link into the IBONS database. We used AutoCAD as the medium to create engineering documentation that represented the physical dimensions & properties of the field data.
+Survey data was converted into 2D floor plans & spatial models using AutoCAD, allowing us to create accurate representations of each facility.
 
-We used both 2D floor plans as well as 3D point cloud scans to model important features throughout each facility. To organize & classify these spaces, we drew polygons that outlined the perimeter of each facility, room, and individual space. This methodology allowed us to organize each space in a building according to:
+To organize the information within the IBONS system, we mapped each building using polygon-based space definitions. Individual polygons represented specific rooms or functional spaces within a facility.
+
+Each space was categorized according to:
 
 - Space usage (lab, office, common area)
-- Availability (active, vacant, inactive)
-- Size (based on square footage)
+- Availability status (active, vacant, inactive)
+- Physical size based on square footage
 
-Using these filters, we labeled each space with a unique polygon ID. This allowed us to link the spaces into the database & display their characteristics for the informational use of Naval officers & civilian employees.
+Each polygon was assigned a unique identification code, allowing the IBONS database to link facility spaces with their associated metadata for use by Naval personnel & civilian staff.
 
-- **Training the next generation of interns to continue contributing in a meaningful way**
+### Training & Mentoring New Interns to Help Streamline the Onboarding Process
 
-When I returned for my second term, my responsibilities shifted & I had the opportunity to develop my leadership skills. There was turnover from the previous year, with a few new interns joining the team and some of my peers moving on to different positions. At this point, I was one of the more senior interns, & I knew how to execute the job at a high level.
+During my second term, I had the chance to develop leadership skills as several new interns joined the team while some previous members transitioned to other roles. As one of the more experienced interns, I was given the opportunity to help train the new team members & guide them through the IBONS workflow.
 
-I was thankful that my supervisors recognized my experience & allowed me to train some of the new hires on the job, acting as a role model. Our team continued working on the IBONS project from my first term; however, we had just begun expanding to Point Mugu Naval Air Station.
+At the same time, the project was expanding to include Point Mugu Naval Air Station, increasing both the scope & complexity of the work.
 
-The project expansion, in addition to my new responsibilities, forced me to adapt & learn on the fly. I took the challenge by storm, & it was rewarding to see the team's progress throughout the term. The interns who initially shadowed me were contributing effectively within the first few weeks on the job with minimal oversight. 
+Balancing these responsibilities required adapting quickly & ensuring new interns could begin contributing effectively. By demonstrating important workflow responsibilities & providing hands-on mentorship, I helped reduce onboarding time by approximately 40%.
 
-I helped reduce the onboarding time by ~40%, & our team was operating like a well-oiled machine just a month into my second term. By the end of the summer, we had completely mapped out the Point Mugu Air Station & added immense value to the IBONS project.
+Within a few weeks, the team was operating efficiently, & by the end of the term, we had fully mapped the facilities at Point Mugu, adding significant value to the IBONS project.
 
 ---
 
 ## Key Takeaways  
 
-This position gave me valuable experience working with multidisciplinary teams in a government environment, handling sensitive data responsibly, and taking responsibility for my work. I'm grateful for the opportunity to collaborate with industry professionals & contribute to an initiative that directly supports our country's warfighters.
+This internship provided valuable experience working within a multidisciplinary engineering environment in support of Department of Defense operations. I gained firsthand exposure to infrastructure management, engineering documentation workflows, and the responsible handling of sensitive data.
 
-Throughout the internship, I learned a lot about leadership, adapting to evolving requirements, and ensuring technical accuracy, knowing that downstream decisions relied on the quality of our work.
+The experience also strengthened my skills in team collaboration, leadership, and adapting to evolving project requirements. Knowing that our efforts directly supported real operational decisions reinforced the importance of maintaining technical accuracy & attention to detail.
+
+I am grateful for the opportunity to collaborate with industry professionals & contribute to a project that directly supports the operational readiness of our country’s warfighters.
