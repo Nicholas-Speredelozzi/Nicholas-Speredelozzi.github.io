@@ -18,10 +18,10 @@ This page includes a collection of technical projects & experiences I've taken p
 ## **Projects**
 
 ### [CubeSat Senior Design](cubesat)    
-Ongoing systems engineering capstone project focused on the conceptual design lifecycle of a 3U CubeSat to perform optical space situational awareness on resident space objects in geostationary Earth orbit.
+Ongoing systems engineering capstone project focused on the conceptual design lifecycle of a 3U CubeSat to perform optical space situational awareness on resident space objects in Geostationary Earth Orbit.
 
 ### [Launch Vehicle Design](LVP)  
-Collaborative design project emphasizing optimization & integration of a multi-stage, solid-fueled launch vehicle capable of delivering payloads to low Earth orbit.
+Collaborative design project emphasizing optimization & integration of a multi-stage, hybrid-fueled, medium-lift launch vehicle for Low Earth Orbit payload delivery.
 
 ### [Control Systems Stability Analysis](Controls)  
 Group project analyzing stability & transient response characteristics of feedback control systems using classical control theory, root locus methods, and MATLAB transfer function modeling.
@@ -44,13 +44,13 @@ Multi-term internship supporting facilities and infrastructure modeling across m
 Hands-on lab work conducted at Embry-Riddle Aeronautical University, verifying core aerospace engineering principles & applications.
 - [Honeycomb Compression Test](honeycomb)
 - [Strain Gauge Installation & Applications](strain)
-- [Tensile Testing & Stress-Strain Behavior](tensile)
+- [Tensile Testing of Metals & Composites](tensile)
 - [Non-Destructive Evaluation](NDE)
-- [Vibrations & Resonance](vibrations)
-- [Solid Rocket Thrust Analysis](rocket)
+- [Vibrations & Resonance in Aerospace Structures](vibrations)
+- [Solid Rocket Motor Thrust Analysis](rocket)
 - [Airfoil Performance at Varying AoA](afl)
 - [Aerodynamic Forces on Delta Wing](MWT)
-- [Supersonic Wind Tunnel Performance](SWT)
+- [Supersonic Wind Tunnel & Schlieren Imaging](SWT)
 
 ### [CAD Portfolio](CAD)  
 Assortment of CATIA part models & assemblies showcasing complex geometries & advanced surfacing techniques.
