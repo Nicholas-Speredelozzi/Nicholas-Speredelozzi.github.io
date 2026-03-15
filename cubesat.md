@@ -3,23 +3,45 @@ layout: default
 title: CubeSat Senior Design
 ---
 
-**Role:** Lead Environmental Engineer & Requirements Developer  
+**Role:** Environmental Engineer & Requirements Developer  
 **Institution:** Embry-Riddle Aeronautical University  
-**Course:** Spacecraft Preliminary Design (AE 427) & Spacecraft Detail Design (AE 445)  
-**Date:** August 2025 - April 2026  
-**Tools:** STK, MATLAB, Ansys Thermal Desktop, CATIA, Microsoft Suite
+**Course:** AE 427/445 - Spacecraft Preliminary/Detail Design 
+**Date:** August 2025 - April 2026 
+**Tools:** STK, MATLAB, Ansys Thermal Desktop, CATIA, Microsoft Suite, Systems Engineering Documentation
+
+---
+
+## Engineering Snapshot
+
+**Project Type:** Senior Capstone CubeSat Lifecycle Design Project  
+
+**Key Concepts:**  
+Spacecraft systems engineering | Requirements derivation | Failure modes analysis | Environmental mission analysis | End-to-end test planning
+
+**My Contributions:**
+
+- **Developed & maintained SMART requirements** across a full work breakdown structure
+- Conducted **system-level trade studies** defining thermal control & satellite bus subsystems under strict **SWaP-C budgets**
+- Assessed potential **failure modes & mitigation strategies** in a variety of hostile mission environments
+- Evaluated **thermal operating conditions** based on component temperature limits & the orbital environment
+- Analyzed **interface control documentation** denoting the flow of power, data, and commands throughout the CubeSat architecture
+- Simulated communication ability & **coverage analysis based on selected ground stations**
+- Drafted **end-to-end test plans** to support development of a launch-qualified spacecraft
+
+**Key Result:**  
+The project reinforces systems engineering practices across the full design lifecycle of a CubeSat. With minimal instructor intervention, our team is expected to adhere to a strict schedule & produce high-quality deliverables.
 
 ---
 
 ## Project Overview
 
-My capstone project is focused on the conceptual design of a 3U CubeSat intended to conduct space situational awareness (SSA) operations in Geosynchronous Earth Orbit. Our group is comprised of 8 students, each with a unique role in the design & integration of the spacecraft.  
+My capstone project focuses on the conceptual design of a 3U CubeSat intended to perform space situational awareness (SSA) operations in Geosynchronous Earth Orbit (GEO). Our team consists of 8 students, each responsible for a specific engineering discipline within the spacecraft design & integration.  
 
-The primary objective of the mission is to perform optical SSA on all objects in the geostationary belt, to include both active satellites & debris. To accomplish this task, the spacecraft will take multi-image, inertial stare collects of GEO objects & identify resident space objects (RSOs) captured in each image.  
+The primary mission objective is to perform optical SSA on all objects in the geostationary belt, including both operational satellites & orbital debris. To accomplish this, the spacecraft will conduct multi-image, inertial stare observations of GEO objects & identify resident space objects (RSOs) present in each image.  
 
-Ultimately, the CubeSat will obtain estimated orbital trajectories of each RSO & create an SSA catalog of the GEO belt. Additionally, the mission lifetime & total cost cap for the project are set at 2 years & $200,000, split between build cost, labor hours, and testing facility usage.  
+Using these observations, the CubeSat will estimate the orbital trajectories of detected RSOs & contribute to the development of an SSA catalog of the GEO belt. The mission is designed for a two-year operational lifetime with a total project cost cap of $200,000, including hardware procurement, labor hours, and testing facility usage.
 
-To track our progress, the project follows a formal systems engineering lifecycle, with four milestone reviews spread from August 2025 to April 2026. So far, we have completed the Systems Requirements Review, Preliminary Design Review, and Critical Design Review, with Operational Readiness Review on the horizon to be completed in the coming months.  
+Project development follows a formal systems engineering lifecycle, with four major milestone reviews scheduled between August 2025 and April 2026. To date, the team has successfully completed the Systems Requirements Review (SRR), Preliminary Design Review (PDR), and Critical Design Review (CDR). The final Operational Readiness Review (ORR) is scheduled for completion in the coming months.
 
 <div style="
   position: relative;
@@ -45,13 +67,17 @@ To track our progress, the project follows a formal systems engineering lifecycl
   </div>
 
 </div>
-Displayed above are the work breakdown structure & concept of operations for our mission. As true Daytona Beach residents, we named our CubeSat B.U.C.E.E.S (Breakthrough Utilization of CubeSats for Environmental Examination of Space). These documents define the structure of the project as a whole & serve as the organizational skeleton for system-level requirements.
+Displayed above are the work breakdown structure & concept of operations for the mission. As true Daytona Beach residents, our team named the spacecraft B.U.C.E.E.S (Breakthrough Utilization of CubeSats for Environmental Examination of Space).
+
+These documents define the overall organizational structure of the project & serve as the framework for developing & tracing system-level requirements across the spacecraft architecture.
 
 ---
 
 ## My Responsibilities
 
-I've contributed to design decisions & mission planning across the full scope of the project. However, my official roles within the team are Lead Environmental Engineer & Requirements Developer. The sections below include my primary responsibilities & examples of my contributions across a variety of major deliverables.
+While I have contributed to design decisions & mission planning across the full scope of the project, my primary roles within the team are Lead Environmental Engineer & Requirements Developer. 
+
+The sections below highlight my key responsibilities & contributions to several major project deliverables.
 
 ### Systems Engineering
 - **Development & maintenance of system-level requirements across the full work breakdown structure**
@@ -59,19 +85,21 @@ I've contributed to design decisions & mission planning across the full scope of
     <img src="assets/requirements.jpg" style="width=40%;">
     <p><em>Sample set of payload requirements</em></p>
 </div>
-Provided above is a set of high-level requirements I derived to define the CubeSat's payload & performance characteristics. The motivation for these requirements stems from our Mission Needs Document (MND), which defines the mission objective, budget constraints, and compliance documents that our spacecraft must adhere to.
+The figure above shows a representative set of high-level requirements defining the CubeSat’s payload capabilities & performance targets. These requirements were derived from the project’s Mission Needs Document (MND), which establishes the mission objectives, budget constraints, and external compliance standards the spacecraft must satisfy.
 
-- **Establishing verification methods linking system requirements to quantifiable verification & validation metrics**
+- **Establishing verification methods linking system requirements to SMART verification & validation metrics**
 
-As I developed requirements for each node of the WBS, verification methods & artifacts were chosen to track the status of each requirement. Many requirements were drawn from the MND & various compliance/testing documents such as NASA's General Environmental Verification Standard (GEVS).
+As requirements were developed across each node of the WBS, corresponding verification methods & artifacts were defined to track requirement status. Many requirements originated from the MND & established testing standards such as NASA’s General Environmental Verification Standard (GEVS).
 
-However, it was up to our team to determine verification methods & artifacts for each requirement. I tackled this challenge by communicating with my team to learn what tests/standards each of their respective subsystems had to meet to be considered successful. An important emphasis during this stage was to ensure each requirement was Specific, Measurable, Achievable, Relevant, and Time-bound (SMART).
+However, defining appropriate verification strategies required coordination throughout the spacecraft architecture. I worked closely with team members responsible for each subsystem to identify the tests, analyses, and inspections necessary to demonstrate compliance.
 
-- **Drafting end-to-end test plans adhering to NASA compliance documents, supporting the development of a launch-ready spacecraft**
+- **Drafting end-to-end verification test plans aligned with NASA environmental compliance documents to support launch readiness**
 
 ### Environmental Analysis & Thermal Design
 
-As the team's environmental engineer, one of my most important responsibilities is to analyze the variety of hostile mission environments the CubeSat will encounter & develop preventative measures to ensure safe operation throughout the mission lifecycle. Provided below are examples of analysis I conducted regarding space environmental risk analysis & logistics for our spacecraft.
+As the team’s Environmental Engineer, one of my primary responsibilities is analyzing the various hostile environments the spacecraft will encounter & developing mitigation strategies to ensure reliable operation throughout the mission lifecycle.
+
+The following sections summarize several analyses related to space environment risks, spacecraft thermal control, and subsystem trade study development.
 
 - **Conducted trade studies for thermal control & radiation protection subsystems, alongside contributions to various satellite bus trade studies**
 <div style="
@@ -100,32 +128,41 @@ As the team's environmental engineer, one of my most important responsibilities 
 
 </div>
 
-Based on the temperature ranges in the table above, I defined a critical temperature range to keep the CubeSat within at all times throughout the mission life. To ensure functionality in all environments, this range was defined between -10 & +40 degrees Celsius.
+Based on the component temperature limits shown in the table above, I defined a critical operating temperature range of -10°C to +40°C. The spacecraft's equilibrium must be kept within this range at all times to ensure functionality.
 
-The provided snapshot is from an STK environmental analysis I conducted to determine the temperature extremes our CubeSat would be exposed to over the 2-year mission life. Then I employed STK's SEET-Thermal (Space Environmental Effects Tool) model to define the spacecraft's radiative surface area, emissivity, absorptivity, and internal heat dissipation. Applying this model to our CubeSat's orbit throughout the simulation period allowed me to generate reports that displayed hourly temperature readings, as well as the maximum, minimum, and averages for the full mission:
-- Maximum Temperature (Peak Power Usage & Solar Flux): +35 degrees Celsius
-- Minimum Temperature (Min Power Usage & Longest Eclipse): -50 degrees Celsius
-- Average Temperature (Mean Power Usage & Solar Flux): +29 degrees Celsius
+The image on the right shows an STK environmental simulation used to estimate the temperature extremes experienced by the CubeSat over its two-year mission. Using STK’s SEET-Thermal (Space Environmental Effects Tool) model, I defined key spacecraft thermal properties, including radiative surface area, emissivity, absorptivity, and internal heat dissipation.
 
-The max & average temperatures from the simulation fall well within the critical range; however, it is worth noting that the minimum temperature is well below the -10 degree operational limit. A few things to consider for this cold case are the time the CubeSat spends in eclipse (~65 minutes) & the absence of internal heat dissipation. The simulation doesn't account for the rate of heat transfer; it assumes that the eclipse immediately drops the spacecraft to equilibrium temperature (-50). Further calculations support the conclusion that dropping from average to minimum temperature would take over double the time of our longest eclipse; it's more reasonable to assume a 30-40 degree temperature drop.
+Applying these parameters to the spacecraft’s GEO orbit allowed STK to generate hourly measurements & temperature extreme statistics for the mission duration:
 
-However, this analysis still results in the CubeSat enduring a temperature swing that brings sensitive components close to the lower limit of the critical range. My solution to minimize risks associated with this temperature delta was to introduce a charging phase prior to eclipse that would allow the battery to reach max storage (40 Wh) before losing line-of-sight with the sun. This would give us the option to power internal electronics & active thermal control components to keep the spacecraft comfortably within the critical temperature range.
+- Maximum Temperature: +35°C (peak solar flux & power usage)  
+- Minimum Temperature: -50°C (extended eclipse with minimal internal heat)  
+- Average Temperature: +29°C
 
-Using the STK data & analysis above, I derived thermal control requirements & conducted trade studies to determine optimal components for the CubeSat's thermal control subsystem:
+While the maximum & average temperatures fall well within the defined critical range, the simulated minimum temperature of -50°C is significantly below the spacecraft’s operational limit. 
 
-**Passive:**
-- A276 Polyurethane Coating (White)
+Two important factors influence this result. First, the minimum temperature occurs during the CubeSat’s longest eclipse duration, which is approximately 65 minutes. Second, the STK thermal model assumes the spacecraft instantaneously reaches equilibrium temperature, which neglects thermal inertia & physical rate of heat transfer. 
+
+Additional calculations indicate that cooling from the average temperature to the simulated minimum would require more than twice the duration of the longest eclipse. A more realistic estimate suggests a temperature drop of approximately 30–40°C during eclipse.
+
+Even with this more conservative estimate, the spacecraft could approach the lower bound of the operational temperature range. To mitigate this risk, I proposed introducing a pre-eclipse charging phase, allowing the spacecraft battery to reach its full 40 Wh capacity before entering eclipse. This stored energy could then power internal electronics & active thermal control components, maintaining temperatures within the acceptable range.
+
+Using the STK analysis above, I developed thermal control requirements & conducted trade studies to identify appropriate components for the spacecraft’s thermal control subsystem.
+
+**Passive Thermal Control**
+- A276 Polyurethane White Coating
 - Multi-Layer Insulation (MLI)
 - Heat Pipes
 
-**Active:**
+**Active Thermal Control**
 - Thermostat-Controlled Electric Patch Heaters
 
-Due to strict size, weight, power, and cost constraints (SWaP-C), passive control strategies were prioritized to minimize the frequency of ground commands & points of failure.
+Due to strict size, weight, power, and cost (SWaP-C) constraints, passive thermal control methods were prioritized in order to minimize system complexity, required ground commands, and potential points of failure.
 
-- **Analyzing hostile mission environments, potential failure modes, and mitigation strategies to ensure reliable operation throughout the mission lifecycle**
+- **Analyzing hostile mission environments, potential failure modes, and mitigation strategies**
 
-One of the most important aspects of mission planning is accounting for the wide range of failure modes the spacecraft is susceptible to across each mission environment. To consider the overarching impact of each failure mode, we assigned likelihood & severity values that multiply together to determine the mission criticality score as seen in the table below.
+One of the most important aspects of mission planning is identifying potential spacecraft failure modes & evaluating their impact on mission success.
+
+Each failure scenario was assigned severity (S) & likelihood (L) scores, which were multiplied to generate an overall criticality score (C).
 <div style="
   position: relative;
   left: 50%;
@@ -151,58 +188,66 @@ One of the most important aspects of mission planning is accounting for the wide
   </div>
 
 </div>
+The risk matrix on the left provides a classification system for organizing failure modes into Low (0–6), Medium (7–12), and High (13–25) risk categories. The table on the right shows a sample set of failure modes considered during the operational phase of the mission.
 
-The risk matrix on the left serves as a legend to organize each failure mode into three levels of risk (Low: 0-6, Medium: 7-12, High: 13-25). The table on the right provides a sample set of failure modes we considered for the operational stage early in the design process. Each failure mode includes S (Severity)/L (Likelihood)/C (Criticality) values, how the failure would affect the CubeSat, and methods to detect or prevent the event.
-
-An important simplification we made for our considered failure modes was to exclude launch environments & any corresponding failure modes. This assumption was made in coherence with our Mission Needs Document, which specifies that our analysis should start upon insertion into our operational orbit.
+For this analysis, launch environments & associated failure modes were excluded. This assumption follows guidance from the Mission Needs Document, which defines the beginning of the analysis period at the insertion into the operational orbit.
 
 ### Integration Considerations
-- **Developing interfacing flowcharts to denote the transfer of commands, data, and power within the spacecraft**
+- **Developing interfacing flowcharts to define the transfer of commands, data, and power throughout the spacecraft**
 <div style="text-align: center;">
     <img src="assets/distribution_diagram.png" style="width: 75%; max-width: 1750px; height: auto">
     <p><em>Distribution/interfacing diagram</em></p>
 </div>
-Successful interaction between different subsystems within the CubeSat architecture is mandatory to ensure cohesive integration & functionality. The diagram above shows the base-level flow of power, data, and commands throughout the spacecraft. Some components that would constantly interface with each other back & forth (e.g., EPS/Flight Computer) have been simplified to a unidirectional arrow for organizational purposes. A ground station block is also included to define downlink/uplink communication pathways. 
+Successful integration between spacecraft subsystems is essential to ensure reliable operation throughout the mission lifecycle. The diagram above illustrates the high-level flow of power, data, and command pathways within the CubeSat architecture. 
 
-In terms of on-board power, the solar panels will gather energy from the sun, which will be transferred/stored in the battery in the form of usable power. The EPS (Electrical Power Distribution Subsystem) will monitor the battery's power storage & act as the primary distributor of power to the rest of the spacecraft.
+Some subsystems that continuously exchange information (such as the Electrical Power Subsystem (EPS) & Flight Computer) are simplified to unidirectional arrows for clarity. A ground station node is also included to represent the uplink & downlink communication interfaces between the spacecraft & mission operations center (MOC).
 
-The red data distribution arrows stem from multiple components that will be gathering external data, such as RSO imagery (Camera) or the direction of the sun (sun sensor). The On-Board Computer (OBC) serves as the central hub for all data, interpreting it & sending necessary info through the communication subsystem to be downlinked to the ground station.
+Solar panels generate electrical power from solar radiation, which is routed to the battery for storage. The EPS monitors battery charge levels & distributes regulated power to the spacecraft subsystems as required.
 
-Tracking, Telemetry, and Commands (TT&C) all flow along yellow pathways in the diagram above. This communication path is arguably the most important, as it defines the primary transfer of system health checks, commands/updates, and ranging information between the CubeSat & ground stations.
+Data pathways are shown in red. Several subsystems collect external data, including RSO imagery from the optical payload & attitude reference data from sensors around the spacecraft. All data is routed to the On-Board Computer (OBC), which processes the information & transmits relevant telemetry through the communication subsystem to ground stations.
+
+Tracking, Telemetry, and Command (TT&C) signals are represented by the yellow pathways. These communication links enable the transfer of spacecraft health telemetry, command updates, and ranging information between the CubeSat and ground operators.
 
 
-Regarding ground stations, our mission will utilize four stations in NASA's Near Space Network (NSN) spread around the globe to ensure constant communication ability. Provided below is a table denoting the selected locations & some STK coverage analysis snapshots.
+To maintain reliable communication throughout the mission, the spacecraft will utilize four ground stations within NASA’s Near Space Network (NSN). These stations are geographically distributed to provide continuous communication access during the mission.
 <div style="text-align: center;">
     <img src="assets/ground_stations.png" style="width: 75%; max-width: 1750px; height: auto">
     <p><em>Ground station locations</em></p>
 </div>
-A few major considerations we used to choose these ground stations were their communication frequency, location, and cost. All four stations are compatible with our communication equipment, which uses S-band frequency for downlink/uplink. The importance of their relative locations is more easily understood through the STK visuals below.
+Ground station selection was based on several key factors, including communication frequency compatibility, geographic distribution, and operational cost. All selected stations support S-band communication, which is used for both uplink and downlink operations.
+
+The benefits of this geographic distribution are illustrated in the STK coverage analysis below.
 <div style="text-align: center;">
     <img src="assets/2D_STK_ground_stations.png" style="width: 85%; max-width: 2000px; height: auto">
     <p><em>2D representation of ground station locations/accessability</em></p>
 </div>
-The solid yellow line across the graphics window represents the access points from the CubeSat to each ground station. The fact that the access line is solid implies that the spacecraft will maintain constant coverage, allowing for downlink & uplink at any time throughout the orbit.
+The solid yellow access line represents communication visibility between the CubeSat & each ground station. Continuous access lines indicate that the spacecraft maintains constant communication availability, allowing commands & telemetry to be transmitted at any point during the orbit.
 
-The figure below shows the breakdown of specific access times for each ground station over the course of a year.
+
+The figure below summarizes the communication access time for each ground station throughout the first year of operation.
 <div style="text-align: center;">
     <img src="assets/STK_coverage_analysis.png" style="width: 100%; max-width: 2000px; height: auto">
     <p><em>Access times for each selected ground station</em></p>
 </div>
 
-- **3D modeling & assembly of subsystems in CATIA, adhering to CubeSat deployer integration requirements**
+- **3D modeling & subsystem integration in CATIA while adhering to CubeSat deployer requirements**
 <div style="text-align: center;">
     <img src="assets/Cubesat.png" style="width: 75%; max-width: 1750px; height: auto">
     <p><em>Assembled CAD model</em></p>
 </div>
-Above is an assembled view of the CubeSat in CATIA that displays each major component of the bus/payload. The majority of 3D models were acquired directly from vendors, with exterior plates being designed in-house. The displayed image excludes MLI blankets, a solar panel, and exterior shielding plates in order to provide a clear view of the internal structure of components in the chassis.
+The figure above shows the integrated CubeSat assembly developed in CATIA, including the primary spacecraft bus and payload components. Most subsystem models were obtained directly from component vendors, while several structural elements, such as exterior plates, were designed in-house.
 
-Other important mission information we gathered from CATIA included the center of mass & moment of inertia properties of the CubeSat. These values were critical for determining how much power our attitude control system would need to slew the spacecraft to the necessary attitudes at different stages of the CONOPS.
+For visualization purposes, the image excludes MLI blankets, one solar panel, and external shielding plates, allowing the internal subsystem layout to remain visible.
 
-- **Evaluating size, weight, power, and cost constraints (SWaP-C) as mission hardware & design considerations evolved**
+The CAD model was also used to determine the spacecraft’s center of mass & moment of inertia properties, which were required for estimating the attitude control torque & power requirements needed to perform spacecraft slews during mission operations.
 
-The total cost cap of the mission was defined in the MND as $200,000, while the remaining budgets & their limits were up to us to define. The size & weight limits of the CubeSat were reliant upon the deployer that we chose. After considering a few options, we decided to use Cal Poly SLO's Poly-Picosatellite Orbital Deployer (P-POD). 
+- **Evaluating size, weight, power, and cost constraints (SWaP-C) as design decisions evolved**
 
-Volume & mass constraints stemmed from the deployer's CubeSat Design Specification (CDS), which sets limits at 3.405U & 6 kg, respectively. Displayed below are pie charts that represent the volume & mass of each component within the CubeSat as a percentage of the total allotted budget.
+The mission’s total cost cap of $200,000 was defined in the Mission Needs Document (MND). While this value constrained the overall project budget, the allocation of resources across subsystems was determined by the team during the design process.
+
+The spacecraft’s size & mass constraints were driven by the selected deployer. After evaluating multiple options, we selected Cal Poly SLO’s Poly-Picosatellite Orbital Deployer (P-POD) for its flexibility & GEO flight heritage.
+
+The deployer’s CubeSat Design Specification (CDS) establishes limits of 3.405U total volume & 6 kg maximum mass for the spacecraft. The pie charts below illustrate the volume and mass allocation across the major spacecraft subsystems.
 <div style="
   position: relative;
   left: 50%;
@@ -228,7 +273,9 @@ Volume & mass constraints stemmed from the deployer's CubeSat Design Specificati
   </div>
 
 </div>
-The power budget was defined by the battery we chose for the spacecraft. For this reason, we conducted trade studies for the electrical power subsystem early in the design process & prioritized a large power budget. The total storage of our selected battery is 40 watt hours & the pie chart below displays the amount of power allotted to each major component.
+The spacecraft power budget is driven primarily by the battery capacity selected for the Electrical Power Subsystem. For this reason, EPS trade studies were conducted early in the design process to ensure sufficient available power.
+
+The selected battery provides 40 Wh of energy storage, which defines the total available onboard power. The chart below illustrates how power is distributed among the spacecraft’s major subsystems.
 <div style="text-align: center;">
     <img src="assets/power_budget.png" style="width: 75%; max-width: 1750px; height: auto">
     <p><em>Power budget</em></p>
@@ -237,7 +284,10 @@ The power budget was defined by the battery we chose for the spacecraft. For thi
 ---
 
 ## Key Takeaways
+This project has provided valuable experience in **systems engineering, spacecraft design trade studies, and multidisciplinary collaboration**. Working within a team environment reinforced the importance of balancing technical constraints while maintaining system-level integration across the spacecraft architecture.
 
-This project has given me a lot of insight into the importance of managing technical tradeoffs & understanding how design decisions affect system integration in lifecycle mission environments. The reinforcement of working in multidisciplinary teams to cohesively design a spacecraft has sharpened my technical communication skills within the team as well as in presentation settings.
+This project has given me a lot of insight into the importance of managing technical tradeoffs & understanding how design decisions affect system integration in lifecycle mission environments. Working within a multidisciplinary team environment reinforced the importance of balancing technical constraints while maintaining system-level integration across the spacecraft architecture.
 
-As I begin my career in the aerospace industry, I'm thankful to have had this design project challenge me & provide ample learning opportunities in an industry-level, systems engineering environment.
+The project has also strengthened my ability to communicate technical concepts clearly through design documentation, modeling/simulation analysis, and formal design reviews.
+
+As I begin my career in the aerospace industry, I am grateful for the opportunity to work on a project that directly aligns with the systems engineering processes used in real spacecraft development programs.
