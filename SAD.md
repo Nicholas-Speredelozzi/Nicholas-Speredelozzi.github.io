@@ -87,15 +87,15 @@ Next, I computed the moment of inertia matrices about both:
 </div>
 The inertia matrix describes how the satellite's mass is distributed relative to the axes of rotation. This information is critical in satellite design because it defines how easily a spacecraft can rotate about each axis.
 
-I created a MATLAB loop to iterate through each component's physical properties and account for the individual contributions to the center of mass & inertia matrices.
+I created a MATLAB loop to iterate through each component's physical properties & account for the individual contributions to the center of mass & inertia matrices.
 <div style="text-align: center;">
-<img src="assets/MATLAB_MOI.png" style="width: 70%; max-width: 750px; height: auto">
+<img src="assets/MATLAB_MOI.png" style="width: 100%; max-width: 1500px; height: auto">
 <p><em>MATLAB physical properties loop</em></p>
 </div>
 
 ---
 
-## Principal Axes and Moments of Inertia
+## Principal Axes & Moments of Inertia
 
 Once the inertia matrix about the center of mass was obtained, the next step was determining the principal axes & moments of inertia.
 
