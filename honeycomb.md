@@ -66,7 +66,7 @@ Using the collected data, the following analysis steps were conducted in MATLAB:
 - Generated a stress–strain curve describing the compressive behavior of the honeycomb core
 <div style="text-align: center;">
     <img src="assets/stress_strain.png" style="width: 100%; max-width: 1000px; height: auto">
-    <p><em>Root locus plot for system 2</em></p>
+    <p><em>Stress-strain curve for honeycomb compression test</em></p>
 </div>
 Observing the plot behavior shown above allowed me to categorize the material response into three phases:
 
