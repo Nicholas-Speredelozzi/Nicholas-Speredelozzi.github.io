@@ -34,7 +34,7 @@ The dimensions of each specimen were measured using calipers to determine the cr
 An LVDT extensometer was attached to the specimen gauge section to accurately measure strain during the elastic deformation phase of the tensile test, as seen below. The aluminum sample was tested at higher loading rates than the composite rods due to its increased ductility.
 <div style="text-align: center;">
     <img src="assets/aluminum_rod.png" style="width: 100%; max-width: 650px; height: auto">
-    <p><em>Tensile test setup for Aluminum alloy sample with LVDT extensometer</em></p>
+    <p><em>Tensile test setup for aluminum alloy sample with LVDT extensometer</em></p>
 </div>
 The force and displacement data for each specimen were collected using a data-acquisition setup & converted into engineering stress–strain curves, allowing for the determination of key mechanical properties such as:
 
@@ -47,7 +47,7 @@ The force and displacement data for each specimen were collected using a data-ac
     <p><em>Stress-strain curve for aluminum alloy specimen</em></p>
 </div>
 <div style="text-align: center;">
-    <img src="assets/composite_tensile.png" style="width: 100%; max-width: 1000px; height: auto">
+    <img src="assets/composite_tensile.png" style="width: 100%; max-width: 1200px; height: auto">
     <p><em>Stress-strain curves for composite samples</em></p>
 </div>
 The tensile test behavior for each sample can be observed in the plots shown above & summarized as follows:
@@ -59,7 +59,30 @@ The tensile test behavior for each sample can be observed in the plots shown abo
 Following the tensile tests, a CFRP sample was prepared using progressively finer silicon carbide sandpapers & polished using an alumina slurry to produce a mirror-like surface. The polished sample was then examined using a metallurgical optical microscope, allowing for the observation of fiber orientation & matrix distribution within the composite. 
 
 The polishing station & a microscopic 100x zoom view of the CFRP sample are pictured below.
+<div style="
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -40vw;
+  margin-right: -40vw;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+">
+  
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/polishing.png" style="width: 100%; max-width: 600px; height: auto">
+    <p><em>Metallography CFRP polishing station</em></p>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/microscope.png" style="width: 100%; max-width: 600px; height: auto">
+    <p><em>Metallography 100x microscopic fiber/matrix properties</em></p>
+  </div>
 
+</div>
 ---
 
 ## Valuable Takeaways  
