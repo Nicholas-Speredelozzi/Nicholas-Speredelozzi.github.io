@@ -5,8 +5,8 @@ title: ERAU Lab Experience
 
 ## Strain Gauge Installation & Beam Strain Measurment  
 **Institution:** Embry-Riddle Aeronautical University  
-**Course:** AE 417 - Aerospace Structures & Instrumentation Lab
-**Date:** September 2025
+**Course:** AE 417 - Aerospace Structures & Instrumentation Lab  
+**Date:** September 2025  
 **Equipment:** Strain Gauges, Digital Multimeter, Cantilever Beam Test Setup, Soldering Equipment
 
 ---
@@ -32,7 +32,7 @@ By applying known loads to each beam & measuring the resulting strain, the exper
 
 ## Procedure & Results  
 
-The experiment began by preparing & installing a 120 Ω strain gauge onto the aluminum alloy beam. Proper installation was critical to ensure accurate measurements & involved sensitive procedures such as:
+The experiment began by preparing & installing a 120 Ω strain gauge onto the aluminum alloy beam, as seen below. Proper installation was critical to ensure accurate measurements & involved sensitive procedures such as:
 
 - Cleaning & degreasing the beam surface
 - Sanding the installation area to remove oxide layers from the aluminum
@@ -40,11 +40,19 @@ The experiment began by preparing & installing a 120 Ω strain gauge onto the al
 - Aligning the strain gauge parallel to the beam's longitudinal axis
 - Bonding the gauge using a specialized adhesive
 - Soldering lead wires & connecting a banana plug interface to measure electrical resistance
-
+<div style="text-align: center;">
+    <img src="assets/strain_gauge.png" style="width: 100%; max-width: 1000px; height: auto">
+    <p><em>Installed strain gauge on 6061-T6511 aluminum alloy strip beam</em></p>
+</div>
 Once installed, the strain gauge resistance was verified using a digital multimeter to confirm proper wiring and baseline resistance.
 
 The beam was then mounted in a cantilever configuration using a C-clamp, with the strain gauge positioned near the fixed end where bending stress is highest. Known loads were applied to the free end using hanging masses in 1 kg increments up to 3 kg. 
 
+The test setup to measure strain for the beam in compression is shown below.
+<div style="text-align: center;">
+    <img src="assets/cantilever_setup.png" style="width: 100%; max-width: 1000px; height: auto">
+    <p><em>Cantilever beam setup to measure compressive strain</em></p>
+</div>
 Resistance measurements were recorded by the digital multimeter for both:
 
 - Tension (gauge facing upward)
