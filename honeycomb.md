@@ -49,11 +49,11 @@ Shown below are images of the specimen during the plateau & densification region
 ">
   
   <div style="flex: 1; text-align: center;">
-    <img src="assets/mid_crush.png" style="width: 100%; max-width: 750px; height: auto">
+    <img src="assets/mid_crush.png" style="width: 100%; max-width: 600px; height: auto">
     <p><em>Honeycomb specimen during plateau phase</em></p>
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="assets/crushed_honeycomb.png" style="width: 100%; max-width: 750px; height: auto">
+    <img src="assets/crushed_honeycomb.png" style="width: 100%; max-width: 600px; height: auto">
     <p><em>Fully crushed specimen at densification phase</em></p>
   </div>
 
