@@ -44,7 +44,7 @@ Multi-term internship supporting facilities and infrastructure modeling across m
 
 ---
 
-## Lab Testing Experience  
+## **Lab Testing Experience** 
 Hands-on lab work conducted at Embry-Riddle Aeronautical University, verifying core aerospace engineering principles & industry-standard applications.
 - [Honeycomb Compression Test](honeycomb)
 - [Strain Gauge Installation & Applications](strain)
