@@ -5,11 +5,17 @@ title: ""
 
 ## **Professional Summary**
 
-Aerospace Engineering senior at Embry-Riddle Aeronautical University, specializing in astronautics & space systems. Through a combination of academic design projects, hands-on lab experiments, and a multi-term internship at the Naval Air Warfare Center Weapons Division (NAWCWD), I've gained experience in spacecraft systems engineering, governmental engineering environments, and multidisciplinary, integration-focused teams. 
+Aerospace Engineering senior at Embry-Riddle Aeronautical University, specializing in astronautics & space systems. 
 
-Actively pursuing entry-level roles in spacecraft systems integration, launch operations, and aerospace mission planning.
+Through a combination of academic design projects, hands-on lab experiments, and a multi-term internship I completed with the Naval Air Warfare Center Weapons Division, I’ve gained valuable experience working in cleared multidisciplinary teams, conducting aerospace system trade studies, and communicating technical results to both subject-matter experts & organizational stakeholders.
 
-This page includes a collection of technical projects & experiences I've taken part in throughout my academic career. In-depth breakdowns, specific contributions, and valuable takeaways are linked to each title, in addition to a 3D modeling showcase near the bottom of the page. Thanks for stopping by!
+As I approach my May 2026 graduation date, I am actively pursuing entry-level roles in systems engineering, spacecraft AI&T, launch operations, and related integration-focused positions.
+
+This page includes a collection of technical projects & professional undertakings I've taken part in throughout my academic career, with in-depth breakdowns, contributions, and valuable takeaways linked to each experience. 
+
+Additionally, I've included a 3D modeling showcase near the bottom of the page to display advanced part design, surfacing techniques, and engineering assemblies. 
+
+Thanks for stopping by!
 
 ### [Resume (PDF)](assets/Nicholas_Speredelozzi_Resume.pdf)
 
@@ -38,10 +44,8 @@ Multi-term internship supporting facilities and infrastructure modeling across m
 
 ---
 
-## **Educational Experience**
-
-### Lab Experiments  
-Hands-on lab work conducted at Embry-Riddle Aeronautical University, verifying core aerospace engineering principles & applications.
+## Lab Testing Experience  
+Hands-on lab work conducted at Embry-Riddle Aeronautical University, verifying core aerospace engineering principles & industry-standard applications.
 - [Honeycomb Compression Test](honeycomb)
 - [Strain Gauge Installation & Applications](strain)
 - [Tensile Testing of Metals & Composites](tensile)
@@ -52,12 +56,12 @@ Hands-on lab work conducted at Embry-Riddle Aeronautical University, verifying c
 - [Aerodynamic Forces on Delta Wing](MWT)
 - [Supersonic Wind Tunnel & Schlieren Imaging](SWT)
 
-### [CAD Portfolio](CAD)  
+## [CAD Portfolio](CAD)  
 Assortment of CATIA part models & assemblies showcasing complex geometries & advanced surfacing techniques.
 
 ---
 
-## **Contact**
+## **Contact Information**
 
 **Email:** Nicholas.Speredelozzi@gmail.com  
 **LinkedIn:** https://www.linkedin.com/in/nicholas-speredelozzi
