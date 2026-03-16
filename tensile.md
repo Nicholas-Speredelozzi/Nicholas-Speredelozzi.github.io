@@ -31,22 +31,34 @@ The experiment conducted tensile tests for three specimen types:
 
 The dimensions of each specimen were measured using calipers to determine the cross-sectional area for each rod, while composite specimens were also weighed to evaluate weight-specific performance. Each sample was then mounted in a Tinius Olsen (UTM), where tensile loads were applied until failure while recording stress–strain data.
 
-An LVDT extensometer was attached to the specimen gauge section to accurately measure strain during the elastic deformation phase of the tensile test. The aluminum sample was tested at higher loading rates than the composite rods due to its increased ductility.
-
+An LVDT extensometer was attached to the specimen gauge section to accurately measure strain during the elastic deformation phase of the tensile test, as seen below. The aluminum sample was tested at higher loading rates than the composite rods due to its increased ductility.
+<div style="text-align: center;">
+    <img src="assets/aluminum_rod.png" style="width: 100%; max-width: 650px; height: auto">
+    <p><em>Tensile test setup for Aluminum alloy sample with LVDT extensometer</em></p>
+</div>
 The force and displacement data for each specimen were collected using a data-acquisition setup & converted into engineering stress–strain curves, allowing for the determination of key mechanical properties such as:
 
 - Young’s modulus  
 - Yield strength (aluminum alloy only)  
 - Ultimate tensile strength  
 - Failure strain & ductility  
-
-The material behavior for each sample can be observed in the plots shown above & summarized as follows:
+<div style="text-align: center;">
+    <img src="assets/aluminum_tensile.png" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Stress-strain curve for aluminum alloy specimen</em></p>
+</div>
+<div style="text-align: center;">
+    <img src="assets/composite_tensile.png" style="width: 100%; max-width: 1000px; height: auto">
+    <p><em>Stress-strain curves for composite samples</em></p>
+</div>
+The tensile test behavior for each sample can be observed in the plots shown above & summarized as follows:
 
 - **Aluminum alloys:** exhibited ductile behavior with noticeable plastic deformation & yielding before fracture.  
 - **GFRP:** showed relatively linear elastic behavior followed by sudden brittle failure.  
 - **CFRP:** demonstrated high stiffness & strength with limited plastic deformation before fracture.
 
 Following the tensile tests, a CFRP sample was prepared using progressively finer silicon carbide sandpapers & polished using an alumina slurry to produce a mirror-like surface. The polished sample was then examined using a metallurgical optical microscope, allowing for the observation of fiber orientation & matrix distribution within the composite. 
+
+The polishing station & a microscopic 100x zoom view of the CFRP sample are pictured below.
 
 ---
 
