@@ -6,7 +6,7 @@ title: ERAU Lab Experience
 ## Honeycomb Compression Test  
 **Institution:** Embry-Riddle Aeronautical University  
 **Course:** AE 417 - Aerospace Structures & Instrumentation Lab  
-**Date:** August 2025
+**Date:** August 2025  
 **Equipment & Tools**: Universal Testing Machine (UTM), Aluminum Honeycomb Specimen, Data Acquisition System (DAQ), Microscope With Digital Camera, MATLAB
 
 ---
@@ -33,13 +33,42 @@ The experiment began with measurement of the specimen’s geometric properties, 
 
 The aluminum honeycomb specimen was then placed between compression platens in a universal testing machine (UTM). A controlled compressive load was applied at a constant displacement rate while the machine recorded load vs. displacement data throughout the test.
 
+Shown below are images of the specimen during the plateau & densification regions of the compression test.
+<div style="
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -40vw;
+  margin-right: -40vw;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+">
+  
+  <div style="flex: 1.5; text-align: center;">
+    <img src="assets/mid_crush.png" style="width: 100%; max-width: 1200px; height: auto">
+    <p><em></em></p>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/crushed_honeycomb.png" style="width: 100%; max-width: 800px; height: auto">
+    <p><em></em></p>
+  </div>
+
+</div>
+
 Using the collected data, the following analysis steps were conducted in MATLAB:
 
 - Converted force to compressive stress based on the specimen cross-sectional area  
 - Converted displacement to engineering strain based on the initial specimen height  
 - Generated a stress–strain curve describing the compressive behavior of the honeycomb core
-
-Observing the plot behavior allowed me to categorize the material response into three phases:
+<div style="text-align: center;">
+    <img src="assets/stress_strain.png" style="width: 100%; max-width: 1000px; height: auto">
+    <p><em>Root locus plot for system 2</em></p>
+</div>
+Observing the plot behavior shown above allowed me to categorize the material response into three phases:
 
 **1. Elastic Region**  
 At small strain values, the structure behaved elastically as the honeycomb cell walls began bending under load.
