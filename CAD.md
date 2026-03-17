@@ -45,7 +45,7 @@ Our team decided to model a Craftsman rotary push mower containing a 4-stroke en
   </div>
 </div>
 
-Displayed below are all the parts from the completed assembly that I designed individually.
+Displayed below are all the parts from the completed assembly that I designed individually. To avoid clutter, I've included only the part models that use advanced design criteria such as surfacing, wireframe design, and tracer/curvature overlay design.
 <div style="text-align: center;">
     <img src="assets/my_parts.png" style="width: 100%; max-width: 700px; height: auto">
     <p><em>My individually design parts/assemblies</em></p>
