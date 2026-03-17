@@ -40,15 +40,224 @@ Our team decided to model a Craftsman rotary push mower containing a 4-stroke en
     <p><em>Crafstman push mower</em></p>
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="assets/microscope.png" style="width: 100%; max-width: 700px; height: auto">
-    <p><em>Completed assembly designed in CATIA</em></p>
+    <img src="assets/full_lawnmower.png" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Completed lawn mower assembly designed in CATIA</em></p>
   </div>
-
 </div>
 
 Displayed below are all the parts from the completed assembly that I designed individually.
-
-
+<div style="text-align: center;">
+    <img src="assets/my_parts.png" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>My individually design parts/assemblies</em></p>
+</div>
+The primary workbenches used to design each component included the generative shape design, part design, and assembly design workbenches.
+<div style="
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -40vw;
+  margin-right: -40vw;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+">
+  
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/Tank_Casing.jpeg" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Fuel tank casing</em></p>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/tank_casing.png" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Fuel tank casing CATIA model</em></p>
+  </div>
+</div>
+<div style="
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -40vw;
+  margin-right: -40vw;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+">
+  
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/Cover_Housing.jpeg" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Top engine cover</em></p>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/cover.png" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Top engine cover CATIA model</em></p>
+  </div>
+</div>
+<div style="
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -40vw;
+  margin-right: -40vw;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+">
+  
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/flywheel.jpeg" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Engine flywheel</em></p>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/flywheel.png" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Engine flywheel CATIA model</em></p>
+  </div>
+</div>
+<div style="
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -40vw;
+  margin-right: -40vw;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+">
+  
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/Control_Cable.jpeg" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Drive control cable</em></p>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/Control_Cable.png" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Drive control cable CATIA model</em></p>
+  </div>
+</div>
+<div style="
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -40vw;
+  margin-right: -40vw;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+">
+  
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/drive_cover.jpeg" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Drive mechanism cover</em></p>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/drive_cover.png" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Drive mechanism cover CATIA model</em></p>
+  </div>
+</div>
+<div style="
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -40vw;
+  margin-right: -40vw;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+">
+  
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/Brake.jpeg" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Mower brake</em></p>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/brake.png" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Mower brake CATIA model</em></p>
+  </div>
+</div>
+<div style="
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -40vw;
+  margin-right: -40vw;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+">
+  
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/Discharge_Guard.jpeg" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Discharge guard</em></p>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/discharge_guard.png" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Discharge guard CATIA model</em></p>
+  </div>
+</div>
+<div style="
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -40vw;
+  margin-right: -40vw;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+">
+  
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/magneto.jpeg" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Armature magneto</em></p>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/magneto.png" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Armature magneto CATIA model</em></p>
+  </div>
+</div>
+<div style="
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -40vw;
+  margin-right: -40vw;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+">
+  
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/Rope_Guide.jpeg" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Pull chord rope guide</em></p>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/rope_guide.png" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Pull chord rope guide CATIA model</em></p>
+  </div>
+</div>
 ---
 
 ## Wireframe Design  
