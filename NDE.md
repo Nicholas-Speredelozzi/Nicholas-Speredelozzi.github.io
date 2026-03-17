@@ -3,7 +3,7 @@ layout: default
 title: ERAU Lab Experience
 ---
 
-## Non-Destructive Evaluation (NDE) Methods  
+# Non-Destructive Evaluation (NDE) Methods  
 **Institution:** Embry-Riddle Aeronautical University  
 **Dates:** October 2025  
 **Course:** AE 417 - Aerospace Structures & Instrumentation Lab  
