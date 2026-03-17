@@ -3,7 +3,7 @@ layout: default
 title: ERAU Lab Experience
 ---
 
-## Honeycomb Compression Test  
+# Honeycomb Compression Test  
 **Institution:** Embry-Riddle Aeronautical University  
 **Course:** AE 417 - Aerospace Structures & Instrumentation Lab  
 **Date:** August 2025  
