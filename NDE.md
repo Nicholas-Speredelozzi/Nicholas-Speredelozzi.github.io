@@ -6,7 +6,7 @@ title: ERAU Lab Experience
 ## Non-Destructive Evaluation (NDE) Methods  
 **Institution:** Embry-Riddle Aeronautical University  
 **Dates:** October 2025  
-**Course:** AE 417 - Aerospace Structures & Instrumentation Lab
+**Course:** AE 417 - Aerospace Structures & Instrumentation Lab  
 **Equipment & Tools:** Borescope, Infrared Camera, X-Ray Imager, Fluorescent Liquid Penetrant, Ultrasonic Inspection Device
 
 ---
@@ -32,7 +32,7 @@ Each technique demonstrated a unique physical principle for identifying defects 
 Each NDE method was performed in a station-based format, allowing for expedited experimentation & direct comparison of each NDE technique.
 
 ### Visual Inspection  
-A borescope & optical tools were used to inspect both accessible & shielded regions of damaged aerospace components as seen below.
+A borescope & optical tools were used to inspect both accessible & shielded regions of damaged aerospace components, as seen below.
 
 
 
