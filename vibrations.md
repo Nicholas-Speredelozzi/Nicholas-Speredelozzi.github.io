@@ -13,7 +13,7 @@ title: ERAU Lab Experience
 
 ## Experiment Overview  
 
-The vibrations & resonance experiment investigated the dynamic response of structures subjected to forced vibration, with a focus on identifying natural frequencies, mode shapes, and nodal locations. Aluminum cantilever beams of varying lengths were excited using an electrodynamic shaker to induce resonance conditions.
+The vibrations & resonance experiment investigated the dynamic response of structures subjected to forced vibration, with a focus on identifying natural frequencies, mode shapes, and nodal locations. Aluminum cantilever beams of varying lengths, as well as an airfoil, were excited using an electrodynamic shaker to induce resonance conditions.
 
 Implementing a digital stroboscope at the same frequency as the electrodynamic shaker vibration allowed us to observe the mode behavior of different structures in detail.
 
@@ -23,7 +23,9 @@ The primary objective was to compare experimentally measured resonance frequenci
 
 ## Procedure & Results  
 
-The test setup utilized an electrodynamic shaker, accelerometer, oscilloscope, and digital stroboscope to excite and measure beam vibrations. Each component was mounted in a cantilever configuration & subjected to controlled sinusoidal loading across a range of frequencies.  
+The test setup pictured below utilized an electrodynamic shaker, accelerometer, oscilloscope, and digital stroboscope to excite and measure beam vibrations. Each component was fixed to the electrodynamic shaker at one end & subjected to controlled sinusoidal loading across a range of frequencies.  
+
+
 
 Resonance was identified by observing the maximum amplitude response, while corresponding frequencies were recorded using multiple instruments for redundancy. A stroboscope was used to visually “freeze” the motion of the beam, allowing for clear identification & measurement of nodal positions as seen below. 
 
