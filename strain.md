@@ -3,7 +3,7 @@ layout: default
 title: ERAU Lab Experience
 ---
 
-## Strain Gauge Installation & Beam Strain Measurment  
+# Strain Gauge Installation & Beam Strain Measurment  
 **Institution:** Embry-Riddle Aeronautical University  
 **Course:** AE 417 - Aerospace Structures & Instrumentation Lab  
 **Date:** September 2025  
