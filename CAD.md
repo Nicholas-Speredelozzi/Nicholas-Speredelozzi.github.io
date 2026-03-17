@@ -46,11 +46,12 @@ Our team decided to model a Craftsman rotary push mower containing a 4-stroke en
 </div>
 
 Displayed below are all the parts from the completed assembly that I designed individually. To avoid clutter, I've included only the part models that use advanced design criteria such as surfacing, wireframe design, and tracer/curvature overlay design.
+
+The primary workbenches used to model each component included the part design, generative surfacing, and assembly design workbenches.
 <div style="text-align: center;">
     <img src="assets/my_parts.png" style="width: 100%; max-width: 700px; height: auto">
     <p><em>My individually design parts/assemblies</em></p>
 </div>
-The primary workbenches used to design each component included the generative shape design, part design, and assembly design workbenches.
 <div style="
   position: relative;
   left: 50%;
@@ -112,7 +113,7 @@ The primary workbenches used to design each component included the generative sh
 ">
   
   <div style="flex: 1; text-align: center;">
-    <img src="assets/flywheel.jpeg" style="width: 100%; max-width: 700px; height: auto">
+    <img src="assets/Flywheel.jpeg" style="width: 100%; max-width: 700px; height: auto">
     <p><em>Engine flywheel</em></p>
   </div>
   <div style="flex: 1; text-align: center;">
@@ -139,7 +140,7 @@ The primary workbenches used to design each component included the generative sh
     <p><em>Drive control cable</em></p>
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="assets/Control_Cable.png" style="width: 100%; max-width: 700px; height: auto">
+    <img src="assets/Control_Cable.jpg" style="width: 100%; max-width: 700px; height: auto">
     <p><em>Drive control cable CATIA model</em></p>
   </div>
 </div>
@@ -158,7 +159,7 @@ The primary workbenches used to design each component included the generative sh
 ">
   
   <div style="flex: 1; text-align: center;">
-    <img src="assets/drive_cover.jpeg" style="width: 100%; max-width: 700px; height: auto">
+    <img src="assets/Drive_Cover.jpeg" style="width: 100%; max-width: 700px; height: auto">
     <p><em>Drive mechanism cover</em></p>
   </div>
   <div style="flex: 1; text-align: center;">
@@ -227,7 +228,7 @@ The primary workbenches used to design each component included the generative sh
 ">
   
   <div style="flex: 1; text-align: center;">
-    <img src="assets/magneto.jpeg" style="width: 100%; max-width: 700px; height: auto">
+    <img src="assets/Magneto.jpeg" style="width: 100%; max-width: 700px; height: auto">
     <p><em>Armature magneto</em></p>
   </div>
   <div style="flex: 1; text-align: center;">
