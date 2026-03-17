@@ -7,7 +7,7 @@ title: ERAU Lab Experience
 **Institution:** Embry-Riddle Aeronautical University  
 **Course:** AE 417 - Aerospace Structures & Instrumentation Lab  
 **Date:** September 2025  
-**Equipment:** Strain Gauges, Digital Multimeter, Cantilever Beam Test Setup, Soldering Equipment
+**Equipment & Tools:** Strain Gauges, Digital Multimeter, Cantilever Beam Test Setup, Soldering Equipment
 
 ---
 
