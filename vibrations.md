@@ -3,7 +3,7 @@ layout: default
 title: ERAU Lab Experience
 ---
 
-## Vibrations & Resonance in Aerospace Structures  
+# Vibrations & Resonance in Aerospace Structures  
 **Institution:** Embry-Riddle Aeronautical University  
 **Course:** AE 417 - Aerospace Structures & Instrumentation Lab  
 **Dates:** October 2025  
