@@ -21,6 +21,32 @@ The objective of this project was to select a complex machine to disassemble dow
 
 Our team decided to model a Craftsman rotary push mower containing a 4-stroke engine. The full assembly, as well as my individual contributions, are displayed below with side-by-side comparisons to demonstrate our attention to detail throughout the modeling process.
 
+<div style="
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -40vw;
+  margin-right: -40vw;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+">
+  
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/Full_Mower.png" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Crafstman push mower</em></p>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/microscope.png" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Completed assembly designed in CATIA</em></p>
+  </div>
+
+</div>
+
+Displayed below are all the parts from the completed assembly that I designed individually.
 
 
 ---
