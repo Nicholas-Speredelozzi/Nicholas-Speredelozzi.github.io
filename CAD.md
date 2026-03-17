@@ -144,7 +144,7 @@ The primary workbenches used to model each component included the part design, g
 ">
   
   <div style="flex: 1; text-align: center;">
-    <img src="assets/Control_Cable.jpeg" style="width: 100%; max-width: 700px; height: auto">
+    <img src="assets/Control_Cable.jpeg" style="width: 100%; max-width: 500px; height: auto">
     <p><em>Drive control cable</em></p>
   </div>
   <div style="flex: 1; text-align: center;">
@@ -399,11 +399,11 @@ Each model in the following section utilizes the generative shape design workben
 ">
   
   <div style="flex: 1; text-align: center;">
-    <img src="assets/hairdryer.png" style="width: 100%; max-width: 700px; height: auto">
+    <img src="assets/hairdryer.png" style="width: 100%; max-width: 500px; height: auto">
     <p><em>Hairdryer surfacing model</em></p>
   </div>
-  <div style="flex: 1; text-align: center;">
-    <img src="assets/hairdryer_2.png" style="width: 100%; max-width: 700px; height: auto">
+  <div style="flex: 1.5; text-align: center;">
+    <img src="assets/hairdryer_2.png" style="width: 100%; max-width: 900px; height: auto">
     <p><em>Geometrically complex curved hairdryer</em></p>
   </div>
 </div>
