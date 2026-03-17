@@ -30,11 +30,30 @@ By analyzing these aerodynamic parameters for each AoA, the experiment provided 
 
 ## Procedure & Results  
 
-The experimental setup shown utilized a subsonic wind tunnel containing a NACA 4412 airfoil lined with pressure taps along both upper & lower surfaces. A pitot-static probe was used to measure freestream dynamic pressure, while a wake survey probe captured downstream velocity profiles used to determine drag.
+The experimental setup utilized a subsonic wind tunnel containing a NACA 4412 airfoil lined with pressure taps along both upper & lower surfaces. A pitot-static probe was used to measure freestream dynamic pressure, while a wake survey probe captured downstream velocity profiles used to determine drag.
 
-<div style="text-align: center;">
-    <img src="assets/airfoil_setup.png" style="width: 100%; max-width: 750px; height: auto">
-    <p><em>Wind tunnel test section</em></p>
+<div style="
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -40vw;
+  margin-right: -40vw;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+">
+  
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/front_tunnel.jpeg" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Front half of subsonic wind tunnel</em></p>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/back_tunnel.jpeg" style="width: 100%; max-width: 700px; height: auto">
+    <p><em>Back half of subsonic wind tunnel</em></p>
+  </div>
 </div>
 
 Utilizing pressure taps along the airfoil provide measurements of local pressure distributions, which were used to compute the coefficient of pressure across the upper & lower surfaces. These values were then integrated to determine lift coefficients, while drag was calculated based on the velocity difference in the wake region.
