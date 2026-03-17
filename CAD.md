@@ -148,7 +148,7 @@ The primary workbenches used to model each component included the part design, g
     <p><em>Drive control cable</em></p>
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="assets/control_cable.jpg" style="width: 100%; max-width: 700px; height: auto">
+    <img src="assets/control_cable.jpg" style="width: 100%; max-width: 900px; height: auto">
     <p><em>Drive control cable CATIA model</em></p>
   </div>
 </div>
@@ -236,7 +236,7 @@ The primary workbenches used to model each component included the part design, g
 ">
   
   <div style="flex: 1; text-align: center;">
-    <img src="assets/Magneto.jpeg" style="width: 100%; max-width: 700px; height: auto">
+    <img src="assets/Magneto.jpeg" style="width: 100%; max-width: 800px; height: auto">
     <p><em>Armature magneto</em></p>
   </div>
   <div style="flex: 1; text-align: center;">
@@ -290,16 +290,16 @@ Each component model labeled in the internal view was obtained directly from ven
 ">
   
   <div style="flex: 1; text-align: center;">
-    <img src="assets/stowed_cubesat.png" style="width: 100%; max-width: 700px; height: auto">
+    <img src="assets/stowed_cubesat.png" style="width: 100%; max-width: 500px; height: auto">
     <p><em>3U CubeSat in stowed configuration to meet deployer requirements</em></p>
   </div>
-  <div style="flex: 1; text-align: center;">
+  <div style="flex: 1.5; text-align: center;">
     <img src="assets/Deployed_CubeSat.png" style="width: 100%; max-width: 700px; height: auto">
     <p><em>Deployed CubeSat configuration to conduct mission operations</em></p>
   </div>
 </div>
 <div style="text-align: center;">
-    <img src="assets/Cubesat.png" style="width: 100%; max-width: 700px; height: auto">
+    <img src="assets/Cubesat.png" style="width: 100%; max-width: 1000px; height: auto">
     <p><em>Internal component view highlighting vendor-acquired part models</em></p>
 </div>
 
@@ -320,22 +320,30 @@ The assembly displayed below is the final product of a design project I complete
 ## Radial Engine Kinematics 
 
 As I've progressed in my advanced 3D-CADD & Engineering Documentation course, I've modeled each part in the radial engine assembly shown below. Week by week, I applied new skills to add complexity to the design, finishing with the animated kinematics demonstration seen below.
-<video width="700" autoplay loop muted playsinline>
-  <source src="/assets/radial_engine.mp4" type="video/mp4">
-</video>
-
+<div style="text-align: center;">
+  <video width="1200" autoplay loop muted playsinline>
+    <source src="/assets/radial_engine.mp4" type="video/mp4">
+  </video>
+  <p><em>Radial engine kinematics simulation</em></p>
+</div>
 ---
 
 ## Complex Surfacing
 
 Each model in the following section utilizes the generative shape design workbench with parameterized, adaptable part models. This workbench allows for complex geometries & curvature to be modeled efficiently with high modularity.
-<video width="700" autoplay loop muted playsinline>
-  <source src="/assets/phantom_chair.mp4" type="video/mp4">
-</video>
+<div style="text-align: center;">
+  <video width="900" autoplay loop muted playsinline>
+    <source src="/assets/phantom_chair.mp4" type="video/mp4">
+  </video>
+  <p><em>Surface designed chair using tracer & complex curvature techniques</em></p>
+</div>
 
-<video width="700" autoplay loop muted playsinline>
-  <source src="/assets/mouse.mp4" type="video/mp4">
-</video>
+<div style="text-align: center;">
+  <video width="900" autoplay loop muted playsinline>
+    <source src="/assets/mouse.mp4" type="video/mp4">
+  </video>
+   <p><em>Detailed mouse using wireframe design</em></p>
+</div>
 
 <div style="text-align: center;">
     <img src="assets/f1.png" style="width: 100%; max-width: 900px; height: auto">
