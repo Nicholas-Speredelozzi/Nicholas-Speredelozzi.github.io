@@ -3,7 +3,7 @@ layout: default
 title: Control Systems Stability Analysis Project
 ---
 
-**Role:** Project Lead  
+**Role:** Lead GNC Engineer 
 **Institution:** Embry-Riddle Aeronautical University  
 **Course:** Spacecraft Control (AE 434)  
 **Dates:** October 2025 - December 2025  
