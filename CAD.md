@@ -140,7 +140,7 @@ The primary workbenches used to model each component included the part design, g
     <p><em>Drive control cable</em></p>
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="assets/Control_Cable.jpg" style="width: 100%; max-width: 700px; height: auto">
+    <img src="assets/control_cable.jpg" style="width: 100%; max-width: 700px; height: auto">
     <p><em>Drive control cable CATIA model</em></p>
   </div>
 </div>
