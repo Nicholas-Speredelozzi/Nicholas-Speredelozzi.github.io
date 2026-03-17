@@ -53,7 +53,6 @@ Hands-on lab work conducted at Embry-Riddle Aeronautical University, verifying c
 - [Vibrations & Resonance in Aerospace Structures](vibrations)
 - [Solid Rocket Motor Thrust Analysis](rocket)
 - [Airfoil Performance at Varying AoA](afl)
-- [Aerodynamic Forces on Delta Wing](MWT)
 - [Supersonic Wind Tunnel & Schlieren Imaging](SWT)
 
 ## [CAD Portfolio](CAD)  
