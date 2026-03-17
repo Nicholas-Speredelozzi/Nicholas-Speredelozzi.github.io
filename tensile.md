@@ -3,7 +3,7 @@ layout: default
 title: ERAU Lab Experience
 ---
 
-## Aluminum & Composite Tensile Testing  
+# Aluminum & Composite Tensile Testing  
 **Institution:** Embry-Riddle Aeronautical University  
 **Dates:** September 2025  
 **Course:** AE 417 - Aerospace Structures & Instrumentation Lab  
