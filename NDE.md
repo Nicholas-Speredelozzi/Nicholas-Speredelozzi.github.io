@@ -7,7 +7,7 @@ title: ERAU Lab Experience
 **Institution:** Embry-Riddle Aeronautical University  
 **Dates:** October 2025  
 **Course:** AE 417 - Aerospace Structures & Instrumentation Lab  
-**Equipment & Tools:** Borescope, Infrared Camera, X-Ray Imager, Fluorescent Liquid Penetrant, Ultrasonic Inspection Device
+**Equipment & Tools:** Borescope | Infrared Camera | X-Ray Imager | Fluorescent Liquid Penetrant | Ultrasonic Inspection Device
 
 ---
 
