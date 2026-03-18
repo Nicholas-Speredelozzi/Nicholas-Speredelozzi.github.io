@@ -17,6 +17,7 @@ With emphasis on organizational structure & efficient, adaptable models, the fol
 - *Radial Engine Kinematics*
 - *Complex Surfacing*
 - *Advanced Part Design*
+
 ---
 
 ## Projects
