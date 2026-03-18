@@ -7,7 +7,7 @@ title: Launch Vehicle Design Project
 **Institution:** Embry-Riddle Aeronautical University  
 **Course:** EGR 101 – Introduction to Engineering  
 **Date:** January - February 2023  
-**Tools:** MATLAB, CATIA, Microsoft Suite, Iteration-based Analysis
+**Tools:** MATLAB | CATIA | Microsoft Suite | Iteration-based Analysis
 
 ---
 
