@@ -81,7 +81,7 @@ The pressure distribution shown above displays clear differences between upper &
 The lift curve displayed an approximately linear trend with increasing angle of attack, consistent with thin airfoil theory. The maximum measured lift coefficient was approximately 1.29 ± 0.03 at 12° AoA. Whereas the lift coefficient was approximately zero at -3°, supporting the theoretical expectation for the zero-lift angle of attack.
 
 <div style="text-align: center;">
-    <img src="assets/cd_aoa.png" style="width: 100%; max-width: 800px; height: auto">
+    <img src="assets/cd_aoa.jpg" style="width: 100%; max-width: 800px; height: auto">
     <p><em>Coefficient of drag vs. angle of attack</em></p>
 </div>
 
