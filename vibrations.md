@@ -7,7 +7,7 @@ title: ERAU Lab Experience
 **Institution:** Embry-Riddle Aeronautical University  
 **Course:** AE 417 - Aerospace Structures & Instrumentation Lab  
 **Dates:** October 2025  
-**Equipment & Tools:** Digital Oscilloscope, Electrodynamic Shaker, Sweep Sine Generator, Digital Stroboscope
+**Equipment & Tools:** Digital Oscilloscope | Electrodynamic Shaker | Sweep Sine Generator | Digital Stroboscope
 
 ---
 
