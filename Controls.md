@@ -11,6 +11,27 @@ title: Control Systems Stability Analysis Project
 
 ---
 
+## Engineering Snapshot
+
+**Project Type:** Guidance, Navigation, & Control Systems 
+
+**Key Concepts:**  
+Second-order systems | Transient response parameters | Root locus methods | Closed-loop stability | Classical control theory  
+
+**My Contributions:**
+
+- Derived relationships between **proportional gain, damping ratio, & natural frequency** from a given open-loop transfer function  
+- Determined the **optimal gain value** corresponding to minimum damping ratio & computed associated transient response metrics  
+- Calculated **percent overshoot & 2% settling time** using second-order system approximations  
+- Performed **root locus analysis by hand**, including asymptotes, breakaway points, & imaginary-axis intercepts  
+- Verified analytical results using **MATLAB built-in functions & transfer function modeling**  
+- Investigated the impact of **open-loop zero placement** on system stability & transient response behavior  
+
+**Key Result:**  
+The project emphasized how proportional gain & pole-zero placement directly influence system stability & transient response, demonstrating strong agreement between analytical predictions & MATLAB-based simulations.
+
+---
+
 ## Project Overview
 
 During my spacecraft control course, I led a group of three students in an analytical research project investigating stability characteristics of second-order feedback control systems. The objective of the project was to apply classical control theory to analyze design methods commonly used for spacecraft guidance, navigation, and control systems.
