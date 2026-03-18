@@ -7,7 +7,7 @@ title: ERAU Lab Experience
 **Institution:** Embry-Riddle Aeronautical University  
 **Course:** AE 417 - Aerospace Structures & Instrumentation Lab  
 **Dates:** November 2025  
-**Equipment & Tools:** ESTES SRM Kit, Strain Gauge (Half-Bridge Configuration), Analog-to-Digital Converter (ADC), Cantilever Aluminum Beam, STP Oil (Damping Fluid)
+**Equipment & Tools:** ESTES SRM Kit | Strain Gauge (Half-Bridge Configuration) | Analog-to-Digital Converter (ADC) | Cantilever Aluminum Beam | STP Oil (Damping Fluid)
 
 ---
 
