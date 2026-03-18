@@ -284,7 +284,7 @@ The selected battery provides 40 Wh of energy storage, which defines the total a
 ---
 
 ## Key Takeaways
-This project has provided valuable experience in **systems engineering, spacecraft design trade studies, and multidisciplinary collaboration**. Working within a team environment reinforced the importance of balancing technical constraints while maintaining system-level integration across the spacecraft architecture.
+This project has provided valuable experience in systems engineering, spacecraft design trade studies, and multidisciplinary collaboration. Working within a team environment reinforced the importance of balancing technical constraints while maintaining system-level integration across the spacecraft architecture.
 
 This project has given me a lot of insight into the importance of managing technical tradeoffs & understanding how design decisions affect system integration in lifecycle mission environments. Working within a multidisciplinary team environment reinforced the importance of balancing technical constraints while maintaining system-level integration across the spacecraft architecture.
 
