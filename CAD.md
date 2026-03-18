@@ -337,7 +337,7 @@ As I've progressed in my advanced 3D-CADD & Engineering Documentation course, I'
     loop 
     muted 
     playsinline
-    style="width: 100%; height: auto;">
+    style="width: 100%; max-width: 1200px; height: auto;">
     <source src="/assets/radial_engine.mp4" type="video/mp4">
   </video>
   <p><em>Radial engine kinematics simulation</em></p>
