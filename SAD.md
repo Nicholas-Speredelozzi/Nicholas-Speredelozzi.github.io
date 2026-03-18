@@ -7,7 +7,7 @@ title: Satellite Rotational Dynamics Modeling Project
 **Institution:** Embry-Riddle Aeronautical University  
 **Course:** AE 426 – Spacecraft Attitude Dynamics  
 **Date:** March - April 2025  
-**Tools:** MATLAB, ODE45 Numerical Integration, Linear Algebra
+**Tools:** MATLAB | ODE45 Numerical Integration | Linear Algebra
 
 ---
 
