@@ -7,7 +7,7 @@ title: NAWCWD Internship
 **Institution:** Naval Air Warfare Center Weapons Division (NAWCWD)  
 **Location:** China Lake, CA  
 **Dates:** June 2023 - January 2025  
-**Tools:** AutoCAD, LiDAR, Database Management, Microsoft Suite
+**Tools:** AutoCAD | LiDAR | Database Management | Microsoft Suite
 
 ---
 
