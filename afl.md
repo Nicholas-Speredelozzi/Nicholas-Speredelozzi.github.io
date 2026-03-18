@@ -7,7 +7,7 @@ title: ERAU Lab Experience
 **Institution:** Embry-Riddle Aeronautical University  
 **Course:** AE 315 - Experimental Aerodynamics Lab  
 **Dates:** March 2025  
-**Equipment & Tools:** Subsonic Wind Tunnel, NACA 4412 Airfoil, Pitot-Static Probes, Distributed Pressure Taps, MATLAB
+**Equipment & Tools:** Subsonic Wind Tunnel | NACA 4412 Airfoil | Pitot-Static Probes | Distributed Pressure Taps | MATLAB
 
 ---
 
