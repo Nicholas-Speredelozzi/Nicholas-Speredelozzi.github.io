@@ -7,7 +7,7 @@ title: ERAU Lab Experience
 **Institution:** Embry-Riddle Aeronautical University  
 **Course:** AE 417 - Aerospace Structures & Instrumentation Lab  
 **Date:** August 2025  
-**Equipment & Tools**: Universal Testing Machine (UTM), Aluminum Honeycomb Specimen, Data Acquisition System (DAQ), Microscope With Digital Camera, MATLAB
+**Equipment & Tools**: Universal Testing Machine (UTM) | Aluminum Honeycomb Specimen | Data Acquisition System (DAQ) | Microscope With Digital Camera | MATLAB
 
 ---
 
