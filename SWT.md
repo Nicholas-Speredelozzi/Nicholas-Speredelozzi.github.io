@@ -7,7 +7,7 @@ title: ERAU Lab Experience
 **Institution:** Embry-Riddle Aeronautical University  
 **Course:** AE 315 - Experimental Aerodynamics Lab  
 **Dates:** April 2025  
-**Equipment & Tools:** Blow-Down Supersonic Wind Tunnel, Schlieren Imaging Apparatus, High-Speed Camera, De Laval Nozzle, MATLAB
+**Equipment & Tools:** Blow-Down Supersonic Wind Tunnel | Schlieren Imaging Apparatus | High-Speed Camera | De Laval Nozzle | MATLAB
 
 ---
 
