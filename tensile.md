@@ -7,7 +7,7 @@ title: ERAU Lab Experience
 **Institution:** Embry-Riddle Aeronautical University  
 **Dates:** September 2025  
 **Course:** AE 417 - Aerospace Structures & Instrumentation Lab  
-**Equipment & Tools:** Universal Testing Machine (UTM), Aluminum & Composite Tensile Specimen, LVDT Extensometer
+**Equipment & Tools:** Universal Testing Machine (UTM) | Aluminum & Composite Tensile Specimen | LVDT Extensometer
 
 ---
 
