@@ -321,8 +321,23 @@ The assembly displayed below is the final product of a design project I complete
 ## Radial Engine Kinematics 
 
 As I've progressed in my advanced 3D-CADD & Engineering Documentation course, I've modeled each part in the radial engine assembly shown below. Week by week, I applied new skills to add complexity to the design, finishing with the animated kinematics demonstration seen below.
-<div style="text-align: center;">
-  <video width="1200" autoplay loop muted playsinline>
+<div style="
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -40vw;
+  margin-right: -40vw;
+  width: 80vw;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+">
+  <video 
+    autoplay 
+    loop 
+    muted 
+    playsinline
+    style="width: 100%; height: auto;">
     <source src="/assets/radial_engine.mp4" type="video/mp4">
   </video>
   <p><em>Radial engine kinematics simulation</em></p>
