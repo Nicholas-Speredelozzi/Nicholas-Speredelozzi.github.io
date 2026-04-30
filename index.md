@@ -5,13 +5,17 @@ title: ""
 
 ## **Professional Summary**
 
-Aerospace Engineering senior at Embry-Riddle Aeronautical University, specializing in astronautics & space systems. 
+Aerospace Engineering 2026 graduate from Embry-Riddle Aeronautical University, specializing in astronautics & spacecraft systems engineering. 
 
-Through a combination of academic design projects, hands-on lab experiments, and a multi-term internship I completed with the Naval Air Warfare Center Weapons Division, I’ve gained valuable experience working in cleared multidisciplinary teams, conducting aerospace system trade studies, and communicating technical results to both subject-matter experts & organizational stakeholders.
+I recently joined the Johns Hopkins Applied Physics Laboratory as a New Graduate Multi-Mission Planning Development Engineer in the Air & Missile Defense Sector (AMDS). In my new role, I’m excited to contribute to mission-focused engineering challenges and continue developing my skills in systems engineering and aerospace mission analysis.
 
-As I approach my May 2026 graduation date, I am actively pursuing entry-level roles in systems engineering, spacecraft AI&T, launch operations, and related integration-focused positions.
+My undergraduate experience includes spacecraft system design, failure modes analysis, and aerospace integration conducted through a variety of academic projects and professional work. I served as the lead environmental engineer and requirements developer for a CubeSat senior design project, applying systems engineering principles to requirements verification & validation, mission-level modeling & simulation, and developing end-to-end test planning for a launch-ready spacecraft.
+ 
+Additionally, I've become proficient in analytical tools, including STK, MATLAB/Simulink, Python, and CATIA, with hands-on experience applying them to real-world modeling, simulation, and design problems.
 
-This page includes a collection of technical projects & professional undertakings I've taken part in throughout my academic career, with in-depth breakdowns, contributions, and valuable takeaways linked to each experience. 
+As I progress in my career, I strive to advance humanity's reach and continued presence in space. My passion and expertise set me up well to contribute to spacecraft AI&T, launch operations, and related integration-focused positions.
+
+This page includes a collection of technical projects & professional undertakings I've taken part in throughout my career, with in-depth breakdowns, contributions, and valuable takeaways linked to each experience. 
 
 Additionally, I've included a 3D modeling showcase near the bottom of the page to display advanced part design, surfacing techniques, and engineering assemblies. 
 
@@ -24,7 +28,7 @@ Thanks for stopping by!
 ## **Projects**
 
 ### [CubeSat Senior Design](cubesat)    
-Ongoing systems engineering capstone project focused on the conceptual design lifecycle of a 3U CubeSat to perform optical space situational awareness on resident space objects in Geostationary Earth Orbit.
+Systems engineering capstone project focused on the conceptual design lifecycle of a 3U CubeSat to perform optical space situational awareness on resident space objects in Geostationary Earth Orbit.
 
 ### [Launch Vehicle Design](LVP)  
 Collaborative design project emphasizing optimization & integration of a multi-stage, hybrid-fueled, medium-lift launch vehicle for Low Earth Orbit payload delivery.
@@ -38,6 +42,9 @@ Individual programming project to develop mathematical & computational models si
 ---
 
 ## **Professional Experience**
+
+### [Johns Hopkins University Applied Physics Laboratory](APL)    
+Entry-level position as a Multi-Mission Planning Development Engineer supporting the Air & Missile Defense Sector.
 
 ### [Naval Air Warfare Center Weapons Division](NAWCWD)    
 Multi-term internship supporting facilities and infrastructure modeling across multiple Naval aviation command stations.
@@ -56,7 +63,7 @@ Hands-on lab work conducted at Embry-Riddle Aeronautical University, verifying c
 - [Supersonic Wind Tunnel & Schlieren Imaging](SWT)
 
 ## [CAD Portfolio](CAD)  
-Assortment of CATIA part models & assemblies showcasing complex geometries & advanced surfacing techniques.
+As an undergraduate, I earned associate-level Dassault Systèmes certifications in CATIA V5's Part Design, Generative Surface Design, and Assembly Design workbenches. Provided here is an assortment of CATIA part models & assemblies showcasing complex geometries, advanced surfacing techniques, and organized modeling hygiene.
 
 ---
 
