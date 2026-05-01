@@ -7,7 +7,7 @@ title: CubeSat Senior Design
 **Institution:** Embry-Riddle Aeronautical University  
 **Course:** AE 427/445 - Spacecraft Preliminary/Detail Design  
 **Date:** August 2025 - April 2026  
-**Tools:** STK | MATLAB | Ansys Thermal Desktop | CATIA | Microsoft Suite 
+**Tools:** STK | MATLAB | Ansys Mechanical | CATIA | Microsoft Suite 
 
 ---
 
@@ -22,8 +22,8 @@ Spacecraft systems engineering | Requirements derivation | Failure modes analysi
 
 - **Developed & maintained SMART requirements** across a full work breakdown structure
 - Conducted **system-level trade studies** defining thermal control & satellite bus subsystems under strict **SWaP-C budgets**
-- Assessed potential **failure modes & mitigation strategies** in a variety of hostile mission environments
-- Evaluated **thermal operating conditions** based on component temperature limits & the orbital environment
+- Assessed potential **failure modes & mitigation strategies** in a variety of hostile mission environments using **finite element methods**
+- Evaluated **spacecraft survivability based on transient thermal behavior simulations** adhering to operational temperature limits & expected orbital environments
 - Analyzed **interface control documentation** denoting the flow of power, data, and commands throughout the CubeSat architecture
 - Simulated communication ability & **coverage analysis based on selected ground stations**
 - Drafted **end-to-end test plans** to support development of a launch-qualified spacecraft
@@ -41,7 +41,7 @@ The primary mission objective is to perform optical SSA on all objects in the ge
 
 Using these observations, the CubeSat will estimate the orbital trajectories of detected RSOs & contribute to the development of an SSA catalog of the GEO belt. The mission is designed for a two-year operational lifetime with a total project cost cap of $200,000, including hardware procurement, labor hours, and testing facility usage.
 
-Project development follows a formal systems engineering lifecycle, with four major milestone reviews scheduled between August 2025 and April 2026. To date, the team has successfully completed the Systems Requirements Review (SRR), Preliminary Design Review (PDR), and Critical Design Review (CDR). The final Operational Readiness Review (ORR) is scheduled for completion in the coming months.
+Project development follows a formal systems engineering lifecycle, with four major milestone reviews scheduled between August 2025 and April 2026. Upon completion of each design review, we presented our decisions, workflows, and project deliverables to a board of university faculty & researchers.
 
 <div style="
   position: relative;
